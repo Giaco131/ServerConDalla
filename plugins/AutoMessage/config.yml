@@ -1,0 +1,62 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 0
+  log-to-console: false
+message-lists:
+  json:
+    enabled: false
+    interval: 45
+    expiry: -1
+    random: false
+    messages:
+    - |-
+      {
+        "text": "Hover over me!",
+        "hoverEvent": {
+            "action": "show_text",
+            "value": [
+              {
+                "text": "Woah, you just hovered over me!",
+                "color": "blue"
+              }
+            ]
+        }
+      }
+    - |-
+      {
+        "text": "Click me to run a command!",
+        "clickEvent": {
+          "action": "run_command",
+          "value": "/say Clicked."
+        }
+      }
+    - |-
+      {
+        "text": "Click me to open Google!",
+        "clickEvent": {
+          "action": "open_url",
+          "value": "http://google.com"
+        }
+      }
+  regular:
+    enabled: true
+    interval: 30
+    expiry: -1
+    random: false
+    messages:
+    - '&7&l&o-------------------------------------\n&6&lSe vuoi abbiamo anche un server
+      ts!!!\n\n&e&o&leu1.monkeyhosting.net:10240\n&7&l&o-------------------------------------'
+    - '&7&l&o-------------------------------------\n&c&lSe volete comprare un vip
+      non ne abbiamo!\n&7&l&o-------------------------------------'

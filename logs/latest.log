@@ -1,0 +1,802 @@
+[21:58:48] [Server thread/INFO]: Starting minecraft server version 1.8
+[21:58:48] [Server thread/INFO]: Loading properties
+[21:58:48] [Server thread/INFO]: Default game type: SURVIVAL
+[21:58:48] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[21:58:48] [Server thread/INFO]: Debug logging is disabled
+[21:58:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:58:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:58:48] [Server thread/INFO]: Generating keypair
+[21:58:48] [Server thread/INFO]: Starting Minecraft server on 25.65.83.202:25565
+[21:58:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:58:48] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[21:58:48] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.7-SNAPSHOT-4
+[21:58:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[21:58:48] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[21:58:48] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[21:58:48] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[21:58:48] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:58:48] [Server thread/INFO]: Preparing level "world"
+[21:58:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:58:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:58:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:58:48] [Server thread/INFO]: Mob Spawn Range: 4
+[21:58:48] [Server thread/INFO]: Anti X-Ray: true
+[21:58:48] [Server thread/INFO]: 	Engine Mode: 1
+[21:58:48] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:58:48] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:58:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:58:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:58:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:58:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:58:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:58:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:58:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:58:48] [Server thread/INFO]: Structure Info Saving: true
+[21:58:48] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:58:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:58:48] [Server thread/INFO]: Alternative Hopper Ticking: false
+[21:58:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:58:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:58:48] [Server thread/INFO]: Max TNT Explosions: 100
+[21:58:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:58:48] [Server thread/INFO]: Random Lighting Updates: false
+[21:58:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:58:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:58:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:58:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:58:48] [Server thread/INFO]: View Distance: 8
+[21:58:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:58:48] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:58:48] [Server thread/INFO]: Clear tick list: false
+[21:58:48] [Server thread/INFO]: Max Entity Collisions: 8
+[21:58:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:58:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1836310568572768058)
+[21:58:49] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[21:58:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.7-SNAPSHOT-4
+[21:58:49] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[21:58:49] [Server thread/INFO]: [SkinsRestorer] Loaded 12 skins from the database.
+[21:58:49] [Server thread/INFO]: [m
+[21:58:49] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:58:49] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[21:58:49] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:58:49] [Server thread/INFO]: [m
+[21:58:49] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.7-SNAPSHOT-4[m
+[21:58:49] [Server thread/INFO]: [0;31;1m    A new version is available! Download it at:[m
+[21:58:49] [Server thread/INFO]: [0;33;1m    https://www.spigotmc.org/resources/skinsrestorer.2124/[m
+[21:58:49] [Server thread/INFO]: [m
+[21:58:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[21:58:49] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:58:49] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Desktop\PORCO IL LAMA\Spigot\plugins\WorldEdit\worldedit.log
+[21:58:49] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[21:58:49] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[21:58:49] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[21:58:49] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[21:58:49] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[21:58:49] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[21:58:50] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
+[21:58:50] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[21:58:50] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[21:58:50] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[21:58:50] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:58:50] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:58:50] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[21:58:50] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:58:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:58:50] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:58:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:58:50] [Server thread/INFO]: Done (1,319s)! For help, type "help" or "?"
+[21:58:54] [User Authenticator #1/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
+[21:58:54] [Server thread/INFO]: Manu069[/25.98.107.57:60265] logged in with entity id 1 at ([world] -14.331405502993283, 67.1393452372455, 17.575966836470386)
+[21:58:56] [User Authenticator #2/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[21:58:56] [Server thread/INFO]: Firox24[/25.73.67.225:58023] logged in with entity id 21 at ([world] -4.2326356906362115, 44.0, 18.175557236678344)
+[21:58:57] [User Authenticator #3/INFO]: UUID of player Giaco131 is 1fe33bf0-3908-4150-bbfa-f0b1b2861a28
+[21:58:57] [Server thread/INFO]: Giaco131[/25.65.83.202:51094] logged in with entity id 32 at ([world] -3.5839227509310274, 44.0, 16.07146368187776)
+[21:59:03] [Server thread/INFO]: Opped Giaco131
+[21:59:05] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[21:59:06] [Server thread/INFO]: Manu069 issued server command: /gmc
+[21:59:09] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
+[21:59:12] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
+[21:59:13] [Server thread/INFO]: Giaco131 issued server command: /op Manu069
+[21:59:13] [Server thread/INFO]: [Giaco131: Opped Manu069]
+[21:59:14] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
+[21:59:14] [Server thread/INFO]: [Manu069: Set own game mode to Creative Mode]
+[21:59:14] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
+[21:59:14] [Server thread/INFO]: [Giaco131: Opped Firox24]
+[21:59:19] [Server thread/INFO]: Giaco131 issued server command: /gamemode
+[21:59:22] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[21:59:22] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[21:59:22] [Server thread/INFO]: Manu069 issued server command: /op manu069
+[21:59:22] [Server thread/INFO]: [Manu069: Opped manu069]
+[21:59:24] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[21:59:24] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[21:59:31] [Server thread/INFO]: Manu069 issued server command: /speed
+[21:59:33] [Server thread/INFO]: Manu069 issued server command: //wand
+[21:59:33] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /wand
+[21:59:52] [Server thread/INFO]: Manu069 issued server command: /up 1
+[21:59:52] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): up 1 - Position: (13.6343197352487, 57.045542293236416, -18.191641729387133)
+[21:59:54] [Server thread/INFO]: Manu069 issued server command: /up 1
+[21:59:54] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): up 1 - Position: (5.474255014398819, 58.0, -10.364349117378248)
+[21:59:58] [Server thread/INFO]: Manu069 issued server command: //set 1
+[22:00:04] [Server thread/INFO]: Manu069 issued server command: //undo
+[22:00:04] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /undo
+[22:00:22] [Server thread/INFO]: Manu069 issued server command: /give Manu069 minecraft:anvil
+[22:00:22] [Server thread/INFO]: [Manu069: Given [Anvil] * 1 to Manu069]
+[22:00:42] [Server thread/INFO]: Manu069 issued server command: /rename
+[22:00:48] [Server thread/INFO]: Firox24 lost connection: Disconnected
+[22:00:48] [Server thread/INFO]: Firox24 left the game.
+[22:00:56] [User Authenticator #4/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:00:57] [Server thread/INFO]: Firox24[/25.73.67.225:58093] logged in with entity id 2268 at ([world] -5.552251758209879, 55.87320779871982, 10.011368940213176)
+[22:01:05] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:01:14] [Server thread/INFO]: Manu069 issued server command: /tphere fi
+[22:01:15] [Server thread/INFO]: Firox24 fell out of the world
+[22:01:20] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:01:20] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:01:22] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:01:30] [Server thread/INFO]: Manu069 issued server command: /tphere
+[22:01:40] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
+[22:01:40] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
+[22:03:29] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:03:29] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[22:03:31] [Server thread/INFO]: Firox24 was slain by Giaco131
+[22:03:40] [Server thread/INFO]: <Giaco131> omg give[m
+[22:03:45] [Server thread/INFO]: Manu069 issued server command: //wand
+[22:03:45] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /wand
+[22:03:49] [Server thread/INFO]: Giaco131 issued server command: //wand
+[22:03:49] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /wand
+[22:04:04] [Server thread/INFO]: Giaco131 issued server command: //wand
+[22:04:04] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /wand
+[22:04:08] [Server thread/INFO]: Giaco131 issued server command: //set 0
+[22:04:11] [Server thread/INFO]: Manu069 issued server command: /kill
+[22:04:11] [Server thread/INFO]: Manu069 fell out of the world
+[22:04:11] [Server thread/INFO]: [Manu069: Killed Manu069]
+[22:04:11] [Server thread/INFO]: Giaco131 issued server command: //undo
+[22:04:11] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
+[22:04:14] [Server thread/INFO]: Firox24 fell out of the world
+[22:04:24] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:24] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:27] [Server thread/INFO]: Giaco131 issued server command: //set 0
+[22:04:30] [Server thread/INFO]: Giaco131 issued server command: //undo
+[22:04:30] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
+[22:04:31] [Server thread/INFO]: Firox24 fell out of the world
+[22:04:35] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:35] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:41] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
+[22:04:41] [Server thread/INFO]: [Giaco131: Opped Firox24]
+[22:04:45] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:45] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:46] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:04:46] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:04:48] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:48] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:48] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:48] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:49] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:49] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:49] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:49] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:49] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:49] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:50] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:50] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:53] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:53] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:54] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:54] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:55] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:55] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:56] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:56] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:56] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:56] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:57] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:57] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:57] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:57] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:57] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:57] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:57] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:57] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:58] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:58] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:58] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:58] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:58] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:58] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:58] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:58] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:58] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:58] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:58] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:04:58] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:04:59] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:59] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:04:59] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:04:59] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:00] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:00] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:00] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:00] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:00] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:00] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:01] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:01] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:01] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:05:01] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:05:01] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:01] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:02] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:05:02] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:05:02] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:05:02] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:05:02] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:02] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:02] [Server thread/INFO]: Firox24 issued server command: /kill Giaco131
+[22:05:02] [Server thread/INFO]: Giaco131 fell out of the world
+[22:05:02] [Server thread/INFO]: [Firox24: Killed Giaco131]
+[22:05:03] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:03] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:03] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:03] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:04] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:05:04] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:05:08] [Server thread/INFO]: Firox24 lost connection: hack
+[22:05:08] [Server thread/INFO]: Firox24 left the game.
+[22:05:08] [Server thread/INFO]: Kicked Firox24 from the game: 'hack'
+[22:05:15] [Server thread/INFO]: Manu069 issued server command: /tp firox24 Giaco131
+[22:05:16] [User Authenticator #5/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:05:16] [Server thread/INFO]: Firox24[/25.73.67.225:58103] logged in with entity id 7282 at ([world] -15.871848790877124, 45.74906794882391, -20.742116936774988)
+[22:05:17] [Server thread/INFO]: Manu069 issued server command: /tp firox24 Giaco131
+[22:05:17] [Server thread/INFO]: [Manu069: Teleported Firox24 to Giaco131]
+[22:05:23] [Server thread/INFO]: Firox24 fell out of the world
+[22:05:25] [Server thread/INFO]: Manu069 issued server command: /tp firox24 Giaco131
+[22:05:27] [Server thread/INFO]: <Giaco131> BULLISMO!!!![m
+[22:05:28] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:05:28] [Server thread/INFO]: Manu069 issued server command: /tp firox24 Giaco131
+[22:05:28] [Server thread/INFO]: [Manu069: Teleported Firox24 to Giaco131]
+[22:05:29] [Server thread/INFO]: Giaco131 issued server command: /OP Firox24
+[22:05:29] [Server thread/INFO]: [Giaco131: Opped Firox24]
+[22:05:32] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:05:32] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:05:36] [Server thread/INFO]: Manu069 issued server command: /nick
+[22:05:43] [Server thread/INFO]: Manu069 issued server command: /skin Alessio26gas
+[22:05:44] [Server thread/WARN]: Manu069 moved too quickly! 28.680944918735573,20.0,-17.37356875381873 (28.680944918735573, 20.0, 17.37356875381873)
+[22:05:48] [Server thread/INFO]: Firox24 issued server command: /kill Manu039
+[22:06:03] [Server thread/INFO]: Manu069 issued server command: /skin Notch
+[22:06:04] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:04] [Server thread/INFO]: Manu069 fell out of the world
+[22:06:04] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:04] [Server thread/WARN]: Manu069 moved too quickly! 29.345156315045777,9.0,-4.765500941776676 (29.345156315045777, 9.0, 4.765500941776676)
+[22:06:07] [Server thread/INFO]: Giaco131 issued server command: /kill Firox24
+[22:06:07] [Server thread/INFO]: Firox24 fell out of the world
+[22:06:07] [Server thread/INFO]: [Giaco131: Killed Firox24]
+[22:06:21] [Server thread/INFO]: Giaco131 issued server command: /kill @e
+[22:06:21] [Server thread/INFO]: Giaco131 fell out of the world
+[22:06:21] [Server thread/INFO]: [Giaco131: Killed Giaco131]
+[22:06:21] [Server thread/INFO]: Firox24 fell out of the world
+[22:06:21] [Server thread/INFO]: [Giaco131: Killed Firox24]
+[22:06:21] [Server thread/INFO]: Manu069 fell out of the world
+[22:06:21] [Server thread/INFO]: [Giaco131: Killed Manu069]
+[22:06:21] [Server thread/INFO]: [Giaco131: Killed Sheep]
+[22:06:28] [Server thread/INFO]: Giaco131 issued server command: /kill @e
+[22:06:28] [Server thread/INFO]: Giaco131 fell out of the world
+[22:06:28] [Server thread/INFO]: [Giaco131: Killed Giaco131]
+[22:06:28] [Server thread/INFO]: Firox24 fell out of the world
+[22:06:28] [Server thread/INFO]: [Giaco131: Killed Firox24]
+[22:06:28] [Server thread/INFO]: [Giaco131: Killed item.tile.stone.stone]
+[22:06:28] [Server thread/INFO]: Manu069 fell out of the world
+[22:06:28] [Server thread/INFO]: [Giaco131: Killed Manu069]
+[22:06:28] [Server thread/INFO]: [Giaco131: Killed item.tile.anvil.intact]
+[22:06:28] [Server thread/INFO]: [Giaco131: Killed item.item.muttonRaw]
+[22:06:28] [Server thread/INFO]: [Giaco131: Killed item.tile.cloth.white]
+[22:06:34] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:34] [Server thread/INFO]: Manu069 fell out of the world
+[22:06:34] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:36] [Server thread/INFO]: Manu069 issued server command: /skin Notch
+[22:06:37] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:37] [Server thread/INFO]: Manu069 fell out of the world
+[22:06:37] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:37] [Server thread/WARN]: Manu069 moved too quickly! -1.1361053791148397,20.342378214094204,14.899626487575434 (1.1361053791148397, 20.342378214094204, 14.899626487575434)
+[22:06:38] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:38] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:39] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:39] [Server thread/INFO]: Manu069 fell out of the world
+[22:06:39] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:40] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:40] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:41] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:41] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:42] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:42] [Server thread/INFO]: Manu069 fell out of the world
+[22:06:42] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:42] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:42] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:43] [Server thread/INFO]: Firox24 issued server command: /kill Manu069t
+[22:06:45] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:45] [Server thread/INFO]: Manu069 fell out of the world
+[22:06:45] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:46] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:06:46] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:06:46] [Server thread/INFO]: Giaco131 issued server command: /kick Firox24 stop daie
+[22:06:46] [Server thread/INFO]: Firox24 lost connection: stop daie
+[22:06:46] [Server thread/INFO]: Firox24 left the game.
+[22:06:46] [Server thread/INFO]: [Giaco131: Kicked Firox24 from the game: 'stop daie']
+[22:06:51] [User Authenticator #6/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:06:51] [Server thread/INFO]: Firox24[/25.73.67.225:58108] logged in with entity id 9148 at ([world] -18.889624389625084, 57.35456923973425, 7.313379706290348)
+[22:06:59] [Server thread/INFO]: <Giaco131> QUESTO BULLISMO[m
+[22:07:03] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:05] [Server thread/INFO]: <Giaco131> peggio di darter[m
+[22:07:07] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:07:07] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:07:08] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
+[22:07:08] [Server thread/INFO]: [Giaco131: Opped Firox24]
+[22:07:09] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:09] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:07:11] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:11] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:07:12] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:07:12] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:07:12] [Server thread/INFO]: Manu069 issued server command: //wand
+[22:07:12] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /wand
+[22:07:18] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
+[22:07:18] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
+[22:07:19] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
+[22:07:19] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
+[22:07:24] [Server thread/INFO]: Manu069 issued server command: /kick Firox24
+[22:07:24] [Server thread/INFO]: Firox24 lost connection: Kicked by an operator.
+[22:07:24] [Server thread/INFO]: Firox24 left the game.
+[22:07:24] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game]
+[22:07:29] [User Authenticator #7/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:07:29] [Server thread/INFO]: Firox24[/25.73.67.225:58110] logged in with entity id 9953 at ([world] -17.521268613483727, 71.0611797607137, -7.633334288794915)
+[22:07:34] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:36] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:37] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:37] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:38] [Server thread/INFO]: Giaco131 issued server command: /op G
+[22:07:38] [Server thread/INFO]: [Giaco131: Opped G]
+[22:07:38] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:39] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:40] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:41] [Server thread/INFO]: Giaco131 issued server command: /deop G
+[22:07:41] [Server thread/INFO]: [Giaco131: De-opped G]
+[22:07:41] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:42] [Server thread/INFO]: Manu069 issued server command: /deop g
+[22:07:44] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
+[22:07:44] [Server thread/INFO]: [Giaco131: Opped Firox24]
+[22:07:46] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:07:46] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:07:50] [Server thread/INFO]: Manu069 issued server command: /op manu069
+[22:07:50] [Server thread/INFO]: [Manu069: Opped manu069]
+[22:07:54] [Server thread/INFO]: Manu069 issued server command: /deop manu069
+[22:07:54] [Server thread/INFO]: [Manu069: De-opped manu069]
+[22:07:58] [Server thread/INFO]: Manu069 issued server command: /gm
+[22:08:00] [Server thread/INFO]: Manu069 issued server command: //wand
+[22:08:04] [Server thread/INFO]: Giaco131 issued server command: /op Manu069
+[22:08:04] [Server thread/INFO]: [Giaco131: Opped Manu069]
+[22:08:12] [Server thread/INFO]: Manu069 issued server command: /mv
+[22:08:12] [Server thread/INFO]: Giaco131 issued server command: /pl
+[22:08:14] [Server thread/INFO]: Manu069 issued server command: /mv list
+[22:08:18] [Server thread/INFO]: Giaco131 issued server command: /mv list
+[22:08:51] [Server thread/INFO]: Giaco131 issued server command: //cyl glass 15
+[22:08:51] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /cyl glass 15 - Position: (31.0, 53.0, -36.0)
+[22:08:52] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 protection 10
+[22:08:56] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 protection 4
+[22:08:56] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:08:56] [Server thread/INFO]: Giaco131 issued server command: //hcyl glass 15
+[22:08:56] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /hcyl glass 15 - Position: (31.0, 53.0, -36.0)
+[22:09:00] [Server thread/INFO]: Giaco131 issued server command: //hcyl glass 15 15
+[22:09:00] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /hcyl glass 15 15 - Position: (31.0, 53.0, -36.0)
+[22:09:04] [Server thread/INFO]: Giaco131 issued server command: /up 15
+[22:09:04] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): up 15 - Position: (31.609691654388413, 53.293845920676475, -35.75961956921387)
+[22:09:06] [Server thread/INFO]: Giaco131 issued server command: //hcyl glass 15 15
+[22:09:06] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /hcyl glass 15 15 - Position: (31.0, 68.0, -36.0)
+[22:09:08] [Server thread/INFO]: Giaco131 issued server command: //undo
+[22:09:08] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
+[22:09:11] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 sharpness 5
+[22:09:11] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:09:12] [Server thread/INFO]: Giaco131 issued server command: //cyl glass 15
+[22:09:12] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /cyl glass 15 - Position: (31.0, 68.0, -36.0)
+[22:09:29] [Server thread/INFO]: Giaco131 issued server command: /tp Manu069 Giaco131
+[22:09:29] [Server thread/INFO]: [Giaco131: Teleported Manu069 to Giaco131]
+[22:09:30] [Server thread/INFO]: Firox24 issued server command: /tp manu069
+[22:09:30] [Server thread/INFO]: [Firox24: Teleported Firox24 to Manu069]
+[22:10:01] [Server thread/INFO]: Manu069 issued server command: /invsee
+[22:10:09] [Server thread/INFO]: Manu069 issued server command: /skin Firox24
+[22:10:10] [Server thread/WARN]: Manu069 moved too quickly! -17.994389833480547,-1.2000000476837158,41.766305255098914 (17.994389833480547, 1.2000000476837158, 41.766305255098914)
+[22:10:14] [Server thread/INFO]: Manu069 issued server command: /skin Firox24 Giaco131
+[22:10:18] [Server thread/INFO]: Firox24 issued server command: /skin Grandescavatore
+[22:10:19] [Server thread/WARN]: Firox24 moved too quickly! -20.228068734211913,0.36414184493106916,42.343456692998615 (20.228068734211913, 0.36414184493106916, 42.343456692998615)
+[22:10:32] [Server thread/INFO]: Manu069 issued server command: /skin xMetalPain
+[22:10:33] [Server thread/WARN]: Manu069 moved too quickly! -22.802842799267417,6.071460962418399,41.12481218495125 (22.802842799267417, 6.071460962418399, 41.12481218495125)
+[22:10:40] [Server thread/INFO]: Giaco131 issued server command: /skin Alessio26Gas
+[22:10:41] [Server thread/WARN]: Giaco131 moved too quickly! -14.361035497586883,10.463166052126496,37.72324173343164 (14.361035497586883, 10.463166052126496, 37.72324173343164)
+[22:10:53] [Server thread/INFO]: Firox24 issued server command: /skin Ez
+[22:10:54] [Server thread/WARN]: Firox24 moved too quickly! -20.066100114706224,1.8731671541215533,45.04403289779426 (20.066100114706224, 1.8731671541215533, 45.04403289779426)
+[22:11:03] [Server thread/INFO]: Manu069 issued server command: /skin fyammah
+[22:11:04] [Server thread/WARN]: Manu069 moved too quickly! -19.83532532689294,0.6438668596719594,48.502061829691606 (19.83532532689294, 0.6438668596719594, 48.502061829691606)
+[22:11:06] [Server thread/INFO]: Manu069 issued server command: /skin fyam
+[22:11:07] [Server thread/WARN]: Manu069 moved too quickly! -19.83532532689294,0.6438668596719594,49.34087548292754 (19.83532532689294, 0.6438668596719594, 49.34087548292754)
+[22:11:11] [Server thread/INFO]: Giaco131 issued server command: /enchant 34 1
+[22:11:19] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 34 1
+[22:11:19] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:21] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 34 1
+[22:11:21] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:23] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 34 1
+[22:11:23] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:25] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 34 1
+[22:11:25] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:32] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 0 3
+[22:11:32] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:33] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 0 3
+[22:11:33] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:35] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 0 3
+[22:11:35] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:36] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 0 3
+[22:11:36] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:42] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 16 5
+[22:11:42] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
+[22:11:52] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns
+[22:11:52] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:11:56] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
+[22:11:56] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:11:57] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
+[22:12:03] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 2
+[22:12:08] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
+[22:12:08] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:12:10] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
+[22:12:10] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:12:11] [Server thread/INFO]: Firox24 issued server command: /skin zDarter12
+[22:12:12] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
+[22:12:12] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:12:12] [Server thread/WARN]: Firox24 moved too quickly! -22.32750068585147,5.997924029215568,48.05735828736477 (22.32750068585147, 5.997924029215568, 48.05735828736477)
+[22:12:13] [Server thread/INFO]: Giaco131 issued server command: /invsee
+[22:12:18] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 umbreaking 3
+[22:12:22] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
+[22:12:22] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:12:24] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
+[22:12:24] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:12:26] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
+[22:12:26] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:12:27] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
+[22:12:27] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:12:34] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
+[22:12:34] [Server thread/INFO]: [Manu069: Enchanting succeeded]
+[22:13:02] [Server thread/INFO]: Firox24 issued server command: /skin NikoHD
+[22:13:03] [Server thread/WARN]: Firox24 moved too quickly! -25.022071714483715,10.001133425731318,50.2118864940164 (25.022071714483715, 10.001133425731318, 50.2118864940164)
+[22:13:16] [Server thread/INFO]: <Giaco131> .[m
+[22:13:20] [Server thread/INFO]: Manu069 lost connection: Internal Exception: java.io.IOException: Connessione in corso interrotta forzatamente dall'host remoto
+[22:13:20] [Server thread/INFO]: Manu069 left the game.
+[22:13:21] [Server thread/INFO]: <Giaco131> che succede?[m
+[22:13:21] [Server thread/INFO]: Firox24 issued server command: /skin Bluefiretrolling
+[22:13:23] [Server thread/INFO]: <Giaco131> lol[m
+[22:13:23] [Server thread/WARN]: Firox24 moved too quickly! -25.022071714483715,10.001133425731318,50.2118864940164 (25.022071714483715, 10.001133425731318, 50.2118864940164)
+[22:13:33] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
+[22:13:33] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
+[22:13:47] [Server thread/INFO]: Firox24 issued server command: /skin GrandeScavatore
+[22:13:48] [Server thread/WARN]: Firox24 moved too quickly! -33.46588788014658,11.0,41.09704794509304 (33.46588788014658, 11.0, 41.09704794509304)
+[22:13:55] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
+[22:13:55] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
+[22:13:56] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:13:56] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[22:13:59] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
+[22:13:59] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
+[22:14:32] [Server thread/INFO]: Firox24 was slain by Giaco131
+[22:14:39] [Server thread/INFO]: <Giaco131> ezzzz[m
+[22:14:44] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:14:44] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:14:54] [Server thread/INFO]: Firox24 issued server command: /tp Giaco131
+[22:14:54] [Server thread/INFO]: [Firox24: Teleported Firox24 to Giaco131]
+[22:15:12] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:15:12] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[22:17:13] [Server thread/INFO]: Giaco131 issued server command: /ping Firox24
+[22:17:15] [Server thread/INFO]: Giaco131 issued server command: /ping Firox24
+[22:17:53] [Server thread/INFO]: <Giaco131> 16421[m
+[22:17:54] [Server thread/INFO]: <Giaco131> 173[m
+[22:17:58] [Server thread/INFO]: <Giaco131> 373[m
+[22:18:08] [Server thread/INFO]: Giaco131 issued server command: /give Giaco131 373:16421 32
+[22:18:19] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
+[22:18:19] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
+[22:18:22] [Server thread/INFO]: Giaco131 issued server command: /give
+[22:18:25] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:18:25] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:18:29] [Server thread/INFO]: Giaco131 issued server command: /give Giaco131 373 32 16421
+[22:18:33] [User Authenticator #8/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
+[22:18:33] [Server thread/INFO]: Manu069[/25.98.107.57:49876] logged in with entity id 20120 at ([world] 32.50367202944154, 54.0, -38.42869449295252)
+[22:19:06] [Server thread/INFO]: Manu069 issued server command: /enchant manu069 protection 4
+[22:20:31] [Server thread/INFO]: Firox24 issued server command: /skin fyammah
+[22:20:32] [Server thread/WARN]: Firox24 moved too quickly! -18.49736168886304,11.0,46.00152589227716 (18.49736168886304, 11.0, 46.00152589227716)
+[22:20:56] [Server thread/INFO]: Manu069 issued server command: /plox
+[22:20:58] [Server thread/INFO]: <Manu069> pliox[m
+[22:20:59] [Server thread/INFO]: Firox24 issued server command: /skin Firox24
+[22:21:00] [Server thread/WARN]: Firox24 moved too quickly! -29.19999998807907,11.0,57.19999998807907 (29.19999998807907, 11.0, 57.19999998807907)
+[22:21:23] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
+[22:21:23] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
+[22:21:24] [Server thread/INFO]: Giaco131 issued server command: /gamemode s Firox24
+[22:21:24] [Server thread/INFO]: [Giaco131: Set Firox24's game mode to Survival Mode]
+[22:21:24] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:21:24] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:21:27] [Server thread/INFO]: Giaco131 issued server command: /gamemode s Manu069
+[22:21:27] [Server thread/INFO]: [Giaco131: Set Manu069's game mode to Survival Mode]
+[22:21:28] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
+[22:21:28] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
+[22:21:41] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:21:41] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[22:21:49] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
+[22:21:49] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
+[22:21:51] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:21:51] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:22:00] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:22:00] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[22:22:09] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
+[22:22:09] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
+[22:22:21] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
+[22:22:21] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
+[22:23:06] [Server thread/INFO]: Giaco131 was slain by Firox24
+[22:23:11] [Server thread/INFO]: Giaco131 issued server command: /fly
+[22:23:15] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:23:15] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[22:23:26] [Server thread/INFO]: Firox24 was slain by Manu069
+[22:23:36] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
+[22:23:36] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
+[22:23:37] [Server thread/INFO]: Firox24 fell out of the world
+[22:23:41] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:23:41] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:23:45] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
+[22:23:45] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
+[22:24:02] [Server thread/INFO]: Giaco131 issued server command: /ping Manu069
+[22:24:06] [Server thread/INFO]: Manu069 issued server command: /ping
+[22:24:08] [Server thread/INFO]: Firox24 issued server command: /tp Giaco131
+[22:24:08] [Server thread/INFO]: [Firox24: Teleported Firox24 to Giaco131]
+[22:24:23] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:24:23] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[22:24:48] [Server thread/INFO]: Giaco131 issued server command: /gamemode s Firox24
+[22:24:48] [Server thread/INFO]: [Giaco131: Set Firox24's game mode to Survival Mode]
+[22:24:51] [Server thread/INFO]: Giaco131 issued server command: /gamemode s Firox24
+[22:24:51] [Server thread/INFO]: [Giaco131: Set Firox24's game mode to Survival Mode]
+[22:24:54] [Server thread/INFO]: Manu069 fell out of the world
+[22:25:08] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:25:08] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:25:16] [Server thread/INFO]: Firox24 issued server command: /kill Giaco131
+[22:25:16] [Server thread/INFO]: Giaco131 fell out of the world
+[22:25:16] [Server thread/INFO]: [Firox24: Killed Giaco131]
+[22:25:22] [Server thread/INFO]: Giaco131 issued server command: /kill @e
+[22:25:22] [Server thread/INFO]: Giaco131 fell out of the world
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed Giaco131]
+[22:25:22] [Server thread/INFO]: Manu069 fell out of the world
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed Manu069]
+[22:25:22] [Server thread/INFO]: Firox24 fell out of the world
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed Firox24]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.string]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.chestplateDiamond]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.leggingsDiamond]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.bootsDiamond]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.appleGold]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.swordDiamond]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.helmetDiamond]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
+[22:25:33] [Server thread/INFO]: Giaco131 issued server command: /op Manu069
+[22:25:33] [Server thread/INFO]: [Giaco131: Opped Manu069]
+[22:25:39] [Server thread/INFO]: Giaco131 issued server command: //pos1
+[22:25:39] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /pos1 - Position: (16.060247780024444, 45.73170032508607, -21.248428838666456)
+[22:25:40] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
+[22:25:40] [Server thread/INFO]: [Manu069: Set own game mode to Creative Mode]
+[22:25:46] [Server thread/INFO]: Giaco131 issued server command: //pos2
+[22:25:46] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /pos2 - Position: (58.96274503683983, 78.72225379601281, -57.72226250097617)
+[22:25:47] [Server thread/INFO]: Giaco131 issued server command: //set 0
+[22:25:48] [Server thread/INFO]: Manu069 issued server command: /kick Giaco131
+[22:25:48] [Server thread/INFO]: Giaco131 lost connection: Kicked by an operator.
+[22:25:48] [Server thread/INFO]: Giaco131 left the game.
+[22:25:48] [Server thread/INFO]: [Manu069: Kicked Giaco131 from the game]
+[22:25:53] [Server thread/INFO]: Manu069 issued server command: /sp area 5
+[22:25:53] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): area 5
+[22:25:53] [Server thread/INFO]: Firox24 fell out of the world
+[22:25:56] [User Authenticator #9/INFO]: UUID of player Giaco131 is 1fe33bf0-3908-4150-bbfa-f0b1b2861a28
+[22:25:56] [Server thread/INFO]: Giaco131[/25.65.83.202:51189] logged in with entity id 28477 at ([world] 59.10449067186033, 78.72225379601281, -58.081094329834734)
+[22:26:02] [Server thread/INFO]: Giaco131 fell out of the world
+[22:26:02] [Server thread/INFO]: Opped Giaco131
+[22:26:04] [Server thread/INFO]: Manu069 issued server command: /tp Giaco131 Manu069
+[22:26:04] [Server thread/INFO]: [Manu069: Teleported Giaco131 to Manu069]
+[22:26:06] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:26:06] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
+[22:26:20] [Server thread/INFO]: Giaco131 issued server command: /kill @e
+[22:26:20] [Server thread/INFO]: Giaco131 fell out of the world
+[22:26:20] [Server thread/INFO]: [Giaco131: Killed Giaco131]
+[22:26:20] [Server thread/INFO]: Manu069 fell out of the world
+[22:26:20] [Server thread/INFO]: [Giaco131: Killed Manu069]
+[22:26:20] [Server thread/INFO]: Firox24 fell out of the world
+[22:26:20] [Server thread/INFO]: [Giaco131: Killed Firox24]
+[22:26:20] [Server thread/INFO]: [Giaco131: Killed item.tile.tnt]
+[22:26:37] [Server thread/INFO]: Manu069 issued server command: /sp area 5
+[22:26:37] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): area 5
+[22:26:40] [Server thread/INFO]: Giaco131 issued server command: /save-all
+[22:26:40] [Server thread/INFO]: [Giaco131: Saved the world]
+[22:26:43] [Server thread/INFO]: Manu069 issued server command: /save
+[22:26:44] [Server thread/INFO]: Giaco131 issued server command: /backup
+[22:26:45] [Server thread/INFO]: Manu069 issued server command: /save-all
+[22:26:45] [Server thread/INFO]: [Manu069: Saved the world]
+[22:26:57] [Server thread/INFO]: Manu069 issued server command: //sphere 10 10
+[22:26:57] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /sphere 10 10 - Position: (-25.0, 50.0, -91.0)
+[22:27:00] [Server thread/INFO]: Manu069 issued server command: //undo
+[22:27:00] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /undo
+[22:27:09] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
+[22:27:09] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-24.0, 45.0, -81.0)
+[22:27:15] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
+[22:27:15] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-26.0, 45.0, -87.0)
+[22:27:18] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
+[22:27:18] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-26.0, 51.0, -95.0)
+[22:27:21] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
+[22:27:21] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-21.0, 51.0, -90.0)
+[22:27:24] [Server thread/INFO]: Giaco131 issued server command: //drain 1000]
+[22:27:24] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000] - Position: (-29.0, 51.0, -91.0)
+[22:27:25] [Server thread/INFO]: Firox24 issued server command: /ban Manu069
+[22:27:25] [Server thread/INFO]: Manu069 lost connection: You are banned from this server.
+[22:27:25] [Server thread/INFO]: Manu069 left the game.
+[22:27:25] [Server thread/INFO]: [Firox24: Banned player Manu069]
+[22:27:26] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
+[22:27:26] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-29.0, 51.0, -91.0)
+[22:27:32] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
+[22:27:32] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-27.0, 39.0, -88.0)
+[22:27:34] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
+[22:27:34] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-28.0, 38.0, -94.0)
+[22:27:37] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
+[22:27:37] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-30.0, 36.0, -94.0)
+[22:27:44] [Server thread/INFO]: Giaco131 issued server command: /kill @e
+[22:27:44] [Server thread/INFO]: Giaco131 fell out of the world
+[22:27:44] [Server thread/INFO]: [Giaco131: Killed Giaco131]
+[22:27:44] [Server thread/INFO]: Firox24 fell out of the world
+[22:27:44] [Server thread/INFO]: [Giaco131: Killed Firox24]
+[22:27:44] [Server thread/INFO]: [Giaco131: Killed item.item.pickaxeDiamond]
+[22:27:54] [Server thread/INFO]: Giaco131 issued server command: /mem
+[22:27:58] [User Authenticator #10/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
+[22:27:58] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@245efdb8[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@44baf424]},legacy=false] (/25.98.107.57:50203): You are banned from this server!
+Reason: Banned by an operator.
+[22:27:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@245efdb8[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@44baf424]},legacy=false] (/25.98.107.57:50203) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[22:28:03] [User Authenticator #11/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
+[22:28:03] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@574ccbf7[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@66702eef]},legacy=false] (/25.98.107.57:50230): You are banned from this server!
+Reason: Banned by an operator.
+[22:28:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@574ccbf7[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@66702eef]},legacy=false] (/25.98.107.57:50230) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[22:28:10] [User Authenticator #12/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
+[22:28:10] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4cede2cf[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@5d2f1f76]},legacy=false] (/25.98.107.57:50235): You are banned from this server!
+Reason: Banned by an operator.
+[22:28:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@4cede2cf[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@5d2f1f76]},legacy=false] (/25.98.107.57:50235) lost connection: You are banned from this server!
+Reason: Banned by an operator.
+[22:28:12] [Server thread/INFO]: Giaco131 issued server command: /pardon Manu069
+[22:28:12] [Server thread/INFO]: [Giaco131: Unbanned player Manu069]
+[22:28:15] [User Authenticator #13/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
+[22:28:16] [Server thread/INFO]: Manu069[/25.98.107.57:50240] logged in with entity id 30718 at ([world] -11.403570036944798, 38.05733667074717, -98.71109733355004)
+[22:28:20] [Server thread/INFO]: Giaco131 issued server command: /ban Firox24
+[22:28:20] [Server thread/INFO]: Firox24 lost connection: You are banned from this server.
+[22:28:20] [Server thread/INFO]: Firox24 left the game.
+[22:28:20] [Server thread/INFO]: [Giaco131: Banned player Firox24]
+[22:28:21] [Server thread/INFO]: Manu069 fell out of the world
+[22:28:27] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
+[22:28:29] [Server thread/INFO]: Giaco131 issued server command: /pardon Firox24
+[22:28:29] [Server thread/INFO]: [Giaco131: Unbanned player Firox24]
+[22:28:31] [User Authenticator #14/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:28:31] [Server thread/INFO]: Firox24[/25.73.67.225:58176] logged in with entity id 31020 at ([world] -11.978214348433562, 46.9066727462939, 3.4177760640185637)
+[22:28:35] [Server thread/INFO]: Giaco131 issued server command: /op Manu069
+[22:28:35] [Server thread/INFO]: [Giaco131: Opped Manu069]
+[22:28:37] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
+[22:28:37] [Server thread/INFO]: [Manu069: Set own game mode to Creative Mode]
+[22:28:37] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
+[22:28:37] [Server thread/INFO]: [Giaco131: Opped Firox24]
+[22:28:45] [Server thread/INFO]: Manu069 issued server command: /automessage
+[22:28:47] [Server thread/INFO]: Giaco131 issued server command: /automessage
+[22:28:48] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:28:48] [Server thread/INFO]: Manu069 fell out of the world
+[22:28:48] [Server thread/INFO]: [Firox24: Killed Manu069]
+[22:28:52] [Server thread/INFO]: Giaco131 issued server command: /automessage help
+[22:28:52] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
+[22:28:52] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
+[22:28:58] [Server thread/INFO]: Manu069 issued server command: /kick Firox24
+[22:28:58] [Server thread/INFO]: Firox24 lost connection: Kicked by an operator.
+[22:28:58] [Server thread/INFO]: Firox24 left the game.
+[22:28:58] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game]
+[22:29:04] [User Authenticator #15/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:29:04] [Server thread/INFO]: Firox24[/25.73.67.225:58178] logged in with entity id 31541 at ([world] -8.422825481214659, 57.03436902860016, -4.436013064509637)
+[22:29:05] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HAACKED
+[22:29:05] [Server thread/INFO]: Firox24 lost connection: HAACKED
+[22:29:05] [Server thread/INFO]: Firox24 left the game.
+[22:29:05] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game: 'HAACKED']
+[22:29:10] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
+[22:29:10] [User Authenticator #16/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:29:10] [Server thread/INFO]: Firox24[/25.73.67.225:58180] logged in with entity id 31608 at ([world] -8.422825481214659, 57.03436902860016, -4.436013064509637)
+[22:29:11] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
+[22:29:11] [Server thread/INFO]: Firox24 lost connection: HACKED
+[22:29:11] [Server thread/INFO]: Firox24 left the game.
+[22:29:11] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game: 'HACKED']
+[22:29:15] [User Authenticator #17/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:29:15] [Server thread/INFO]: Firox24[/25.73.67.225:58182] logged in with entity id 31676 at ([world] -8.422825481214659, 52.18989078154327, -4.436013064509637)
+[22:29:15] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
+[22:29:15] [Server thread/INFO]: Firox24 lost connection: HACKED
+[22:29:15] [Server thread/INFO]: Firox24 left the game.
+[22:29:15] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game: 'HACKED']
+[22:29:16] [Server thread/INFO]: Giaco131 issued server command: /kick Manu069 HACKED BY GIACO131
+[22:29:16] [Server thread/INFO]: Manu069 lost connection: HACKED BY GIACO131
+[22:29:16] [Server thread/INFO]: Manu069 left the game.
+[22:29:16] [Server thread/INFO]: [Giaco131: Kicked Manu069 from the game: 'HACKED BY GIACO131']
+[22:29:21] [User Authenticator #18/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
+[22:29:21] [Server thread/INFO]: Firox24[/25.73.67.225:58183] logged in with entity id 31810 at ([world] -8.422825481214659, 52.11149078001739, -4.436013064509637)
+[22:29:24] [User Authenticator #19/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
+[22:29:24] [Server thread/INFO]: Manu069[/25.98.107.57:50278] logged in with entity id 31885 at ([world] 6.817446236078043, 49.49057290433054, 27.00946815576832)
+[22:29:25] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
+[22:29:26] [Server thread/INFO]: <Giaco131> GRIFFO[m
+[22:29:26] [Server thread/INFO]: <Giaco131> GRIFFO[m
+[22:29:27] [Server thread/INFO]: <Giaco131> GRIFFO[m
+[22:29:27] [Server thread/INFO]: <Giaco131> GRIFFO[m
+[22:29:27] [Server thread/INFO]: <Giaco131> GRIFFO[m
+[22:29:30] [Server thread/INFO]: <Giaco131> SPACCO TUTTO[m
+[22:29:34] [Server thread/INFO]: <Manu069> Ached[m
+[22:29:38] [Server thread/INFO]: <Firox24> acerr[m
+[22:29:46] [Server thread/INFO]: Giaco131 issued server command: //sphere lava 5
+[22:29:46] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /sphere lava 5 - Position: (-41.0, 54.0, -1.0)
+[22:29:48] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
+[22:29:49] [Server thread/INFO]: Giaco131 issued server command: //drain 100
+[22:29:49] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-41.0, 54.0, -1.0)
+[22:29:57] [Server thread/INFO]: Giaco131 issued server command: //sphere lava 5
+[22:29:57] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /sphere lava 5 - Position: (-3.0, 47.0, 37.0)
+[22:29:58] [Server thread/INFO]: Manu069 tried to swim in lava to escape Firox24
+[22:29:59] [Server thread/INFO]: Firox24 tried to swim in lava to escape Manu069
+[22:29:59] [Server thread/INFO]: Giaco131 issued server command: //drain 100
+[22:29:59] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-3.0, 47.0, 37.0)
+[22:30:04] [Server thread/INFO]: Giaco131 issued server command: //undo
+[22:30:04] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
+[22:30:06] [Server thread/INFO]: Giaco131 issued server command: //undo
+[22:30:06] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
+[22:30:08] [Server thread/INFO]: Giaco131 issued server command: //drain 100
+[22:30:08] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-3.0, 44.0, 37.0)
+[22:30:12] [Server thread/INFO]: Giaco131 issued server command: //drain 100
+[22:30:12] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-7.0, 44.0, 38.0)
+[22:30:15] [Server thread/INFO]: Giaco131 issued server command: //drain 100
+[22:30:15] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-3.0, 44.0, 33.0)
+[22:30:24] [Server thread/INFO]: Firox24 was slain by Manu069
+[22:30:28] [Server thread/INFO]: Manu069 was slain by Firox24
+[22:30:29] [Server thread/INFO]: Giaco131 issued server command: /kill Fi
+[22:30:37] [Server thread/INFO]: Giaco131 issued server command: /kill @p
+[22:30:37] [Server thread/INFO]: Giaco131 fell out of the world
+[22:30:37] [Server thread/INFO]: [Giaco131: Killed Giaco131]
+[22:30:41] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
+[22:30:48] [Server thread/INFO]: Giaco131 issued server command: /gamemode c Manu069
+[22:30:48] [Server thread/INFO]: [Giaco131: Set Manu069's game mode to Creative Mode]
+[22:31:03] [Server thread/INFO]: Firox24 was slain by Giaco131
+[22:31:06] [Server thread/INFO]: <Giaco131> ez[m
+[22:31:10] [Server thread/INFO]: <Giaco131> nohitchallenge[m
+[22:31:17] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
+[22:31:26] [Server thread/INFO]: Firox24 was slain by Giaco131
+[22:31:40] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 knockback 2
+[22:31:42] [Server thread/INFO]: Manu069 issued server command: /enchant manu069 sharpness 5
+[22:31:55] [Server thread/INFO]: Giaco131 issued server command: /save-all
+[22:31:55] [Server thread/INFO]: [Giaco131: Saved the world]
+[22:31:57] [Server thread/INFO]: Giaco131 issued server command: /stop
+[22:31:57] [Server thread/INFO]: [Giaco131: Stopping the server]
+[22:31:57] [Server thread/INFO]: Stopping server
+[22:31:57] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[22:31:57] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:31:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[22:31:57] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[22:31:57] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[22:31:57] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[22:31:57] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[22:31:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.7-SNAPSHOT-4
+[22:31:57] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[22:31:57] [Server thread/INFO]: Saving players
+[22:31:57] [Server thread/INFO]: Manu069 lost connection: Server Chiuso Per Adesso
+[22:31:57] [Server thread/INFO]: Manu069 left the game.
+[22:31:57] [Server thread/INFO]: Firox24 lost connection: Server Chiuso Per Adesso
+[22:31:57] [Server thread/INFO]: Firox24 left the game.
+[22:31:57] [Server thread/INFO]: Saving worlds
+[22:31:57] [Server thread/INFO]: Saving chunks for level 'world'/Overworld

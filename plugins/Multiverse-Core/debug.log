@@ -1,0 +1,154 @@
+2016-10-04 13:47:44 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 13:47:44 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -1673663213094407464
+2016-10-04 13:47:45 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -1673663213094407464
+2016-10-04 13:47:45 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 13:50:11 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'prova' - Env: NORMAL - Type: VERSION_1_1
+2016-10-04 13:50:24 [AVVERTENZA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-10-04 13:50:24 [AVVERTENZA] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2016-10-04 13:50:24 [INFORMAZIONI] [Multiverse-Core] New Spawn for 'prova' is Located at: prova:0,00,101,00,0,00:0,00:0,00
+2016-10-04 13:51:58 [INFORMAZIONI] [Multiverse-Core] World 'prova' was unloaded from memory.
+2016-10-04 13:51:58 [INFORMAZIONI] [Multiverse-Core] World 'prova' was removed from config.yml
+2016-10-04 13:52:05 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 13:52:05 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -1673663213094407464
+2016-10-04 13:52:06 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 13:57:27 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 13:57:27 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -1673663213094407464
+2016-10-04 13:57:28 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 13:57:55 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 13:57:55 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -1673663213094407464
+2016-10-04 13:57:56 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 13:58:40 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 13:58:40 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -1673663213094407464
+2016-10-04 13:58:40 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 14:10:25 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 14:10:25 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: -1673663213094407464
+2016-10-04 14:10:25 [AVVERTENZA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-10-04 14:10:25 [AVVERTENZA] [Multiverse-Core] Original Location: X: 8 Y: 4 Z: 8 P: 0 Y: 0 
+2016-10-04 14:10:25 [INFORMAZIONI] [Multiverse-Core] New Spawn for 'world' is Located at: world:9,50,4,00,8,50:0,00:0,00
+2016-10-04 14:10:25 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 14:10:41 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 14:10:41 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 14:10:41 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 14:16:08 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 14:16:08 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 14:16:08 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 14:16:48 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 14:16:48 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 14:16:48 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 14:17:07 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 14:17:07 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 14:17:07 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 14:24:44 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 14:24:44 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 14:24:44 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 14:41:42 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 14:41:42 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 15:54:55 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 15:54:55 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 15:54:55 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 16:40:57 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 16:40:57 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 16:40:57 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 16:41:19 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 16:41:19 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 16:41:20 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 16:44:56 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 16:44:56 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 16:44:56 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 16:47:24 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'cazzeggio' - Env: NORMAL - Type: FLAT
+2016-10-04 16:47:26 [AVVERTENZA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-10-04 16:47:26 [AVVERTENZA] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2016-10-04 16:47:26 [INFORMAZIONI] [Multiverse-Core] New Spawn for 'cazzeggio' is Located at: cazzeggio:1,50,4,00,0,50:0,00:0,00
+2016-10-04 16:51:12 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 16:51:12 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 16:51:12 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'cazzeggio' - Env: NORMAL - Type: FLAT & seed: 2841476560350153018
+2016-10-04 16:51:13 [INFORMAZIONI] [Multiverse-Core] 2 - World(s) loaded.
+2016-10-04 16:54:03 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 16:54:03 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 16:54:03 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'cazzeggio' - Env: NORMAL - Type: FLAT & seed: 2841476560350153018
+2016-10-04 16:54:04 [INFORMAZIONI] [Multiverse-Core] 2 - World(s) loaded.
+2016-10-04 17:22:56 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 17:22:56 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 17:22:56 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'cazzeggio' - Env: NORMAL - Type: FLAT & seed: 2841476560350153018
+2016-10-04 17:22:56 [INFORMAZIONI] [Multiverse-Core] 2 - World(s) loaded.
+2016-10-04 17:24:37 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 17:24:37 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 17:24:37 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'cazzeggio' - Env: NORMAL - Type: FLAT & seed: 2841476560350153018
+2016-10-04 17:24:37 [INFORMAZIONI] [Multiverse-Core] 2 - World(s) loaded.
+2016-10-04 17:39:44 [INFORMAZIONI] [Multiverse-Core] World 'cazzeggio' was unloaded from memory.
+2016-10-04 17:39:44 [INFORMAZIONI] [Multiverse-Core] World 'cazzeggio' was removed from config.yml
+2016-10-04 17:43:05 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 17:43:05 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 17:43:06 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 17:44:01 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 17:44:01 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 17:44:01 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 18:19:04 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 18:19:04 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 18:19:04 [AVVERTENZA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-10-04 18:19:04 [AVVERTENZA] [Multiverse-Core] Original Location: X: 9 Y: 4 Z: 8 P: 0 Y: 0 
+2016-10-04 18:19:04 [INFORMAZIONI] [Multiverse-Core] New Spawn for 'world' is Located at: world:0,00,45,00,0,00:0,00:0,00
+2016-10-04 18:19:04 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 18:35:32 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 18:35:32 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 18:35:32 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 18:38:07 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 18:38:07 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 18:38:07 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 20:55:54 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 20:55:54 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 20:55:54 [AVVERTENZA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-10-04 20:55:54 [AVVERTENZA] [Multiverse-Core] Original Location: X: 0 Y: 45 Z: 0 P: 0 Y: 0 
+2016-10-04 20:55:54 [INFORMAZIONI] [Multiverse-Core] New Spawn for 'world' is Located at: world:7,50,47,00,-7,50:0,00:0,00
+2016-10-04 20:55:54 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 20:56:59 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 20:56:59 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 20:56:59 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-04 21:54:13 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-04 21:54:13 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-04 21:54:13 [AVVERTENZA] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-10-04 21:54:13 [AVVERTENZA] [Multiverse-Core] Original Location: X: 7 Y: 47 Z: -8 P: 0 Y: 0 
+2016-10-04 21:54:13 [INFORMAZIONI] [Multiverse-Core] New Spawn for 'world' is Located at: world:10,50,45,00,-10,50:0,00:0,00
+2016-10-04 21:54:13 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-05 19:57:12 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-05 19:57:12 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-05 19:57:13 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-05 20:13:37 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-05 20:13:37 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-05 20:13:37 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-05 20:41:43 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-05 20:41:43 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-05 20:41:43 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-06 18:47:53 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-06 18:47:53 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-06 18:47:53 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-06 21:47:46 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-06 21:47:46 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-06 21:47:46 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:07:36 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:07:36 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:07:36 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:29:50 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:29:50 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:29:50 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:37:24 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:37:24 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:37:24 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:38:52 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:38:52 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:38:52 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:42:57 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:42:57 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:42:57 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:43:15 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:43:15 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:43:15 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:43:27 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:43:27 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:43:27 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:47:39 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:47:39 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:47:39 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
+2016-10-07 21:58:49 [INFORMAZIONI] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-10-07 21:58:50 [INFORMAZIONI] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+2016-10-07 21:58:50 [INFORMAZIONI] [Multiverse-Core] 1 - World(s) loaded.
