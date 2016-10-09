@@ -14,3 +14,8 @@ command-block-overrides: []
 aliases:
   icanhasbukkit:
   - version $1-
+  ss:
+  - save-all
+  - stop
+  c: gamemode c
+  s: gamemode s

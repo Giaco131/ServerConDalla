@@ -1,802 +1,1544 @@
-[21:58:48] [Server thread/INFO]: Starting minecraft server version 1.8
-[21:58:48] [Server thread/INFO]: Loading properties
-[21:58:48] [Server thread/INFO]: Default game type: SURVIVAL
-[21:58:48] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[21:58:48] [Server thread/INFO]: Debug logging is disabled
-[21:58:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:58:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:58:48] [Server thread/INFO]: Generating keypair
-[21:58:48] [Server thread/INFO]: Starting Minecraft server on 25.65.83.202:25565
-[21:58:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[21:58:48] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
-[21:58:48] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.7-SNAPSHOT-4
-[21:58:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
-[21:58:48] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
-[21:58:48] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
-[21:58:48] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
-[21:58:48] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[21:58:48] [Server thread/INFO]: Preparing level "world"
-[21:58:48] [Server thread/INFO]: -------- World Settings For [world] --------
-[21:58:48] [Server thread/INFO]: Item Despawn Rate: 6000
-[21:58:48] [Server thread/INFO]: Item Merge Radius: 2.5
-[21:58:48] [Server thread/INFO]: Mob Spawn Range: 4
-[21:58:48] [Server thread/INFO]: Anti X-Ray: true
-[21:58:48] [Server thread/INFO]: 	Engine Mode: 1
-[21:58:48] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[21:58:48] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[21:58:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[21:58:48] [Server thread/INFO]: Cane Growth Modifier: 100%
-[21:58:48] [Server thread/INFO]: Melon Growth Modifier: 100%
-[21:58:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[21:58:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[21:58:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[21:58:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[21:58:48] [Server thread/INFO]: Structure Info Saving: true
-[21:58:48] [Server thread/INFO]: Sending up to 10 chunks per packet
-[21:58:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[21:58:48] [Server thread/INFO]: Alternative Hopper Ticking: false
-[21:58:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[21:58:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[21:58:48] [Server thread/INFO]: Max TNT Explosions: 100
-[21:58:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[21:58:48] [Server thread/INFO]: Random Lighting Updates: false
-[21:58:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[21:58:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[21:58:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[21:58:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[21:58:48] [Server thread/INFO]: View Distance: 8
-[21:58:48] [Server thread/INFO]: Experience Merge Radius: 3.0
-[21:58:48] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[21:58:48] [Server thread/INFO]: Clear tick list: false
-[21:58:48] [Server thread/INFO]: Max Entity Collisions: 8
-[21:58:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[21:58:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1836310568572768058)
-[21:58:49] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
-[21:58:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.7-SNAPSHOT-4
-[21:58:49] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
-[21:58:49] [Server thread/INFO]: [SkinsRestorer] Loaded 12 skins from the database.
-[21:58:49] [Server thread/INFO]: [m
-[21:58:49] [Server thread/INFO]: [0;32;1m    +===============+[m
-[21:58:49] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
-[21:58:49] [Server thread/INFO]: [0;32;1m    +===============+[m
-[21:58:49] [Server thread/INFO]: [m
-[21:58:49] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.7-SNAPSHOT-4[m
-[21:58:49] [Server thread/INFO]: [0;31;1m    A new version is available! Download it at:[m
-[21:58:49] [Server thread/INFO]: [0;33;1m    https://www.spigotmc.org/resources/skinsrestorer.2124/[m
-[21:58:49] [Server thread/INFO]: [m
-[21:58:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
-[21:58:49] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:58:49] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Desktop\PORCO IL LAMA\Spigot\plugins\WorldEdit\worldedit.log
-[21:58:49] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
-[21:58:49] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
-[21:58:49] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
-[21:58:49] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
-[21:58:49] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
-[21:58:49] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
-[21:58:50] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
-[21:58:50] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
-[21:58:50] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
-[21:58:50] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
-[21:58:50] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[21:58:50] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[21:58:50] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[21:58:50] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[21:58:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[21:58:50] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:58:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:58:50] [Server thread/INFO]: Done (1,319s)! For help, type "help" or "?"
-[21:58:54] [User Authenticator #1/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
-[21:58:54] [Server thread/INFO]: Manu069[/25.98.107.57:60265] logged in with entity id 1 at ([world] -14.331405502993283, 67.1393452372455, 17.575966836470386)
-[21:58:56] [User Authenticator #2/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[21:58:56] [Server thread/INFO]: Firox24[/25.73.67.225:58023] logged in with entity id 21 at ([world] -4.2326356906362115, 44.0, 18.175557236678344)
-[21:58:57] [User Authenticator #3/INFO]: UUID of player Giaco131 is 1fe33bf0-3908-4150-bbfa-f0b1b2861a28
-[21:58:57] [Server thread/INFO]: Giaco131[/25.65.83.202:51094] logged in with entity id 32 at ([world] -3.5839227509310274, 44.0, 16.07146368187776)
-[21:59:03] [Server thread/INFO]: Opped Giaco131
-[21:59:05] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[21:59:06] [Server thread/INFO]: Manu069 issued server command: /gmc
-[21:59:09] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
-[21:59:12] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
-[21:59:13] [Server thread/INFO]: Giaco131 issued server command: /op Manu069
-[21:59:13] [Server thread/INFO]: [Giaco131: Opped Manu069]
-[21:59:14] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
-[21:59:14] [Server thread/INFO]: [Manu069: Set own game mode to Creative Mode]
-[21:59:14] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
-[21:59:14] [Server thread/INFO]: [Giaco131: Opped Firox24]
-[21:59:19] [Server thread/INFO]: Giaco131 issued server command: /gamemode
-[21:59:22] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[21:59:22] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[21:59:22] [Server thread/INFO]: Manu069 issued server command: /op manu069
-[21:59:22] [Server thread/INFO]: [Manu069: Opped manu069]
-[21:59:24] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[21:59:24] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[21:59:31] [Server thread/INFO]: Manu069 issued server command: /speed
-[21:59:33] [Server thread/INFO]: Manu069 issued server command: //wand
-[21:59:33] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /wand
-[21:59:52] [Server thread/INFO]: Manu069 issued server command: /up 1
-[21:59:52] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): up 1 - Position: (13.6343197352487, 57.045542293236416, -18.191641729387133)
-[21:59:54] [Server thread/INFO]: Manu069 issued server command: /up 1
-[21:59:54] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): up 1 - Position: (5.474255014398819, 58.0, -10.364349117378248)
-[21:59:58] [Server thread/INFO]: Manu069 issued server command: //set 1
-[22:00:04] [Server thread/INFO]: Manu069 issued server command: //undo
-[22:00:04] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /undo
-[22:00:22] [Server thread/INFO]: Manu069 issued server command: /give Manu069 minecraft:anvil
-[22:00:22] [Server thread/INFO]: [Manu069: Given [Anvil] * 1 to Manu069]
-[22:00:42] [Server thread/INFO]: Manu069 issued server command: /rename
-[22:00:48] [Server thread/INFO]: Firox24 lost connection: Disconnected
-[22:00:48] [Server thread/INFO]: Firox24 left the game.
-[22:00:56] [User Authenticator #4/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:00:57] [Server thread/INFO]: Firox24[/25.73.67.225:58093] logged in with entity id 2268 at ([world] -5.552251758209879, 55.87320779871982, 10.011368940213176)
-[22:01:05] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:01:14] [Server thread/INFO]: Manu069 issued server command: /tphere fi
-[22:01:15] [Server thread/INFO]: Firox24 fell out of the world
-[22:01:20] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:01:20] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:01:22] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:01:30] [Server thread/INFO]: Manu069 issued server command: /tphere
-[22:01:40] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
-[22:01:40] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
-[22:03:29] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[22:03:29] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[22:03:31] [Server thread/INFO]: Firox24 was slain by Giaco131
-[22:03:40] [Server thread/INFO]: <Giaco131> omg give[m
-[22:03:45] [Server thread/INFO]: Manu069 issued server command: //wand
-[22:03:45] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /wand
-[22:03:49] [Server thread/INFO]: Giaco131 issued server command: //wand
-[22:03:49] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /wand
-[22:04:04] [Server thread/INFO]: Giaco131 issued server command: //wand
-[22:04:04] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /wand
-[22:04:08] [Server thread/INFO]: Giaco131 issued server command: //set 0
-[22:04:11] [Server thread/INFO]: Manu069 issued server command: /kill
-[22:04:11] [Server thread/INFO]: Manu069 fell out of the world
-[22:04:11] [Server thread/INFO]: [Manu069: Killed Manu069]
-[22:04:11] [Server thread/INFO]: Giaco131 issued server command: //undo
-[22:04:11] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
-[22:04:14] [Server thread/INFO]: Firox24 fell out of the world
-[22:04:24] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:24] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:27] [Server thread/INFO]: Giaco131 issued server command: //set 0
-[22:04:30] [Server thread/INFO]: Giaco131 issued server command: //undo
-[22:04:30] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
-[22:04:31] [Server thread/INFO]: Firox24 fell out of the world
-[22:04:35] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:35] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:41] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
-[22:04:41] [Server thread/INFO]: [Giaco131: Opped Firox24]
-[22:04:45] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:45] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:46] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:04:46] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:04:48] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:48] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:48] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:48] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:49] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:49] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:49] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:49] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:49] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:49] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:50] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:50] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:53] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:53] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:54] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:54] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:55] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:55] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:56] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:56] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:56] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:56] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:57] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:57] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:57] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:57] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:57] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:57] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:57] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:57] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:58] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:58] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:58] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:58] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:58] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:58] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:58] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:58] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:58] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:58] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:58] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:04:58] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:04:59] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:59] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:04:59] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:04:59] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:00] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:00] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:00] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:00] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:00] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:00] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:01] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:01] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:01] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:05:01] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:05:01] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:01] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:02] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:05:02] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:05:02] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:05:02] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:05:02] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:02] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:02] [Server thread/INFO]: Firox24 issued server command: /kill Giaco131
-[22:05:02] [Server thread/INFO]: Giaco131 fell out of the world
-[22:05:02] [Server thread/INFO]: [Firox24: Killed Giaco131]
-[22:05:03] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:03] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:03] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:03] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:04] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:05:04] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:05:08] [Server thread/INFO]: Firox24 lost connection: hack
-[22:05:08] [Server thread/INFO]: Firox24 left the game.
-[22:05:08] [Server thread/INFO]: Kicked Firox24 from the game: 'hack'
-[22:05:15] [Server thread/INFO]: Manu069 issued server command: /tp firox24 Giaco131
-[22:05:16] [User Authenticator #5/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:05:16] [Server thread/INFO]: Firox24[/25.73.67.225:58103] logged in with entity id 7282 at ([world] -15.871848790877124, 45.74906794882391, -20.742116936774988)
-[22:05:17] [Server thread/INFO]: Manu069 issued server command: /tp firox24 Giaco131
-[22:05:17] [Server thread/INFO]: [Manu069: Teleported Firox24 to Giaco131]
-[22:05:23] [Server thread/INFO]: Firox24 fell out of the world
-[22:05:25] [Server thread/INFO]: Manu069 issued server command: /tp firox24 Giaco131
-[22:05:27] [Server thread/INFO]: <Giaco131> BULLISMO!!!![m
-[22:05:28] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:05:28] [Server thread/INFO]: Manu069 issued server command: /tp firox24 Giaco131
-[22:05:28] [Server thread/INFO]: [Manu069: Teleported Firox24 to Giaco131]
-[22:05:29] [Server thread/INFO]: Giaco131 issued server command: /OP Firox24
-[22:05:29] [Server thread/INFO]: [Giaco131: Opped Firox24]
-[22:05:32] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:05:32] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:05:36] [Server thread/INFO]: Manu069 issued server command: /nick
-[22:05:43] [Server thread/INFO]: Manu069 issued server command: /skin Alessio26gas
-[22:05:44] [Server thread/WARN]: Manu069 moved too quickly! 28.680944918735573,20.0,-17.37356875381873 (28.680944918735573, 20.0, 17.37356875381873)
-[22:05:48] [Server thread/INFO]: Firox24 issued server command: /kill Manu039
-[22:06:03] [Server thread/INFO]: Manu069 issued server command: /skin Notch
-[22:06:04] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:04] [Server thread/INFO]: Manu069 fell out of the world
-[22:06:04] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:04] [Server thread/WARN]: Manu069 moved too quickly! 29.345156315045777,9.0,-4.765500941776676 (29.345156315045777, 9.0, 4.765500941776676)
-[22:06:07] [Server thread/INFO]: Giaco131 issued server command: /kill Firox24
-[22:06:07] [Server thread/INFO]: Firox24 fell out of the world
-[22:06:07] [Server thread/INFO]: [Giaco131: Killed Firox24]
-[22:06:21] [Server thread/INFO]: Giaco131 issued server command: /kill @e
-[22:06:21] [Server thread/INFO]: Giaco131 fell out of the world
-[22:06:21] [Server thread/INFO]: [Giaco131: Killed Giaco131]
-[22:06:21] [Server thread/INFO]: Firox24 fell out of the world
-[22:06:21] [Server thread/INFO]: [Giaco131: Killed Firox24]
-[22:06:21] [Server thread/INFO]: Manu069 fell out of the world
-[22:06:21] [Server thread/INFO]: [Giaco131: Killed Manu069]
-[22:06:21] [Server thread/INFO]: [Giaco131: Killed Sheep]
-[22:06:28] [Server thread/INFO]: Giaco131 issued server command: /kill @e
-[22:06:28] [Server thread/INFO]: Giaco131 fell out of the world
-[22:06:28] [Server thread/INFO]: [Giaco131: Killed Giaco131]
-[22:06:28] [Server thread/INFO]: Firox24 fell out of the world
-[22:06:28] [Server thread/INFO]: [Giaco131: Killed Firox24]
-[22:06:28] [Server thread/INFO]: [Giaco131: Killed item.tile.stone.stone]
-[22:06:28] [Server thread/INFO]: Manu069 fell out of the world
-[22:06:28] [Server thread/INFO]: [Giaco131: Killed Manu069]
-[22:06:28] [Server thread/INFO]: [Giaco131: Killed item.tile.anvil.intact]
-[22:06:28] [Server thread/INFO]: [Giaco131: Killed item.item.muttonRaw]
-[22:06:28] [Server thread/INFO]: [Giaco131: Killed item.tile.cloth.white]
-[22:06:34] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:34] [Server thread/INFO]: Manu069 fell out of the world
-[22:06:34] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:36] [Server thread/INFO]: Manu069 issued server command: /skin Notch
-[22:06:37] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:37] [Server thread/INFO]: Manu069 fell out of the world
-[22:06:37] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:37] [Server thread/WARN]: Manu069 moved too quickly! -1.1361053791148397,20.342378214094204,14.899626487575434 (1.1361053791148397, 20.342378214094204, 14.899626487575434)
-[22:06:38] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:38] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:39] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:39] [Server thread/INFO]: Manu069 fell out of the world
-[22:06:39] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:40] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:40] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:41] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:41] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:42] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:42] [Server thread/INFO]: Manu069 fell out of the world
-[22:06:42] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:42] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:42] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:43] [Server thread/INFO]: Firox24 issued server command: /kill Manu069t
-[22:06:45] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:45] [Server thread/INFO]: Manu069 fell out of the world
-[22:06:45] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:46] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:06:46] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:06:46] [Server thread/INFO]: Giaco131 issued server command: /kick Firox24 stop daie
-[22:06:46] [Server thread/INFO]: Firox24 lost connection: stop daie
-[22:06:46] [Server thread/INFO]: Firox24 left the game.
-[22:06:46] [Server thread/INFO]: [Giaco131: Kicked Firox24 from the game: 'stop daie']
-[22:06:51] [User Authenticator #6/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:06:51] [Server thread/INFO]: Firox24[/25.73.67.225:58108] logged in with entity id 9148 at ([world] -18.889624389625084, 57.35456923973425, 7.313379706290348)
-[22:06:59] [Server thread/INFO]: <Giaco131> QUESTO BULLISMO[m
-[22:07:03] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:05] [Server thread/INFO]: <Giaco131> peggio di darter[m
-[22:07:07] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:07:07] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:07:08] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
-[22:07:08] [Server thread/INFO]: [Giaco131: Opped Firox24]
-[22:07:09] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:09] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:07:11] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:11] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:07:12] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:07:12] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:07:12] [Server thread/INFO]: Manu069 issued server command: //wand
-[22:07:12] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /wand
-[22:07:18] [Server thread/INFO]: Manu069 issued server command: /tp Firox24 Manu069
-[22:07:18] [Server thread/INFO]: [Manu069: Teleported Firox24 to Manu069]
-[22:07:19] [Server thread/INFO]: Giaco131 issued server command: /tp Firox24 Giaco131
-[22:07:19] [Server thread/INFO]: [Giaco131: Teleported Firox24 to Giaco131]
-[22:07:24] [Server thread/INFO]: Manu069 issued server command: /kick Firox24
-[22:07:24] [Server thread/INFO]: Firox24 lost connection: Kicked by an operator.
-[22:07:24] [Server thread/INFO]: Firox24 left the game.
-[22:07:24] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game]
-[22:07:29] [User Authenticator #7/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:07:29] [Server thread/INFO]: Firox24[/25.73.67.225:58110] logged in with entity id 9953 at ([world] -17.521268613483727, 71.0611797607137, -7.633334288794915)
-[22:07:34] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:36] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:37] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:37] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:38] [Server thread/INFO]: Giaco131 issued server command: /op G
-[22:07:38] [Server thread/INFO]: [Giaco131: Opped G]
-[22:07:38] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:39] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:40] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:41] [Server thread/INFO]: Giaco131 issued server command: /deop G
-[22:07:41] [Server thread/INFO]: [Giaco131: De-opped G]
-[22:07:41] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:42] [Server thread/INFO]: Manu069 issued server command: /deop g
-[22:07:44] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
-[22:07:44] [Server thread/INFO]: [Giaco131: Opped Firox24]
-[22:07:46] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:07:46] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:07:50] [Server thread/INFO]: Manu069 issued server command: /op manu069
-[22:07:50] [Server thread/INFO]: [Manu069: Opped manu069]
-[22:07:54] [Server thread/INFO]: Manu069 issued server command: /deop manu069
-[22:07:54] [Server thread/INFO]: [Manu069: De-opped manu069]
-[22:07:58] [Server thread/INFO]: Manu069 issued server command: /gm
-[22:08:00] [Server thread/INFO]: Manu069 issued server command: //wand
-[22:08:04] [Server thread/INFO]: Giaco131 issued server command: /op Manu069
-[22:08:04] [Server thread/INFO]: [Giaco131: Opped Manu069]
-[22:08:12] [Server thread/INFO]: Manu069 issued server command: /mv
-[22:08:12] [Server thread/INFO]: Giaco131 issued server command: /pl
-[22:08:14] [Server thread/INFO]: Manu069 issued server command: /mv list
-[22:08:18] [Server thread/INFO]: Giaco131 issued server command: /mv list
-[22:08:51] [Server thread/INFO]: Giaco131 issued server command: //cyl glass 15
-[22:08:51] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /cyl glass 15 - Position: (31.0, 53.0, -36.0)
-[22:08:52] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 protection 10
-[22:08:56] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 protection 4
-[22:08:56] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:08:56] [Server thread/INFO]: Giaco131 issued server command: //hcyl glass 15
-[22:08:56] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /hcyl glass 15 - Position: (31.0, 53.0, -36.0)
-[22:09:00] [Server thread/INFO]: Giaco131 issued server command: //hcyl glass 15 15
-[22:09:00] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /hcyl glass 15 15 - Position: (31.0, 53.0, -36.0)
-[22:09:04] [Server thread/INFO]: Giaco131 issued server command: /up 15
-[22:09:04] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): up 15 - Position: (31.609691654388413, 53.293845920676475, -35.75961956921387)
-[22:09:06] [Server thread/INFO]: Giaco131 issued server command: //hcyl glass 15 15
-[22:09:06] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /hcyl glass 15 15 - Position: (31.0, 68.0, -36.0)
-[22:09:08] [Server thread/INFO]: Giaco131 issued server command: //undo
-[22:09:08] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
-[22:09:11] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 sharpness 5
-[22:09:11] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:09:12] [Server thread/INFO]: Giaco131 issued server command: //cyl glass 15
-[22:09:12] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /cyl glass 15 - Position: (31.0, 68.0, -36.0)
-[22:09:29] [Server thread/INFO]: Giaco131 issued server command: /tp Manu069 Giaco131
-[22:09:29] [Server thread/INFO]: [Giaco131: Teleported Manu069 to Giaco131]
-[22:09:30] [Server thread/INFO]: Firox24 issued server command: /tp manu069
-[22:09:30] [Server thread/INFO]: [Firox24: Teleported Firox24 to Manu069]
-[22:10:01] [Server thread/INFO]: Manu069 issued server command: /invsee
-[22:10:09] [Server thread/INFO]: Manu069 issued server command: /skin Firox24
-[22:10:10] [Server thread/WARN]: Manu069 moved too quickly! -17.994389833480547,-1.2000000476837158,41.766305255098914 (17.994389833480547, 1.2000000476837158, 41.766305255098914)
-[22:10:14] [Server thread/INFO]: Manu069 issued server command: /skin Firox24 Giaco131
-[22:10:18] [Server thread/INFO]: Firox24 issued server command: /skin Grandescavatore
-[22:10:19] [Server thread/WARN]: Firox24 moved too quickly! -20.228068734211913,0.36414184493106916,42.343456692998615 (20.228068734211913, 0.36414184493106916, 42.343456692998615)
-[22:10:32] [Server thread/INFO]: Manu069 issued server command: /skin xMetalPain
-[22:10:33] [Server thread/WARN]: Manu069 moved too quickly! -22.802842799267417,6.071460962418399,41.12481218495125 (22.802842799267417, 6.071460962418399, 41.12481218495125)
-[22:10:40] [Server thread/INFO]: Giaco131 issued server command: /skin Alessio26Gas
-[22:10:41] [Server thread/WARN]: Giaco131 moved too quickly! -14.361035497586883,10.463166052126496,37.72324173343164 (14.361035497586883, 10.463166052126496, 37.72324173343164)
-[22:10:53] [Server thread/INFO]: Firox24 issued server command: /skin Ez
-[22:10:54] [Server thread/WARN]: Firox24 moved too quickly! -20.066100114706224,1.8731671541215533,45.04403289779426 (20.066100114706224, 1.8731671541215533, 45.04403289779426)
-[22:11:03] [Server thread/INFO]: Manu069 issued server command: /skin fyammah
-[22:11:04] [Server thread/WARN]: Manu069 moved too quickly! -19.83532532689294,0.6438668596719594,48.502061829691606 (19.83532532689294, 0.6438668596719594, 48.502061829691606)
-[22:11:06] [Server thread/INFO]: Manu069 issued server command: /skin fyam
-[22:11:07] [Server thread/WARN]: Manu069 moved too quickly! -19.83532532689294,0.6438668596719594,49.34087548292754 (19.83532532689294, 0.6438668596719594, 49.34087548292754)
-[22:11:11] [Server thread/INFO]: Giaco131 issued server command: /enchant 34 1
-[22:11:19] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 34 1
-[22:11:19] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:21] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 34 1
-[22:11:21] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:23] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 34 1
-[22:11:23] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:25] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 34 1
-[22:11:25] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:32] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 0 3
-[22:11:32] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:33] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 0 3
-[22:11:33] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:35] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 0 3
-[22:11:35] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:36] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 0 3
-[22:11:36] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:42] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 16 5
-[22:11:42] [Server thread/INFO]: [Giaco131: Enchanting succeeded]
-[22:11:52] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns
-[22:11:52] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:11:56] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
-[22:11:56] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:11:57] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
-[22:12:03] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 2
-[22:12:08] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
-[22:12:08] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:12:10] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
-[22:12:10] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:12:11] [Server thread/INFO]: Firox24 issued server command: /skin zDarter12
-[22:12:12] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 thorns 3
-[22:12:12] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:12:12] [Server thread/WARN]: Firox24 moved too quickly! -22.32750068585147,5.997924029215568,48.05735828736477 (22.32750068585147, 5.997924029215568, 48.05735828736477)
-[22:12:13] [Server thread/INFO]: Giaco131 issued server command: /invsee
-[22:12:18] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 umbreaking 3
-[22:12:22] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
-[22:12:22] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:12:24] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
-[22:12:24] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:12:26] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
-[22:12:26] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:12:27] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
-[22:12:27] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:12:34] [Server thread/INFO]: Manu069 issued server command: /enchant Manu069 unbreaking 3
-[22:12:34] [Server thread/INFO]: [Manu069: Enchanting succeeded]
-[22:13:02] [Server thread/INFO]: Firox24 issued server command: /skin NikoHD
-[22:13:03] [Server thread/WARN]: Firox24 moved too quickly! -25.022071714483715,10.001133425731318,50.2118864940164 (25.022071714483715, 10.001133425731318, 50.2118864940164)
-[22:13:16] [Server thread/INFO]: <Giaco131> .[m
-[22:13:20] [Server thread/INFO]: Manu069 lost connection: Internal Exception: java.io.IOException: Connessione in corso interrotta forzatamente dall'host remoto
-[22:13:20] [Server thread/INFO]: Manu069 left the game.
-[22:13:21] [Server thread/INFO]: <Giaco131> che succede?[m
-[22:13:21] [Server thread/INFO]: Firox24 issued server command: /skin Bluefiretrolling
-[22:13:23] [Server thread/INFO]: <Giaco131> lol[m
-[22:13:23] [Server thread/WARN]: Firox24 moved too quickly! -25.022071714483715,10.001133425731318,50.2118864940164 (25.022071714483715, 10.001133425731318, 50.2118864940164)
-[22:13:33] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
-[22:13:33] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
-[22:13:47] [Server thread/INFO]: Firox24 issued server command: /skin GrandeScavatore
-[22:13:48] [Server thread/WARN]: Firox24 moved too quickly! -33.46588788014658,11.0,41.09704794509304 (33.46588788014658, 11.0, 41.09704794509304)
-[22:13:55] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
-[22:13:55] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
-[22:13:56] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[22:13:56] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[22:13:59] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
-[22:13:59] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
-[22:14:32] [Server thread/INFO]: Firox24 was slain by Giaco131
-[22:14:39] [Server thread/INFO]: <Giaco131> ezzzz[m
-[22:14:44] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:14:44] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:14:54] [Server thread/INFO]: Firox24 issued server command: /tp Giaco131
-[22:14:54] [Server thread/INFO]: [Firox24: Teleported Firox24 to Giaco131]
-[22:15:12] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[22:15:12] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[22:17:13] [Server thread/INFO]: Giaco131 issued server command: /ping Firox24
-[22:17:15] [Server thread/INFO]: Giaco131 issued server command: /ping Firox24
-[22:17:53] [Server thread/INFO]: <Giaco131> 16421[m
-[22:17:54] [Server thread/INFO]: <Giaco131> 173[m
-[22:17:58] [Server thread/INFO]: <Giaco131> 373[m
-[22:18:08] [Server thread/INFO]: Giaco131 issued server command: /give Giaco131 373:16421 32
-[22:18:19] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
-[22:18:19] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
-[22:18:22] [Server thread/INFO]: Giaco131 issued server command: /give
-[22:18:25] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:18:25] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:18:29] [Server thread/INFO]: Giaco131 issued server command: /give Giaco131 373 32 16421
-[22:18:33] [User Authenticator #8/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
-[22:18:33] [Server thread/INFO]: Manu069[/25.98.107.57:49876] logged in with entity id 20120 at ([world] 32.50367202944154, 54.0, -38.42869449295252)
-[22:19:06] [Server thread/INFO]: Manu069 issued server command: /enchant manu069 protection 4
-[22:20:31] [Server thread/INFO]: Firox24 issued server command: /skin fyammah
-[22:20:32] [Server thread/WARN]: Firox24 moved too quickly! -18.49736168886304,11.0,46.00152589227716 (18.49736168886304, 11.0, 46.00152589227716)
-[22:20:56] [Server thread/INFO]: Manu069 issued server command: /plox
-[22:20:58] [Server thread/INFO]: <Manu069> pliox[m
-[22:20:59] [Server thread/INFO]: Firox24 issued server command: /skin Firox24
-[22:21:00] [Server thread/WARN]: Firox24 moved too quickly! -29.19999998807907,11.0,57.19999998807907 (29.19999998807907, 11.0, 57.19999998807907)
-[22:21:23] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
-[22:21:23] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
-[22:21:24] [Server thread/INFO]: Giaco131 issued server command: /gamemode s Firox24
-[22:21:24] [Server thread/INFO]: [Giaco131: Set Firox24's game mode to Survival Mode]
-[22:21:24] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:21:24] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:21:27] [Server thread/INFO]: Giaco131 issued server command: /gamemode s Manu069
-[22:21:27] [Server thread/INFO]: [Giaco131: Set Manu069's game mode to Survival Mode]
-[22:21:28] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
-[22:21:28] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
-[22:21:41] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[22:21:41] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[22:21:49] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
-[22:21:49] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
-[22:21:51] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:21:51] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:22:00] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[22:22:00] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[22:22:09] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
-[22:22:09] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
-[22:22:21] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
-[22:22:21] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
-[22:23:06] [Server thread/INFO]: Giaco131 was slain by Firox24
-[22:23:11] [Server thread/INFO]: Giaco131 issued server command: /fly
-[22:23:15] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[22:23:15] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[22:23:26] [Server thread/INFO]: Firox24 was slain by Manu069
-[22:23:36] [Server thread/INFO]: Firox24 issued server command: /gamemode 0
-[22:23:36] [Server thread/INFO]: [Firox24: Set own game mode to Survival Mode]
-[22:23:37] [Server thread/INFO]: Firox24 fell out of the world
-[22:23:41] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:23:41] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:23:45] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
-[22:23:45] [Server thread/INFO]: [Giaco131: Set own game mode to Survival Mode]
-[22:24:02] [Server thread/INFO]: Giaco131 issued server command: /ping Manu069
-[22:24:06] [Server thread/INFO]: Manu069 issued server command: /ping
-[22:24:08] [Server thread/INFO]: Firox24 issued server command: /tp Giaco131
-[22:24:08] [Server thread/INFO]: [Firox24: Teleported Firox24 to Giaco131]
-[22:24:23] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[22:24:23] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[22:24:48] [Server thread/INFO]: Giaco131 issued server command: /gamemode s Firox24
-[22:24:48] [Server thread/INFO]: [Giaco131: Set Firox24's game mode to Survival Mode]
-[22:24:51] [Server thread/INFO]: Giaco131 issued server command: /gamemode s Firox24
-[22:24:51] [Server thread/INFO]: [Giaco131: Set Firox24's game mode to Survival Mode]
-[22:24:54] [Server thread/INFO]: Manu069 fell out of the world
-[22:25:08] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:25:08] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:25:16] [Server thread/INFO]: Firox24 issued server command: /kill Giaco131
-[22:25:16] [Server thread/INFO]: Giaco131 fell out of the world
-[22:25:16] [Server thread/INFO]: [Firox24: Killed Giaco131]
-[22:25:22] [Server thread/INFO]: Giaco131 issued server command: /kill @e
-[22:25:22] [Server thread/INFO]: Giaco131 fell out of the world
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed Giaco131]
-[22:25:22] [Server thread/INFO]: Manu069 fell out of the world
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed Manu069]
-[22:25:22] [Server thread/INFO]: Firox24 fell out of the world
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed Firox24]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.string]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.chestplateDiamond]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.leggingsDiamond]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.bootsDiamond]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.appleGold]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.swordDiamond]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.helmetDiamond]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:22] [Server thread/INFO]: [Giaco131: Killed item.item.potion]
-[22:25:33] [Server thread/INFO]: Giaco131 issued server command: /op Manu069
-[22:25:33] [Server thread/INFO]: [Giaco131: Opped Manu069]
-[22:25:39] [Server thread/INFO]: Giaco131 issued server command: //pos1
-[22:25:39] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /pos1 - Position: (16.060247780024444, 45.73170032508607, -21.248428838666456)
-[22:25:40] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
-[22:25:40] [Server thread/INFO]: [Manu069: Set own game mode to Creative Mode]
-[22:25:46] [Server thread/INFO]: Giaco131 issued server command: //pos2
-[22:25:46] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /pos2 - Position: (58.96274503683983, 78.72225379601281, -57.72226250097617)
-[22:25:47] [Server thread/INFO]: Giaco131 issued server command: //set 0
-[22:25:48] [Server thread/INFO]: Manu069 issued server command: /kick Giaco131
-[22:25:48] [Server thread/INFO]: Giaco131 lost connection: Kicked by an operator.
-[22:25:48] [Server thread/INFO]: Giaco131 left the game.
-[22:25:48] [Server thread/INFO]: [Manu069: Kicked Giaco131 from the game]
-[22:25:53] [Server thread/INFO]: Manu069 issued server command: /sp area 5
-[22:25:53] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): area 5
-[22:25:53] [Server thread/INFO]: Firox24 fell out of the world
-[22:25:56] [User Authenticator #9/INFO]: UUID of player Giaco131 is 1fe33bf0-3908-4150-bbfa-f0b1b2861a28
-[22:25:56] [Server thread/INFO]: Giaco131[/25.65.83.202:51189] logged in with entity id 28477 at ([world] 59.10449067186033, 78.72225379601281, -58.081094329834734)
-[22:26:02] [Server thread/INFO]: Giaco131 fell out of the world
-[22:26:02] [Server thread/INFO]: Opped Giaco131
-[22:26:04] [Server thread/INFO]: Manu069 issued server command: /tp Giaco131 Manu069
-[22:26:04] [Server thread/INFO]: [Manu069: Teleported Giaco131 to Manu069]
-[22:26:06] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
-[22:26:06] [Server thread/INFO]: [Giaco131: Set own game mode to Creative Mode]
-[22:26:20] [Server thread/INFO]: Giaco131 issued server command: /kill @e
-[22:26:20] [Server thread/INFO]: Giaco131 fell out of the world
-[22:26:20] [Server thread/INFO]: [Giaco131: Killed Giaco131]
-[22:26:20] [Server thread/INFO]: Manu069 fell out of the world
-[22:26:20] [Server thread/INFO]: [Giaco131: Killed Manu069]
-[22:26:20] [Server thread/INFO]: Firox24 fell out of the world
-[22:26:20] [Server thread/INFO]: [Giaco131: Killed Firox24]
-[22:26:20] [Server thread/INFO]: [Giaco131: Killed item.tile.tnt]
-[22:26:37] [Server thread/INFO]: Manu069 issued server command: /sp area 5
-[22:26:37] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): area 5
-[22:26:40] [Server thread/INFO]: Giaco131 issued server command: /save-all
-[22:26:40] [Server thread/INFO]: [Giaco131: Saved the world]
-[22:26:43] [Server thread/INFO]: Manu069 issued server command: /save
-[22:26:44] [Server thread/INFO]: Giaco131 issued server command: /backup
-[22:26:45] [Server thread/INFO]: Manu069 issued server command: /save-all
-[22:26:45] [Server thread/INFO]: [Manu069: Saved the world]
-[22:26:57] [Server thread/INFO]: Manu069 issued server command: //sphere 10 10
-[22:26:57] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /sphere 10 10 - Position: (-25.0, 50.0, -91.0)
-[22:27:00] [Server thread/INFO]: Manu069 issued server command: //undo
-[22:27:00] [Server thread/INFO]: WorldEdit: Manu069 (in "world"): /undo
-[22:27:09] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
-[22:27:09] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-24.0, 45.0, -81.0)
-[22:27:15] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
-[22:27:15] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-26.0, 45.0, -87.0)
-[22:27:18] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
-[22:27:18] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-26.0, 51.0, -95.0)
-[22:27:21] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
-[22:27:21] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-21.0, 51.0, -90.0)
-[22:27:24] [Server thread/INFO]: Giaco131 issued server command: //drain 1000]
-[22:27:24] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000] - Position: (-29.0, 51.0, -91.0)
-[22:27:25] [Server thread/INFO]: Firox24 issued server command: /ban Manu069
-[22:27:25] [Server thread/INFO]: Manu069 lost connection: You are banned from this server.
-[22:27:25] [Server thread/INFO]: Manu069 left the game.
-[22:27:25] [Server thread/INFO]: [Firox24: Banned player Manu069]
-[22:27:26] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
-[22:27:26] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-29.0, 51.0, -91.0)
-[22:27:32] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
-[22:27:32] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-27.0, 39.0, -88.0)
-[22:27:34] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
-[22:27:34] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-28.0, 38.0, -94.0)
-[22:27:37] [Server thread/INFO]: Giaco131 issued server command: //drain 1000
-[22:27:37] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 1000 - Position: (-30.0, 36.0, -94.0)
-[22:27:44] [Server thread/INFO]: Giaco131 issued server command: /kill @e
-[22:27:44] [Server thread/INFO]: Giaco131 fell out of the world
-[22:27:44] [Server thread/INFO]: [Giaco131: Killed Giaco131]
-[22:27:44] [Server thread/INFO]: Firox24 fell out of the world
-[22:27:44] [Server thread/INFO]: [Giaco131: Killed Firox24]
-[22:27:44] [Server thread/INFO]: [Giaco131: Killed item.item.pickaxeDiamond]
-[22:27:54] [Server thread/INFO]: Giaco131 issued server command: /mem
-[22:27:58] [User Authenticator #10/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
-[22:27:58] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@245efdb8[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@44baf424]},legacy=false] (/25.98.107.57:50203): You are banned from this server!
-Reason: Banned by an operator.
-[22:27:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@245efdb8[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@44baf424]},legacy=false] (/25.98.107.57:50203) lost connection: You are banned from this server!
-Reason: Banned by an operator.
-[22:28:03] [User Authenticator #11/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
-[22:28:03] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@574ccbf7[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@66702eef]},legacy=false] (/25.98.107.57:50230): You are banned from this server!
-Reason: Banned by an operator.
-[22:28:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@574ccbf7[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@66702eef]},legacy=false] (/25.98.107.57:50230) lost connection: You are banned from this server!
-Reason: Banned by an operator.
-[22:28:10] [User Authenticator #12/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
-[22:28:10] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4cede2cf[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@5d2f1f76]},legacy=false] (/25.98.107.57:50235): You are banned from this server!
-Reason: Banned by an operator.
-[22:28:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@4cede2cf[id=3d982d1d-b32d-43cf-b4d6-b2d33c80428d,name=Manu069,properties={textures=[com.mojang.authlib.properties.Property@5d2f1f76]},legacy=false] (/25.98.107.57:50235) lost connection: You are banned from this server!
-Reason: Banned by an operator.
-[22:28:12] [Server thread/INFO]: Giaco131 issued server command: /pardon Manu069
-[22:28:12] [Server thread/INFO]: [Giaco131: Unbanned player Manu069]
-[22:28:15] [User Authenticator #13/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
-[22:28:16] [Server thread/INFO]: Manu069[/25.98.107.57:50240] logged in with entity id 30718 at ([world] -11.403570036944798, 38.05733667074717, -98.71109733355004)
-[22:28:20] [Server thread/INFO]: Giaco131 issued server command: /ban Firox24
-[22:28:20] [Server thread/INFO]: Firox24 lost connection: You are banned from this server.
-[22:28:20] [Server thread/INFO]: Firox24 left the game.
-[22:28:20] [Server thread/INFO]: [Giaco131: Banned player Firox24]
-[22:28:21] [Server thread/INFO]: Manu069 fell out of the world
-[22:28:27] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
-[22:28:29] [Server thread/INFO]: Giaco131 issued server command: /pardon Firox24
-[22:28:29] [Server thread/INFO]: [Giaco131: Unbanned player Firox24]
-[22:28:31] [User Authenticator #14/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:28:31] [Server thread/INFO]: Firox24[/25.73.67.225:58176] logged in with entity id 31020 at ([world] -11.978214348433562, 46.9066727462939, 3.4177760640185637)
-[22:28:35] [Server thread/INFO]: Giaco131 issued server command: /op Manu069
-[22:28:35] [Server thread/INFO]: [Giaco131: Opped Manu069]
-[22:28:37] [Server thread/INFO]: Manu069 issued server command: /gamemode 1
-[22:28:37] [Server thread/INFO]: [Manu069: Set own game mode to Creative Mode]
-[22:28:37] [Server thread/INFO]: Giaco131 issued server command: /op Firox24
-[22:28:37] [Server thread/INFO]: [Giaco131: Opped Firox24]
-[22:28:45] [Server thread/INFO]: Manu069 issued server command: /automessage
-[22:28:47] [Server thread/INFO]: Giaco131 issued server command: /automessage
-[22:28:48] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:28:48] [Server thread/INFO]: Manu069 fell out of the world
-[22:28:48] [Server thread/INFO]: [Firox24: Killed Manu069]
-[22:28:52] [Server thread/INFO]: Giaco131 issued server command: /automessage help
-[22:28:52] [Server thread/INFO]: Firox24 issued server command: /gamemode 1
-[22:28:52] [Server thread/INFO]: [Firox24: Set own game mode to Creative Mode]
-[22:28:58] [Server thread/INFO]: Manu069 issued server command: /kick Firox24
-[22:28:58] [Server thread/INFO]: Firox24 lost connection: Kicked by an operator.
-[22:28:58] [Server thread/INFO]: Firox24 left the game.
-[22:28:58] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game]
-[22:29:04] [User Authenticator #15/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:29:04] [Server thread/INFO]: Firox24[/25.73.67.225:58178] logged in with entity id 31541 at ([world] -8.422825481214659, 57.03436902860016, -4.436013064509637)
-[22:29:05] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HAACKED
-[22:29:05] [Server thread/INFO]: Firox24 lost connection: HAACKED
-[22:29:05] [Server thread/INFO]: Firox24 left the game.
-[22:29:05] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game: 'HAACKED']
-[22:29:10] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
-[22:29:10] [User Authenticator #16/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:29:10] [Server thread/INFO]: Firox24[/25.73.67.225:58180] logged in with entity id 31608 at ([world] -8.422825481214659, 57.03436902860016, -4.436013064509637)
-[22:29:11] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
-[22:29:11] [Server thread/INFO]: Firox24 lost connection: HACKED
-[22:29:11] [Server thread/INFO]: Firox24 left the game.
-[22:29:11] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game: 'HACKED']
-[22:29:15] [User Authenticator #17/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:29:15] [Server thread/INFO]: Firox24[/25.73.67.225:58182] logged in with entity id 31676 at ([world] -8.422825481214659, 52.18989078154327, -4.436013064509637)
-[22:29:15] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
-[22:29:15] [Server thread/INFO]: Firox24 lost connection: HACKED
-[22:29:15] [Server thread/INFO]: Firox24 left the game.
-[22:29:15] [Server thread/INFO]: [Manu069: Kicked Firox24 from the game: 'HACKED']
-[22:29:16] [Server thread/INFO]: Giaco131 issued server command: /kick Manu069 HACKED BY GIACO131
-[22:29:16] [Server thread/INFO]: Manu069 lost connection: HACKED BY GIACO131
-[22:29:16] [Server thread/INFO]: Manu069 left the game.
-[22:29:16] [Server thread/INFO]: [Giaco131: Kicked Manu069 from the game: 'HACKED BY GIACO131']
-[22:29:21] [User Authenticator #18/INFO]: UUID of player Firox24 is de7affce-7725-4cff-8b9f-65106ae34abd
-[22:29:21] [Server thread/INFO]: Firox24[/25.73.67.225:58183] logged in with entity id 31810 at ([world] -8.422825481214659, 52.11149078001739, -4.436013064509637)
-[22:29:24] [User Authenticator #19/INFO]: UUID of player Manu069 is 3d982d1d-b32d-43cf-b4d6-b2d33c80428d
-[22:29:24] [Server thread/INFO]: Manu069[/25.98.107.57:50278] logged in with entity id 31885 at ([world] 6.817446236078043, 49.49057290433054, 27.00946815576832)
-[22:29:25] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
-[22:29:26] [Server thread/INFO]: <Giaco131> GRIFFO[m
-[22:29:26] [Server thread/INFO]: <Giaco131> GRIFFO[m
-[22:29:27] [Server thread/INFO]: <Giaco131> GRIFFO[m
-[22:29:27] [Server thread/INFO]: <Giaco131> GRIFFO[m
-[22:29:27] [Server thread/INFO]: <Giaco131> GRIFFO[m
-[22:29:30] [Server thread/INFO]: <Giaco131> SPACCO TUTTO[m
-[22:29:34] [Server thread/INFO]: <Manu069> Ached[m
-[22:29:38] [Server thread/INFO]: <Firox24> acerr[m
-[22:29:46] [Server thread/INFO]: Giaco131 issued server command: //sphere lava 5
-[22:29:46] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /sphere lava 5 - Position: (-41.0, 54.0, -1.0)
-[22:29:48] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
-[22:29:49] [Server thread/INFO]: Giaco131 issued server command: //drain 100
-[22:29:49] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-41.0, 54.0, -1.0)
-[22:29:57] [Server thread/INFO]: Giaco131 issued server command: //sphere lava 5
-[22:29:57] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /sphere lava 5 - Position: (-3.0, 47.0, 37.0)
-[22:29:58] [Server thread/INFO]: Manu069 tried to swim in lava to escape Firox24
-[22:29:59] [Server thread/INFO]: Firox24 tried to swim in lava to escape Manu069
-[22:29:59] [Server thread/INFO]: Giaco131 issued server command: //drain 100
-[22:29:59] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-3.0, 47.0, 37.0)
-[22:30:04] [Server thread/INFO]: Giaco131 issued server command: //undo
-[22:30:04] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
-[22:30:06] [Server thread/INFO]: Giaco131 issued server command: //undo
-[22:30:06] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /undo
-[22:30:08] [Server thread/INFO]: Giaco131 issued server command: //drain 100
-[22:30:08] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-3.0, 44.0, 37.0)
-[22:30:12] [Server thread/INFO]: Giaco131 issued server command: //drain 100
-[22:30:12] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-7.0, 44.0, 38.0)
-[22:30:15] [Server thread/INFO]: Giaco131 issued server command: //drain 100
-[22:30:15] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /drain 100 - Position: (-3.0, 44.0, 33.0)
-[22:30:24] [Server thread/INFO]: Firox24 was slain by Manu069
-[22:30:28] [Server thread/INFO]: Manu069 was slain by Firox24
-[22:30:29] [Server thread/INFO]: Giaco131 issued server command: /kill Fi
-[22:30:37] [Server thread/INFO]: Giaco131 issued server command: /kill @p
-[22:30:37] [Server thread/INFO]: Giaco131 fell out of the world
-[22:30:37] [Server thread/INFO]: [Giaco131: Killed Giaco131]
-[22:30:41] [Server thread/INFO]: Manu069 issued server command: /kick Firox24 HACKED
-[22:30:48] [Server thread/INFO]: Giaco131 issued server command: /gamemode c Manu069
-[22:30:48] [Server thread/INFO]: [Giaco131: Set Manu069's game mode to Creative Mode]
-[22:31:03] [Server thread/INFO]: Firox24 was slain by Giaco131
-[22:31:06] [Server thread/INFO]: <Giaco131> ez[m
-[22:31:10] [Server thread/INFO]: <Giaco131> nohitchallenge[m
-[22:31:17] [Server thread/INFO]: Firox24 issued server command: /kill Manu069
-[22:31:26] [Server thread/INFO]: Firox24 was slain by Giaco131
-[22:31:40] [Server thread/INFO]: Giaco131 issued server command: /enchant Giaco131 knockback 2
-[22:31:42] [Server thread/INFO]: Manu069 issued server command: /enchant manu069 sharpness 5
-[22:31:55] [Server thread/INFO]: Giaco131 issued server command: /save-all
-[22:31:55] [Server thread/INFO]: [Giaco131: Saved the world]
-[22:31:57] [Server thread/INFO]: Giaco131 issued server command: /stop
-[22:31:57] [Server thread/INFO]: [Giaco131: Stopping the server]
-[22:31:57] [Server thread/INFO]: Stopping server
-[22:31:57] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
-[22:31:57] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[22:31:57] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
-[22:31:57] [Server thread/INFO]: [Multiverse-Core] - Disabled
-[22:31:57] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
-[22:31:57] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
-[22:31:57] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
-[22:31:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.7-SNAPSHOT-4
-[22:31:57] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
-[22:31:57] [Server thread/INFO]: Saving players
-[22:31:57] [Server thread/INFO]: Manu069 lost connection: Server Chiuso Per Adesso
-[22:31:57] [Server thread/INFO]: Manu069 left the game.
-[22:31:57] [Server thread/INFO]: Firox24 lost connection: Server Chiuso Per Adesso
-[22:31:57] [Server thread/INFO]: Firox24 left the game.
-[22:31:57] [Server thread/INFO]: Saving worlds
-[22:31:57] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:46:37] [Server thread/INFO]: Starting minecraft server version 1.8
+[21:46:37] [Server thread/INFO]: Loading properties
+[21:46:37] [Server thread/INFO]: Default game type: SURVIVAL
+[21:46:38] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[21:46:38] [Server thread/INFO]: Debug logging is enabled
+[21:46:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:46:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:46:38] [Server thread/INFO]: Generating keypair
+[21:46:38] [Server thread/INFO]: Starting Minecraft server on 25.65.83.202:25565
+[21:46:38] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:46:38] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[21:46:38] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[21:46:38] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[21:46:38] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[21:46:38] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[21:46:38] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[21:46:38] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[21:46:38] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[21:46:38] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[21:46:38] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[21:46:38] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[21:46:38] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[21:46:38] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[21:46:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:46:38] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[21:46:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:46:38] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[21:46:38] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[21:46:38] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:46:38] [Server thread/INFO]: Preparing level "world"
+[21:46:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:46:38] [Server thread/INFO]: View Distance: 8
+[21:46:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:46:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:46:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:46:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:46:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[21:46:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:46:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:46:38] [Server thread/INFO]: Clear tick list: false
+[21:46:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:46:38] [Server thread/INFO]: Max Entity Collisions: 8
+[21:46:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:46:38] [Server thread/INFO]: Mob Spawn Range: 4
+[21:46:38] [Server thread/INFO]: Anti X-Ray: true
+[21:46:38] [Server thread/INFO]: 	Engine Mode: 1
+[21:46:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:46:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:46:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:46:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:46:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:46:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:46:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:46:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:46:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:46:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:46:38] [Server thread/INFO]: Random Lighting Updates: false
+[21:46:38] [Server thread/INFO]: Structure Info Saving: true
+[21:46:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:46:38] [Server thread/INFO]: Alternative Hopper Ticking: false
+[21:46:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:46:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:46:38] [Server thread/INFO]: Max TNT Explosions: 100
+[21:46:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:46:38] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1836310568572768058)
+[21:46:38] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[21:46:38] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[21:46:38] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:46:38] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[21:46:38] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[21:46:38] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[21:46:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[21:46:39] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[21:46:39] [Server thread/INFO]: [m
+[21:46:39] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:46:39] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[21:46:39] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:46:39] [Server thread/INFO]: [m
+[21:46:39] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[21:46:39] [Server thread/INFO]: [0;32;1m    The latest version![m
+[21:46:39] [Server thread/INFO]: [m
+[21:46:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[21:46:39] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[21:46:39] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[21:46:39] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[21:46:39] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[21:46:39] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[21:46:39] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[21:46:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[21:46:39] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[21:46:39] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[21:46:39] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[21:46:39] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[21:46:39] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[21:46:39] [Thread-8/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[21:46:39] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:46:39] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:46:39] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[21:46:39] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:46:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:46:39] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:46:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[21:46:40] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[21:46:40] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[21:46:40] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[21:46:40] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[21:46:40] [Server thread/INFO]: Using locale it_IT
+[21:46:40] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[21:46:40] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[21:46:40] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[21:46:40] [Server thread/INFO]: Using locale it_IT
+[21:46:40] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[21:46:40] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[21:46:40] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[21:46:40] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:46:40] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[21:46:40] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:46:40] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[21:46:40] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:46:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:46:40] [Server thread/INFO]: Done (1,727s)! For help, type "help" or "?"
+[21:46:40] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[21:46:40] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[21:46:48] [Netty Server IO #1/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@2bc2384d to net.minecraft.server.v1_8_R1.HandshakeListener@33f66fc3
+[21:46:48] [Netty Server IO #1/DEBUG]: Enabled auto read
+[21:46:48] [Netty Server IO #1/DEBUG]: Enabled auto read
+[21:46:48] [Netty Server IO #1/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@2bc2384d to net.minecraft.server.v1_8_R1.LoginListener@49be05bd
+[21:46:49] [User Authenticator #1/DEBUG]: Opening connection to https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=7baa94b2a70d9cc4051f9a3591198442b0f0cce4&username=Giaco131
+[21:46:49] [User Authenticator #1/DEBUG]: Reading data from https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=7baa94b2a70d9cc4051f9a3591198442b0f0cce4&username=Giaco131
+[21:46:49] [User Authenticator #1/DEBUG]: Successful read, server response was 200
+[21:46:49] [User Authenticator #1/DEBUG]: Response: {"id":"1fe33bf039084150bbfaf0b1b2861a28","name":"Giaco131","properties":[{"signature":"noPq/W58fYoR3RcegAxAf8sHGEaj7oad4RUbW+EnHJ4E+uQlrP5jHQenTQ9+v/8OqtvwQa243e5uMeq13lRvDqGKtJl1KAp5Gm0t3y+urwhJxP7jnP2l62Ifa9P7X3wTxSQOhIgjiJVuBzY5NOTmwIoVbHgzIr/BcRGTXGNyXKUrFQc+vd8PS1jiSypUOe5RqEPjb82K5T/gzxh4tkbk+h867XESkBlKe4W1SLzqh4WVcZvayTsLBx0zyqyUH7MqvNPnWoiBIOwlVMgZOPltBs2hNspojdMgVsefWRV8YoE5rYKBV1B9LwWfRYWDw7uwk285n0ycLj5SpYASRVYV/KSYGK5lmeq1klJyFf8yap1XW60oiLye5FRIqNQLL5Yx6s/ULLIvbxD5iNzjM7bx6T0wIIqvL8csxvK8xYul2wnMeWVPHOeqyoFN4JfD4v6+1KGuNstyxd66Xc/YW+B5uY1aJsRjV9J9Djuh/0SppuBTY3p1ff7MicdFbU5AoTMIP17rmvKawqfOecqkMowjYhYKjaqvV0RpGzXzthCYJi2HlZWvyF1nEiKg9Jdbj1B0g0Y3Ttg/HjGMfG6+XyF/2Es7MX1BK70NPl/ju+HIDH7Qa2JzHphy4fmD4XpkHBEfw50BxdKrCw8nuwmL1L6QPyWJmFD0NUS+O7ntxJsJixM=","name":"textures","value":"eyJ0aW1lc3RhbXAiOjE0NzYwNDI0MTA0MjAsInByb2ZpbGVJZCI6IjFmZTMzYmYwMzkwODQxNTBiYmZhZjBiMWIyODYxYTI4IiwicHJvZmlsZU5hbWUiOiJHaWFjbzEzMSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kODdjMjgzMmNkYzFhZmZmZTQ1M2ZhYjdmZjhiNzZiYzdiNTFkZTQ2OWIzMTMyNDFjMDdmODdjNmZmZGQ5NCJ9fX0="}]}
+[21:46:49] [User Authenticator #1/INFO]: UUID of player Giaco131 is 1fe33bf0-3908-4150-bbfa-f0b1b2861a28
+[21:46:49] [Server thread/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@2bc2384d to net.minecraft.server.v1_8_R1.PlayerConnection@8068e24
+[21:46:49] [Server thread/DEBUG]: Disabled auto read
+[21:46:49] [Netty Server IO #1/DEBUG]: Enabled auto read
+[21:46:49] [Server thread/INFO]: Giaco131[/25.65.83.202:61573] logged in with entity id 0 at ([world] -16.51895950218892, 44.0, -11.049622488613556)
+[21:46:50] [Server thread/INFO]: [0;37;22m[3m[0;37;22m[[0;31;22m[21mC[0;31;1mFounder[0;37;22m][0;32;22m[21mGiaco131[m si e' unito a noi![m
+[21:47:24] [Server thread/INFO]: Giaco131 issued server command: /nick &b&lG&f&liaco
+[21:51:03] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:51:03] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[21:51:08] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;31;1mFounder[0;37;22m][0;37;1m[21m[0;36;1m[21mG[0;37;1m[21miaco[m[0;33;22m[3m >>[0;33;1m[3m[21m hbqwwqe[m
+[21:51:12] [Server thread/INFO]: Giaco131 issued server command: /nick Giaco131 off
+[21:51:15] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;31;1mFounder[0;37;22m][0;37;1m[21mGiaco131[m[0;33;22m[3m >>[0;33;1m[3m[21m swduivwqe[m
+[21:51:33] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;31;1mFounder[0;37;22m][0;37;1m[21mGiaco131[m[0;33;22m[3m >>[0;33;1m[3m[21m pex reload[m
+[21:51:37] [Server thread/INFO]: Giaco131 issued server command: /pex reload
+[21:51:37] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:51:39] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;31;1mFounder[0;37;22m][0;37;1mGiaco131[m[0;33;22m[3m >>[0;33;1m[3m[21m 3werds[m
+[21:51:48] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;31;1mFounder[0;37;22m][0;37;1mGiaco131[m[0;33;22m[3m >>[0;33;1m[3m[21m dew[m
+[21:51:55] [Server thread/INFO]: Giaco131 issued server command: /pex user Giaco131 group set utente
+[21:51:56] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;34;1mUtente[0;37;22m][0;37;1mGiaco131[m > hehw[m
+[21:52:55] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[21:52:55] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[21:52:55] [Server thread/INFO]: Debug logging is enabled
+[21:52:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:52:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:52:55] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:52:55] [Server thread/INFO]: View Distance: 8
+[21:52:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:52:55] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:52:55] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:52:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:52:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[21:52:55] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:52:55] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:52:55] [Server thread/INFO]: Clear tick list: false
+[21:52:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:52:55] [Server thread/INFO]: Max Entity Collisions: 8
+[21:52:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:52:55] [Server thread/INFO]: Mob Spawn Range: 4
+[21:52:55] [Server thread/INFO]: Anti X-Ray: true
+[21:52:55] [Server thread/INFO]: 	Engine Mode: 1
+[21:52:55] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:52:55] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:52:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:52:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:52:55] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:52:55] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:52:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:52:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:52:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:52:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:52:55] [Server thread/INFO]: Random Lighting Updates: false
+[21:52:55] [Server thread/INFO]: Structure Info Saving: true
+[21:52:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:52:55] [Server thread/INFO]: Alternative Hopper Ticking: false
+[21:52:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:52:55] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:52:55] [Server thread/INFO]: Max TNT Explosions: 100
+[21:52:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:52:55] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[21:52:55] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[21:52:55] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[21:52:55] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[21:52:55] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[21:52:55] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[21:52:55] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[21:52:55] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[21:52:55] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[21:52:55] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[21:52:55] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[21:52:55] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[21:52:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[21:52:55] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[21:52:55] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[21:52:55] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[21:52:56] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[21:52:56] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[21:52:56] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[21:52:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[21:52:56] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[21:52:56] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[21:52:56] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[21:52:56] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[21:52:56] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[21:52:56] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[21:52:56] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[21:52:56] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[21:52:56] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[21:52:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:52:56] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[21:52:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:52:56] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[21:52:56] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[21:52:56] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[21:52:56] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[21:52:56] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:52:56] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[21:52:56] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[21:52:56] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[21:52:56] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[21:52:56] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[21:52:56] [Server thread/INFO]: [m
+[21:52:56] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:52:56] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[21:52:56] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:52:56] [Server thread/INFO]: [m
+[21:52:56] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[21:52:56] [Server thread/INFO]: [0;32;1m    The latest version![m
+[21:52:56] [Server thread/INFO]: [m
+[21:52:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[21:52:56] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[21:52:56] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[21:52:56] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[21:52:56] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[21:52:56] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[21:52:56] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[21:52:56] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[21:52:56] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[21:52:56] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[21:52:56] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[21:52:56] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[21:52:56] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[21:52:56] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:52:56] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:52:56] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[21:52:56] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:52:56] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:52:56] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:52:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[21:52:56] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[21:52:56] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[21:52:56] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[21:52:56] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[21:52:56] [Server thread/INFO]: Using locale it_IT
+[21:52:56] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[21:52:56] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[21:52:56] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[21:52:56] [Server thread/INFO]: Using locale it_IT
+[21:52:56] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[21:52:56] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[21:52:56] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[21:52:56] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:52:56] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[21:52:56] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:52:56] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[21:52:56] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:52:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:52:56] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[21:52:57] [Craft Scheduler Thread - 16/INFO]: [Vault] Checking for Updates ... 
+[21:52:58] [Thread-12/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[21:52:58] [Craft Scheduler Thread - 16/INFO]: [Vault] No new version available
+[21:53:01] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;34;1mUtente[0;37;22m][3mGiaco131[m > [4mporco dio[m
+[21:53:28] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:53:28] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[21:53:31] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;34;1mUtente[0;37;22m][3mGiaco131[m > [4mhdpowq[m
+[21:53:35] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[21:53:35] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[21:53:35] [Server thread/INFO]: Debug logging is enabled
+[21:53:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:53:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:53:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:53:35] [Server thread/INFO]: View Distance: 8
+[21:53:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:53:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:53:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:53:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:53:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[21:53:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:53:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:53:35] [Server thread/INFO]: Clear tick list: false
+[21:53:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:53:35] [Server thread/INFO]: Max Entity Collisions: 8
+[21:53:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:53:35] [Server thread/INFO]: Mob Spawn Range: 4
+[21:53:35] [Server thread/INFO]: Anti X-Ray: true
+[21:53:35] [Server thread/INFO]: 	Engine Mode: 1
+[21:53:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:53:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:53:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:53:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:53:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:53:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:53:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:53:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:53:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:53:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:53:35] [Server thread/INFO]: Random Lighting Updates: false
+[21:53:35] [Server thread/INFO]: Structure Info Saving: true
+[21:53:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:53:35] [Server thread/INFO]: Alternative Hopper Ticking: false
+[21:53:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:53:35] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:53:35] [Server thread/INFO]: Max TNT Explosions: 100
+[21:53:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:53:35] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[21:53:35] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[21:53:35] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[21:53:35] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[21:53:35] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[21:53:35] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[21:53:35] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[21:53:35] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[21:53:35] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[21:53:35] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[21:53:35] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[21:53:35] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[21:53:35] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[21:53:35] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[21:53:35] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[21:53:35] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[21:53:36] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[21:53:36] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[21:53:36] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[21:53:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[21:53:36] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[21:53:36] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[21:53:36] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[21:53:36] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[21:53:36] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[21:53:36] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[21:53:36] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[21:53:36] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[21:53:36] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[21:53:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:53:36] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[21:53:36] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:53:36] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[21:53:36] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[21:53:36] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[21:53:36] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[21:53:36] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:53:36] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[21:53:36] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[21:53:36] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[21:53:36] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[21:53:36] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[21:53:36] [Server thread/INFO]: [m
+[21:53:36] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:53:36] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[21:53:36] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:53:36] [Server thread/INFO]: [m
+[21:53:36] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[21:53:36] [Server thread/INFO]: [0;32;1m    The latest version![m
+[21:53:36] [Server thread/INFO]: [m
+[21:53:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[21:53:36] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[21:53:36] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[21:53:36] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[21:53:36] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[21:53:36] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[21:53:36] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[21:53:36] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[21:53:36] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[21:53:36] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[21:53:36] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[21:53:36] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[21:53:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[21:53:36] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:53:36] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:53:36] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[21:53:36] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:53:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:53:36] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:53:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[21:53:36] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[21:53:36] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[21:53:36] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[21:53:36] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[21:53:36] [Server thread/INFO]: Using locale it_IT
+[21:53:36] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[21:53:36] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[21:53:36] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[21:53:36] [Server thread/INFO]: Using locale it_IT
+[21:53:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[21:53:36] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[21:53:36] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[21:53:36] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:53:36] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[21:53:36] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:53:36] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[21:53:36] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:53:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:53:36] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[21:53:36] [Craft Scheduler Thread - 10/INFO]: [Vault] Checking for Updates ... 
+[21:53:36] [Thread-16/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[21:53:37] [Craft Scheduler Thread - 10/INFO]: [Vault] No new version available
+[21:53:40] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;34;1mUtente[0;37;22m][3mGiaco131[m[0;37;22m[3m > [4mdsah[m
+[21:53:57] [Server thread/INFO]: [0;37;1mUser groups set![m
+[21:54:00] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;31;1mFounder[0;37;22m][0;37;1mGiaco131[m[0;33;22m[3m >>[0;33;1m[3m[21m[4m rewh[m
+[21:54:04] [Server thread/INFO]: Giaco131 issued server command: /feed
+[21:54:38] [Server thread/INFO]: Giaco131 issued server command: /pex reload
+[21:54:38] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:54:38] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mC[0;31;1mF[0;37;22m][0;37;1mGiaco131[m[0;33;22m[3m >>[0;33;1m[3m[21m[4m hoiedwh[m
+[21:55:15] [Server thread/INFO]: Giaco131 issued server command: /pex reload
+[21:55:15] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:55:16] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mGiaco131[m[0;33;22m[3m >>[0;33;1m[3m[21m[4m f[m
+[21:55:24] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mGiaco131[m[0;33;22m[3m >>[0;33;1m[3m[21m[4m gw8qgewq[m
+[21:55:44] [Server thread/INFO]: Giaco131 issued server command: /nick &e&lG&f&liaco
+[21:55:49] [Server thread/INFO]: Giaco131 issued server command: /nick &6&lG&f&liaco
+[21:56:19] [Server thread/INFO]: Giaco131 issued server command: /pex user Giaco131 group set utente
+[21:56:20] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mU[0;37;22m][3m[0;33;22m[21mG[0;37;1m[21miaco[m[0;37;22m[3m > [4mgwhqdqeoi[m
+[21:56:30] [Server thread/INFO]: CONSOLE issued server command: /nick Giaco131 off
+[21:56:30] [Server thread/INFO]: [0;33;22mNickname modificato.[m
+[21:56:32] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mU[0;37;22m][3mGiaco131[m[0;37;22m[3m > [4mgdwqef[m
+[21:57:01] [Server thread/INFO]: Comando sconosciuto[m
+[21:57:03] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[21:57:03] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[21:57:03] [Server thread/INFO]: Debug logging is enabled
+[21:57:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:57:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:57:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:57:03] [Server thread/INFO]: View Distance: 8
+[21:57:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:57:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:57:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:57:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:57:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[21:57:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:57:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:57:03] [Server thread/INFO]: Clear tick list: false
+[21:57:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:57:03] [Server thread/INFO]: Max Entity Collisions: 8
+[21:57:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:57:03] [Server thread/INFO]: Mob Spawn Range: 4
+[21:57:03] [Server thread/INFO]: Anti X-Ray: true
+[21:57:03] [Server thread/INFO]: 	Engine Mode: 1
+[21:57:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:57:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:57:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:57:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:57:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:57:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:57:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:57:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:57:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:57:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:57:03] [Server thread/INFO]: Random Lighting Updates: false
+[21:57:03] [Server thread/INFO]: Structure Info Saving: true
+[21:57:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:57:03] [Server thread/INFO]: Alternative Hopper Ticking: false
+[21:57:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:57:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:57:03] [Server thread/INFO]: Max TNT Explosions: 100
+[21:57:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:57:03] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[21:57:03] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[21:57:03] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[21:57:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[21:57:03] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[21:57:03] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[21:57:03] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[21:57:03] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[21:57:03] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[21:57:03] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[21:57:03] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[21:57:03] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[21:57:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[21:57:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[21:57:03] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[21:57:03] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[21:57:04] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[21:57:04] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[21:57:04] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[21:57:04] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[21:57:04] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[21:57:04] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[21:57:04] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[21:57:04] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[21:57:04] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[21:57:04] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[21:57:04] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[21:57:04] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[21:57:04] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[21:57:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:57:04] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[21:57:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:57:04] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[21:57:04] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[21:57:04] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[21:57:04] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[21:57:04] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:57:04] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[21:57:04] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[21:57:04] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[21:57:04] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[21:57:04] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[21:57:05] [Thread-20/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[21:57:05] [Server thread/INFO]: [m
+[21:57:05] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:57:05] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[21:57:05] [Server thread/INFO]: [0;32;1m    +===============+[m
+[21:57:05] [Server thread/INFO]: [m
+[21:57:05] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[21:57:05] [Server thread/INFO]: [0;32;1m    The latest version![m
+[21:57:05] [Server thread/INFO]: [m
+[21:57:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[21:57:05] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[21:57:05] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[21:57:05] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[21:57:05] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[21:57:05] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[21:57:05] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[21:57:05] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[21:57:05] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[21:57:05] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[21:57:05] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[21:57:05] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[21:57:05] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[21:57:05] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:57:05] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:57:05] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[21:57:05] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:57:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:57:05] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:57:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[21:57:05] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[21:57:05] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[21:57:05] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[21:57:05] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[21:57:05] [Server thread/INFO]: Using locale it_IT
+[21:57:05] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[21:57:05] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[21:57:05] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[21:57:05] [Server thread/INFO]: Using locale it_IT
+[21:57:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[21:57:05] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[21:57:05] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[21:57:05] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:57:05] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[21:57:05] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:57:05] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[21:57:05] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[21:57:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:57:05] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[21:57:05] [Craft Scheduler Thread - 27/INFO]: [Vault] Checking for Updates ... 
+[21:57:06] [Craft Scheduler Thread - 27/INFO]: [Vault] No new version available
+[21:57:07] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mU[0;37;22m][0;37;1m[3mGiaco131[m[0;37;22m[3m > hwqeohew[m
+[21:57:54] [Server thread/INFO]: Giaco131 issued server command: /deop G
+[21:58:14] [Server thread/INFO]: CONSOLE issued server command: /gamemode c
+[21:58:14] [Server thread/INFO]: Change player gamemode.[m
+[21:58:14] [Server thread/INFO]: /gamemode <survival|creative|adventure|spectator> [player][m
+[21:58:28] [Server thread/INFO]: CONSOLE issued server command: /gmc Giaco131
+[21:58:28] [Server thread/INFO]: [0;33;22mModalità di gioco impostata a[0;31;1m creativa [0;33;22mper [0;31;1m[0;37;22m[[0;34;1m[21mU[0;37;22m][0;37;1m[3mGiaco131[m[0;33;22m.[m
+[21:58:55] [Server thread/INFO]: Giaco131 issued server command: //wand
+[21:58:59] [Server thread/INFO]: CONSOLE issued server command: /gamemode s Giaco131
+[21:58:59] [Server thread/INFO]: [0;33;22mModalità di gioco impostata a[0;31;1m sopravvivenza [0;33;22mper [0;31;1m[0;37;22m[[0;34;1m[21mU[0;37;22m][0;37;1m[3mGiaco131[m[0;33;22m.[m
+[21:59:05] [Server thread/INFO]: Giaco131 fell out of the world
+[21:59:12] [Server thread/INFO]: [0;37;1mUser groups set![m
+[21:59:19] [Server thread/INFO]: Giaco131 issued server command: /c
+[21:59:25] [Server thread/INFO]: CONSOLE issued server command: /gamemode c
+[21:59:25] [Server thread/INFO]: Change player gamemode.[m
+[21:59:25] [Server thread/INFO]: /gamemode <survival|creative|adventure|spectator> [player][m
+[21:59:41] [Server thread/INFO]: Giaco131 issued server command: /setspawn
+[21:59:46] [Server thread/INFO]: Giaco131 issued server command: /setspawn @a
+[21:59:51] [Server thread/INFO]: Giaco131 issued server command: /delspawn @a
+[21:59:59] [Server thread/INFO]: Giaco131 issued server command: /setspawn
+[22:00:04] [Server thread/INFO]: Giaco131 issued server command: /kill
+[22:00:07] [Server thread/INFO]: Giaco131 issued server command: /suicide
+[22:00:07] [Server thread/INFO]: Giaco131 died
+[22:00:18] [Server thread/INFO]: Giaco131 issued server command: /nick &6G&fiaco
+[22:00:37] [Server thread/INFO]: Giaco131 issued server command: /kit
+[22:05:02] [Server thread/INFO]: Giaco131 issued server command: /enchant
+[22:07:31] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:07:36] [Server thread/INFO]: Giaco131 issued server command: /essentials reload
+[22:07:36] [Server thread/INFO]: Using locale it_IT
+[22:07:43] [Server thread/INFO]: Giaco131 issued server command: /kit utente
+[22:07:55] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:08:03] [Server thread/INFO]: Giaco131 issued server command: /pex user Giaco131 group set utente
+[22:08:06] [Server thread/INFO]: Giaco131 issued server command: /kit
+[22:08:06] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:08:08] [Server thread/INFO]: Giaco131 issued server command: /kit
+[22:08:08] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:08:12] [Server thread/INFO]: Giaco131 issued server command: /kit utente
+[22:08:12] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:08:50] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[22:08:50] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[22:08:50] [Server thread/INFO]: Debug logging is enabled
+[22:08:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:08:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:08:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:08:50] [Server thread/INFO]: View Distance: 8
+[22:08:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:08:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:08:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:08:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:08:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[22:08:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:08:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:08:50] [Server thread/INFO]: Clear tick list: false
+[22:08:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:08:50] [Server thread/INFO]: Max Entity Collisions: 8
+[22:08:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:08:50] [Server thread/INFO]: Mob Spawn Range: 4
+[22:08:50] [Server thread/INFO]: Anti X-Ray: true
+[22:08:50] [Server thread/INFO]: 	Engine Mode: 1
+[22:08:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:08:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:08:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:08:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:08:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:08:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:08:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:08:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:08:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:08:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:08:50] [Server thread/INFO]: Random Lighting Updates: false
+[22:08:50] [Server thread/INFO]: Structure Info Saving: true
+[22:08:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:08:50] [Server thread/INFO]: Alternative Hopper Ticking: false
+[22:08:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:08:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:08:50] [Server thread/INFO]: Max TNT Explosions: 100
+[22:08:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:08:50] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[22:08:50] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[22:08:50] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[22:08:50] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[22:08:50] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[22:08:50] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[22:08:50] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:08:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[22:08:50] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[22:08:50] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[22:08:50] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[22:08:50] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[22:08:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[22:08:50] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[22:08:50] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[22:08:50] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:08:50] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[22:08:50] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[22:08:50] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[22:08:50] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[22:08:50] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[22:08:50] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:08:50] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[22:08:50] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[22:08:50] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[22:08:50] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[22:08:50] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[22:08:50] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[22:08:50] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:08:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:08:50] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[22:08:50] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:08:50] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[22:08:50] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:08:50] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[22:08:50] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[22:08:50] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:08:50] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[22:08:50] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[22:08:50] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[22:08:50] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[22:08:50] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[22:08:51] [Server thread/INFO]: [m
+[22:08:51] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:08:51] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[22:08:51] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:08:51] [Server thread/INFO]: [m
+[22:08:51] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[22:08:51] [Server thread/INFO]: [0;32;1m    The latest version![m
+[22:08:51] [Server thread/INFO]: [m
+[22:08:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[22:08:51] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[22:08:51] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[22:08:51] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[22:08:51] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[22:08:51] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[22:08:51] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[22:08:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[22:08:51] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[22:08:51] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[22:08:51] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[22:08:51] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[22:08:51] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[22:08:51] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:08:51] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:08:51] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[22:08:51] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:08:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:08:51] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:08:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[22:08:51] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[22:08:51] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[22:08:51] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[22:08:51] [Thread-24/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[22:08:51] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[22:08:51] [Server thread/INFO]: Using locale it_IT
+[22:08:51] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[22:08:51] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[22:08:51] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[22:08:51] [Server thread/INFO]: Using locale it_IT
+[22:08:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[22:08:51] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[22:08:51] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[22:08:51] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:08:51] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[22:08:51] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:08:51] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[22:08:51] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:08:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:08:51] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[22:08:51] [Craft Scheduler Thread - 35/INFO]: [Vault] Checking for Updates ... 
+[22:08:52] [Craft Scheduler Thread - 35/INFO]: [Vault] No new version available
+[22:08:55] [Server thread/INFO]: Giaco131 issued server command: /kit
+[22:08:55] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:08:57] [Server thread/INFO]: Giaco131 issued server command: /kit utente
+[22:08:57] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:09:19] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:09:19] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:09:22] [Server thread/INFO]: Giaco131 issued server command: /kit
+[22:09:22] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:09:58] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:09:58] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:10:01] [Server thread/INFO]: Giaco131 issued server command: /kit
+[22:10:06] [Server thread/INFO]: Giaco131 issued server command: /kit utente
+[22:10:40] [Server thread/INFO]: CONSOLE issued server command: /give Giaco131 obsidian
+[22:10:40] [Server thread/INFO]: [0;33;22mSto dando[0;31;1m 64 [0;31;1m obsidian a[0;31;1m [0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m.[m
+[22:10:54] [Server thread/INFO]: CONSOLE issued server command: /ci Giaco131
+[22:10:54] [Server thread/INFO]: [0;33;22mCancellati tutti gli oggetti nell'inventario di [0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m.[m
+[22:10:57] [Server thread/INFO]: CONSOLE issued server command: /kit utente Giaco131
+[22:10:57] [Server thread/INFO]: [0;33;22mKit[0;31;1m utente[0;33;22m dato a [0;31;1m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m.[m
+[22:11:12] [Server thread/INFO]: CONSOLE issued server command: /kit utente Giaco131
+[22:11:12] [Server thread/INFO]: [0;33;22mKit[0;31;1m utente[0;33;22m dato a [0;31;1m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m.[m
+[22:11:23] [Server thread/INFO]: CONSOLE issued server command: /ci Giaco131
+[22:11:23] [Server thread/INFO]: [0;33;22mCancellati tutti gli oggetti nell'inventario di [0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m.[m
+[22:11:32] [Server thread/INFO]: [0;37;1mUser groups set![m
+[22:11:36] [Server thread/INFO]: Giaco131 issued server command: /v /v
+[22:11:39] [Server thread/INFO]: Giaco131 issued server command: /v
+[22:11:45] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:11:49] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:11:55] [Server thread/INFO]: Giaco131 issued server command: /give Giaco131 276
+[22:13:42] [Server thread/INFO]: Giaco131 issued server command: /c
+[22:16:10] [Server thread/INFO]: Giaco131 issued server command: //wand
+[22:16:10] [Server thread/INFO]: WorldEdit: Giaco131 (in "world"): /wand
+[22:16:17] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:16:19] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:16:21] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:16:23] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:16:26] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:16:28] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:16:30] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:16:36] [Server thread/INFO]: Giaco131 issued server command: /save-all
+[22:16:36] [Server thread/INFO]: [Giaco131: Saved the world]
+[22:17:00] [Server thread/INFO]: Giaco131 issued server command: /save-all
+[22:17:00] [Server thread/INFO]: [Giaco131: Saved the world]
+[22:17:02] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:17:04] [Server thread/INFO]: Giaco131 issued server command: //set 36
+[22:17:05] [Server thread/INFO]: Giaco131 issued server command: /save-all
+[22:17:05] [Server thread/INFO]: [Giaco131: Saved the world]
+[22:17:40] [Server thread/INFO]: Giaco131 issued server command: /pl
+[22:18:00] [Server thread/INFO]: Giaco131 issued server command: /v
+[22:18:06] [Server thread/INFO]: Giaco131 issued server command: /pex user Giaco131 group set utente
+[22:18:11] [Server thread/INFO]: CONSOLE issued server command: /gms Giaco131
+[22:18:11] [Server thread/INFO]: [0;33;22mModalità di gioco impostata a[0;31;1m sopravvivenza [0;33;22mper [0;31;1m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m.[m
+[22:18:20] [Server thread/INFO]: Giaco131 issued server command: /spawn
+[22:18:23] [Server thread/INFO]: Giaco131 issued server command: /warp
+[22:18:23] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:18:34] [Server thread/INFO]: Giaco131 issued server command: /kit
+[22:18:38] [Server thread/INFO]: Giaco131 issued server command: /kit utente
+[22:18:49] [Server thread/INFO]: Giaco131 issued server command: /ciw
+[22:18:50] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:18:50] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:18:54] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:18:57] [Server thread/INFO]: Giaco131 issued server command: /?
+[22:19:04] [Server thread/INFO]: Giaco131 issued server command: /eco
+[22:19:33] [Server thread/INFO]: CONSOLE issued server command: /essentials reload
+[22:19:33] [Server thread/INFO]: Using locale it_IT
+[22:19:33] [Server thread/INFO]: [0;33;22mEssentials ricaricato[0;31;1m 2.0.1-b370.[m
+[22:19:36] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:19:36] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:20:35] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:20:35] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:20:38] [Server thread/INFO]: Giaco131 issued server command: /warp
+[22:20:54] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:20:54] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:20:58] [Server thread/INFO]: Giaco131 issued server command: /warp
+[22:21:08] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:21:08] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:21:12] [Server thread/INFO]: Giaco131 issued server command: /warp
+[22:21:12] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:21:18] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:21:18] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:22:17] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:22:17] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:22:20] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:22:23] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:22:28] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mU[0;37;22m][0;37;1m[3m[0;33;22mG[0;37;1miaco[m[0;37;22m[3m > hwdqpo[m
+[22:22:33] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:22:49] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:22:49] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:24:13] [Server thread/INFO]: [0;31;1mThese commands are only for players[m
+[22:24:17] [Server thread/INFO]: Plugins (12): [0;32;1mPermissionsEx[0;37;1m, [0;32;1mAutoMessage[0;37;1m, [0;32;1mSkinsRestorer[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mPingPlayer[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mMultiverse-Core[0;37;1m, [0;32;1mWorldGuard[0;37;1m, [0;32;1mEssentials[0;37;1m, [0;32;1mEssentialsSpawn[0;37;1m, [0;32;1mEssentialsChat[0;37;1m, [0;32;1mEssentialsProtect[m
+[22:24:20] [Server thread/INFO]: Comando sconosciuto[m
+[22:24:22] [Server thread/INFO]: [0;32;1m[9m-------------[m[0;30;1m[ [0;34;1mSkinsRestorer Admin [0;30;1m][0;32;1m[9m-------------[m
+ [0;34;1m/skinsrestorer set <player> <skin name> [0;34;1m-[0;32;1m Sets Player's skin.
+[0;34;1m/skinsrestorer drop <player> [0;34;1m-[0;32;1m Drops player skin data.
+ [0;34;1m/skinsrestorer debug [0;34;1m- [0;32;1mCreates a debug.txt file for reporting issues
+ [0;34;1m/skinsrestorer reload [0;34;1m- [0;32;1mReloads the config and locale
+ [0;34;1m/skinsrestorer reloadskins [0;34;1m- [0;32;1mReloads the skins menu
+ [0;34;1m/skinsrestorer props [player] [0;34;1m- [0;32;1mReloads the config and locale[m
+[22:24:48] [Server thread/INFO]: [0;37;1mUser groups set![m
+[22:24:56] [Server thread/INFO]: Giaco131 issued server command: /skin set Alessio26Gas
+[22:25:06] [Server thread/INFO]: Giaco131 issued server command: /skin Alessio26GAs
+[22:25:07] [Server thread/WARN]: Giaco131 moved too quickly! 64.16602533464301,20.0,-4.963936813698757 (64.16602533464301, 20.0, 4.963936813698757)
+[22:25:24] [Server thread/INFO]: [0;31;1mThese commands are only for players[m
+[22:32:53] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:32:53] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:32:57] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:33:09] [Server thread/INFO]: Giaco131 issued server command: /help 2
+[22:33:13] [Server thread/INFO]: Giaco131 issued server command: /help 3
+[22:33:15] [Server thread/INFO]: Giaco131 issued server command: /help 4
+[22:33:18] [Server thread/INFO]: Giaco131 issued server command: /help 5
+[22:34:09] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:34:09] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:34:12] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:35:05] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[22:35:05] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[22:35:05] [Server thread/INFO]: Debug logging is enabled
+[22:35:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:35:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:35:05] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:35:05] [Server thread/INFO]: View Distance: 8
+[22:35:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:35:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:35:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:35:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:35:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[22:35:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:35:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:35:05] [Server thread/INFO]: Clear tick list: false
+[22:35:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:35:05] [Server thread/INFO]: Max Entity Collisions: 8
+[22:35:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:35:05] [Server thread/INFO]: Mob Spawn Range: 4
+[22:35:05] [Server thread/INFO]: Anti X-Ray: true
+[22:35:05] [Server thread/INFO]: 	Engine Mode: 1
+[22:35:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:35:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:35:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:35:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:35:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:35:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:35:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:35:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:35:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:35:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:35:05] [Server thread/INFO]: Random Lighting Updates: false
+[22:35:05] [Server thread/INFO]: Structure Info Saving: true
+[22:35:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:35:05] [Server thread/INFO]: Alternative Hopper Ticking: false
+[22:35:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:35:05] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:35:05] [Server thread/INFO]: Max TNT Explosions: 100
+[22:35:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:35:05] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[22:35:05] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[22:35:05] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[22:35:05] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[22:35:05] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[22:35:05] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[22:35:05] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:35:05] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[22:35:05] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[22:35:05] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[22:35:05] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[22:35:05] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[22:35:05] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[22:35:05] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[22:35:05] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[22:35:05] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:35:05] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[22:35:05] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[22:35:05] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[22:35:05] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[22:35:05] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[22:35:05] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:35:05] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[22:35:05] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[22:35:05] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[22:35:05] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[22:35:05] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[22:35:05] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[22:35:05] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:35:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:35:05] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[22:35:05] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:35:05] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[22:35:06] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:35:06] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[22:35:06] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[22:35:06] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:35:06] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[22:35:06] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[22:35:06] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[22:35:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[22:35:06] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[22:35:06] [Server thread/INFO]: [m
+[22:35:06] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:35:06] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[22:35:06] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:35:06] [Server thread/INFO]: [m
+[22:35:06] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[22:35:06] [Server thread/INFO]: [0;32;1m    The latest version![m
+[22:35:06] [Server thread/INFO]: [m
+[22:35:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[22:35:06] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[22:35:06] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[22:35:06] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[22:35:06] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[22:35:06] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[22:35:06] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[22:35:06] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[22:35:06] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[22:35:06] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[22:35:06] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[22:35:06] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[22:35:06] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[22:35:06] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:35:06] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:35:06] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[22:35:06] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:35:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:35:06] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:35:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[22:35:06] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[22:35:06] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[22:35:06] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[22:35:06] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[22:35:06] [Server thread/INFO]: Using locale it_IT
+[22:35:06] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[22:35:06] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[22:35:06] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[22:35:06] [Server thread/INFO]: Using locale it_IT
+[22:35:06] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[22:35:06] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[22:35:06] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[22:35:06] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:35:06] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[22:35:06] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:35:06] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[22:35:06] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:35:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:35:06] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[22:35:06] [Craft Scheduler Thread - 52/INFO]: [Vault] Checking for Updates ... 
+[22:35:06] [Thread-28/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[22:35:07] [Craft Scheduler Thread - 52/INFO]: [Vault] No new version available
+[22:35:10] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:35:13] [Server thread/INFO]: Giaco131 issued server command: /?
+[22:35:16] [Server thread/INFO]: Giaco131 issued server command: /?
+[22:35:17] [Server thread/INFO]: Giaco131 issued server command: /pl
+[22:35:26] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m[3m >>[0;33;1m[3m[21m[4m g[m
+[22:35:53] [Server thread/INFO]: [0;37;1mUser groups set![m
+[22:37:10] [Server thread/INFO]: Comando sconosciuto[m
+[22:37:12] [Server thread/INFO]: Plugins (12): [0;32;1mPermissionsEx[0;37;1m, [0;32;1mAutoMessage[0;37;1m, [0;32;1mSkinsRestorer[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mPingPlayer[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mMultiverse-Core[0;37;1m, [0;32;1mWorldGuard[0;37;1m, [0;32;1mEssentials[0;37;1m, [0;32;1mEssentialsSpawn[0;37;1m, [0;32;1mEssentialsChat[0;37;1m, [0;32;1mEssentialsProtect[m
+[22:37:59] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[22:37:59] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[22:37:59] [Server thread/INFO]: Debug logging is enabled
+[22:37:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:37:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:37:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:37:59] [Server thread/INFO]: View Distance: 8
+[22:37:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:37:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:37:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:37:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:37:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[22:37:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:37:59] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:37:59] [Server thread/INFO]: Clear tick list: false
+[22:37:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:37:59] [Server thread/INFO]: Max Entity Collisions: 8
+[22:37:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:37:59] [Server thread/INFO]: Mob Spawn Range: 4
+[22:37:59] [Server thread/INFO]: Anti X-Ray: true
+[22:37:59] [Server thread/INFO]: 	Engine Mode: 1
+[22:37:59] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:37:59] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:37:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:37:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:37:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:37:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:37:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:37:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:37:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:37:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:37:59] [Server thread/INFO]: Random Lighting Updates: false
+[22:37:59] [Server thread/INFO]: Structure Info Saving: true
+[22:37:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:37:59] [Server thread/INFO]: Alternative Hopper Ticking: false
+[22:37:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:37:59] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:37:59] [Server thread/INFO]: Max TNT Explosions: 100
+[22:37:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:37:59] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[22:37:59] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[22:37:59] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[22:37:59] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[22:37:59] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[22:37:59] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[22:37:59] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:37:59] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[22:37:59] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[22:37:59] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[22:37:59] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[22:37:59] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[22:37:59] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[22:37:59] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[22:37:59] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[22:37:59] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:37:59] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[22:37:59] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[22:37:59] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[22:37:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[22:37:59] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[22:37:59] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:37:59] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[22:37:59] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[22:37:59] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[22:37:59] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[22:37:59] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[22:37:59] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[22:37:59] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:37:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:37:59] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[22:37:59] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:37:59] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[22:37:59] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:37:59] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[22:37:59] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[22:37:59] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:37:59] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[22:37:59] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[22:37:59] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[22:37:59] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[22:37:59] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[22:37:59] [Server thread/INFO]: [m
+[22:37:59] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:37:59] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[22:37:59] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:37:59] [Server thread/INFO]: [m
+[22:37:59] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[22:37:59] [Server thread/INFO]: [0;32;1m    The latest version![m
+[22:37:59] [Server thread/INFO]: [m
+[22:37:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[22:37:59] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[22:37:59] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[22:37:59] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[22:37:59] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[22:37:59] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[22:37:59] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[22:37:59] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[22:37:59] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[22:37:59] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[22:37:59] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[22:37:59] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[22:37:59] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[22:37:59] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:37:59] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:37:59] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[22:37:59] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:37:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:37:59] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:37:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[22:37:59] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[22:37:59] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[22:37:59] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[22:37:59] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[22:37:59] [Server thread/INFO]: Using locale it_IT
+[22:37:59] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[22:37:59] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[22:37:59] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[22:37:59] [Thread-32/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[22:37:59] [Server thread/INFO]: Using locale it_IT
+[22:37:59] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[22:37:59] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[22:37:59] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[22:37:59] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:37:59] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[22:37:59] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:37:59] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[22:37:59] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:37:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:37:59] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[22:37:59] [Craft Scheduler Thread - 64/INFO]: [Vault] Checking for Updates ... 
+[22:38:00] [Craft Scheduler Thread - 64/INFO]: [Vault] No new version available
+[22:38:04] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mU[0;37;22m][0;37;1m[3m[0;33;22mG[0;37;1miaco[m[0;37;22m[3m > fwsio[m
+[22:38:06] [Server thread/INFO]: Giaco131 issued server command: /pl
+[22:38:07] [Server thread/INFO]: Giaco131 issued server command: /?
+[22:38:10] [Server thread/INFO]: Giaco131 issued server command: /op
+[22:38:11] [Server thread/INFO]: Giaco131 issued server command: /deop
+[22:38:14] [Server thread/INFO]: Giaco131 issued server command: /fuck
+[22:38:14] [Server thread/INFO]: Giaco131 issued server command: /c
+[22:38:14] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:38:15] [Server thread/INFO]: Giaco131 issued server command: /s
+[22:38:15] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:38:20] [Server thread/INFO]: Giaco131 issued server command: /gamemode s
+[22:38:20] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:38:22] [Server thread/INFO]: Giaco131 issued server command: /gamemode c
+[22:38:22] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:38:23] [Server thread/INFO]: Giaco131 issued server command: /gmc
+[22:38:23] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:38:30] [Server thread/INFO]: Giaco131 issued server command: /essentials:gmc
+[22:38:30] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:38:32] [Server thread/INFO]: Giaco131 issued server command: /essentials:gms
+[22:38:32] [Server thread/INFO]: Giaco131 Accesso negato al comando.
+[22:38:38] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:38:48] [Server thread/INFO]: Giaco131 issued server command: /help 2
+[22:39:03] [Server thread/INFO]: Giaco131 issued server command: /skin
+[22:39:25] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:39:25] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:39:29] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:39:41] [Server thread/INFO]: Giaco131 issued server command: /ci
+[22:39:46] [Server thread/INFO]: Giaco131 issued server command: /help 2
+[22:40:06] [Server thread/INFO]: Giaco131 issued server command: /spawn
+[22:40:07] [Server thread/INFO]: Giaco131 issued server command: /warp
+[22:41:46] [Server thread/INFO]: Giaco131 issued server command: /pl
+[22:41:50] [Server thread/INFO]: Plugins (12): [0;32;1mPermissionsEx[0;37;1m, [0;32;1mAutoMessage[0;37;1m, [0;32;1mSkinsRestorer[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mPingPlayer[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mMultiverse-Core[0;37;1m, [0;32;1mWorldGuard[0;37;1m, [0;32;1mEssentials[0;37;1m, [0;32;1mEssentialsSpawn[0;37;1m, [0;32;1mEssentialsChat[0;37;1m, [0;32;1mEssentialsProtect[m
+[22:42:40] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[22:42:40] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[22:42:40] [Server thread/INFO]: Debug logging is enabled
+[22:42:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:42:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:42:40] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:42:40] [Server thread/INFO]: View Distance: 8
+[22:42:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:42:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:42:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:42:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:42:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[22:42:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:42:40] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:42:40] [Server thread/INFO]: Clear tick list: false
+[22:42:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:42:40] [Server thread/INFO]: Max Entity Collisions: 8
+[22:42:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:42:40] [Server thread/INFO]: Mob Spawn Range: 4
+[22:42:40] [Server thread/INFO]: Anti X-Ray: true
+[22:42:40] [Server thread/INFO]: 	Engine Mode: 1
+[22:42:40] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:42:40] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:42:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:42:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:42:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:42:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:42:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:42:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:42:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:42:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:42:40] [Server thread/INFO]: Random Lighting Updates: false
+[22:42:40] [Server thread/INFO]: Structure Info Saving: true
+[22:42:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:42:40] [Server thread/INFO]: Alternative Hopper Ticking: false
+[22:42:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:42:40] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:42:40] [Server thread/INFO]: Max TNT Explosions: 100
+[22:42:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:42:40] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[22:42:40] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[22:42:40] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[22:42:40] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[22:42:40] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[22:42:40] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[22:42:40] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:42:40] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[22:42:40] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[22:42:40] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[22:42:40] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[22:42:40] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[22:42:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[22:42:40] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[22:42:40] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[22:42:40] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:42:40] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[22:42:40] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[22:42:40] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[22:42:40] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[22:42:40] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[22:42:40] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:42:40] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[22:42:40] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[22:42:40] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[22:42:40] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[22:42:40] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[22:42:40] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[22:42:40] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:42:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:42:40] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[22:42:40] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:42:40] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[22:42:40] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:42:40] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[22:42:40] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[22:42:40] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:42:40] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[22:42:40] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[22:42:40] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[22:42:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[22:42:40] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[22:42:40] [Server thread/INFO]: [m
+[22:42:40] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:42:40] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[22:42:40] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:42:40] [Server thread/INFO]: [m
+[22:42:40] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[22:42:40] [Server thread/INFO]: [0;32;1m    The latest version![m
+[22:42:40] [Server thread/INFO]: [m
+[22:42:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[22:42:40] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[22:42:40] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[22:42:40] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[22:42:40] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[22:42:40] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[22:42:40] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[22:42:40] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[22:42:40] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[22:42:40] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[22:42:40] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[22:42:40] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[22:42:40] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[22:42:41] [Thread-36/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[22:42:41] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:42:41] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:42:41] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[22:42:41] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:42:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:42:41] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:42:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[22:42:41] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[22:42:41] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[22:42:41] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[22:42:41] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[22:42:41] [Server thread/INFO]: Using locale it_IT
+[22:42:41] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[22:42:41] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[22:42:41] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[22:42:41] [Server thread/INFO]: Using locale it_IT
+[22:42:41] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[22:42:41] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[22:42:41] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[22:42:41] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:42:41] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[22:42:41] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:42:41] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[22:42:41] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:42:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:42:41] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[22:42:41] [Craft Scheduler Thread - 71/INFO]: [Vault] Checking for Updates ... 
+[22:42:42] [Craft Scheduler Thread - 71/INFO]: [Vault] No new version available
+[22:42:52] [Server thread/INFO]: [0;37;1mUser groups set![m
+[22:42:54] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mU[0;37;22m][0;37;1m[3m[0;33;22mG[0;37;1miaco[m[0;37;22m[3m > g[m
+[22:42:56] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:42:59] [Server thread/INFO]: Giaco131 issued server command: /help 2
+[22:43:30] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:43:30] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
+[22:43:35] [Server thread/INFO]: Giaco131 issued server command: /help
+[22:44:12] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[22:44:12] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[22:44:12] [Server thread/INFO]: Debug logging is enabled
+[22:44:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:44:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:44:12] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:44:12] [Server thread/INFO]: View Distance: 8
+[22:44:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:44:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:44:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:44:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:44:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[22:44:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:44:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:44:12] [Server thread/INFO]: Clear tick list: false
+[22:44:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:44:12] [Server thread/INFO]: Max Entity Collisions: 8
+[22:44:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:44:12] [Server thread/INFO]: Mob Spawn Range: 4
+[22:44:12] [Server thread/INFO]: Anti X-Ray: true
+[22:44:12] [Server thread/INFO]: 	Engine Mode: 1
+[22:44:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:44:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:44:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:44:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:44:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:44:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:44:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:44:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:44:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:44:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:44:12] [Server thread/INFO]: Random Lighting Updates: false
+[22:44:12] [Server thread/INFO]: Structure Info Saving: true
+[22:44:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:44:12] [Server thread/INFO]: Alternative Hopper Ticking: false
+[22:44:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:44:12] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:44:12] [Server thread/INFO]: Max TNT Explosions: 100
+[22:44:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:44:12] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[22:44:12] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[22:44:12] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[22:44:12] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[22:44:12] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[22:44:12] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[22:44:12] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:44:12] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[22:44:12] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[22:44:12] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[22:44:12] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[22:44:12] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[22:44:12] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[22:44:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[22:44:12] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[22:44:12] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:44:12] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[22:44:12] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[22:44:12] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[22:44:12] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[22:44:12] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[22:44:12] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:44:12] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[22:44:12] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[22:44:12] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[22:44:12] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[22:44:12] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[22:44:12] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[22:44:12] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:44:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:44:12] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[22:44:12] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:44:12] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[22:44:12] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:44:12] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[22:44:12] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[22:44:12] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:44:12] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[22:44:12] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[22:44:12] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[22:44:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[22:44:12] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[22:44:12] [Server thread/INFO]: [m
+[22:44:12] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:44:12] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[22:44:12] [Server thread/INFO]: [0;32;1m    +===============+[m
+[22:44:12] [Server thread/INFO]: [m
+[22:44:12] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[22:44:12] [Server thread/INFO]: [0;32;1m    The latest version![m
+[22:44:12] [Server thread/INFO]: [m
+[22:44:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[22:44:12] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[22:44:12] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[22:44:12] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[22:44:12] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[22:44:12] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[22:44:12] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[22:44:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[22:44:12] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[22:44:12] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[22:44:12] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[22:44:12] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[22:44:12] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[22:44:12] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:44:12] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:44:12] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[22:44:12] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:44:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:44:12] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:44:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[22:44:12] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[22:44:12] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[22:44:12] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[22:44:12] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[22:44:12] [Server thread/INFO]: Using locale it_IT
+[22:44:12] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[22:44:12] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[22:44:12] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[22:44:12] [Server thread/INFO]: Using locale it_IT
+[22:44:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[22:44:12] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[22:44:12] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[22:44:12] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:44:12] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[22:44:12] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:44:12] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[22:44:12] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[22:44:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:44:12] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[22:44:12] [Craft Scheduler Thread - 79/INFO]: [Vault] Checking for Updates ... 
+[22:44:12] [Thread-40/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[22:44:13] [Craft Scheduler Thread - 79/INFO]: [Vault] No new version available
+[22:44:25] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mU[0;37;22m][0;37;1m[3m[0;33;22mG[0;37;1miaco[m[0;37;22m[3m > hwesf[m
+[22:44:28] [Server thread/INFO]: Giaco131 issued server command: /skin Giaco131
+[22:44:29] [Server thread/WARN]: Giaco131 moved too quickly! 14.493581629309704,21.0,-37.38407341982622 (14.493581629309704, 21.0, 37.38407341982622)
+[22:44:36] [Server thread/INFO]: Giaco131 issued server command: /skin Fyammah
+[22:44:37] [Server thread/WARN]: Giaco131 moved too quickly! 21.390661809794985,21.0,-20.262131676767297 (21.390661809794985, 21.0, 20.262131676767297)
+[22:44:47] [Server thread/INFO]: Giaco131 issued server command: /skin Aquah
+[22:44:48] [Server thread/WARN]: Giaco131 moved too quickly! 22.467104704458542,21.0,5.000669900887353 (22.467104704458542, 21.0, 5.000669900887353)
+[22:44:57] [Server thread/INFO]: Giaco131 issued server command: /skin Ghiaccyoh
+[22:44:58] [Server thread/WARN]: Giaco131 moved too quickly! 29.203757484875535,20.0,9.297035579963833 (29.203757484875535, 20.0, 9.297035579963833)
+[22:45:10] [Server thread/INFO]: Giaco131 issued server command: /skin ColuiCheVede
+[22:45:11] [Server thread/WARN]: Giaco131 moved too quickly! 28.519441656984917,20.0,15.607550416491211 (28.519441656984917, 20.0, 15.607550416491211)
+[22:45:15] [Server thread/INFO]: Giaco131 issued server command: /skin ColuiCheOsserva
+[22:45:16] [Server thread/WARN]: Giaco131 moved too quickly! 28.519441656984917,20.0,15.607550416491211 (28.519441656984917, 20.0, 15.607550416491211)
+[22:45:21] [Server thread/INFO]: Giaco131 issued server command: /skin ColuiCheMangia
+[22:45:32] [Server thread/INFO]: Giaco131 issued server command: /skin ColuiCheBeve
+[22:45:35] [Server thread/INFO]: Giaco131 issued server command: /skin ColuiCheDorme
+[22:45:36] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:45:45] [Server thread/INFO]: Giaco131 issued server command: /skin Lasagna
+[22:45:46] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:45:48] [Server thread/INFO]: Giaco131 issued server command: /skin Lasagne
+[22:45:49] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:46:00] [Server thread/INFO]: Giaco131 issued server command: /skin PorcoDIo
+[22:46:01] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,20.92159999847412,15.607550416491211 (22.197073021068572, 20.92159999847412, 15.607550416491211)
+[22:46:05] [Server thread/INFO]: Giaco131 issued server command: /skin Madonna
+[22:46:06] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:46:09] [Server thread/INFO]: Giaco131 issued server command: /skin MadonnaPuttana
+[22:46:09] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:46:14] [Server thread/INFO]: Giaco131 issued server command: /skin MadonnaPuttana2.0
+[22:46:26] [Server thread/INFO]: Giaco131 issued server command: /skin xX_Z300_Xx
+[22:46:27] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:46:32] [Server thread/INFO]: Giaco131 issued server command: /skin Dalla_98
+[22:46:33] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:46:39] [Server thread/INFO]: Giaco131 issued server command: /skin TheMasterKev
+[22:46:39] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:46:51] [Server thread/INFO]: Giaco131 issued server command: /skin DioCane
+[22:46:52] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:00] [Server thread/INFO]: Giaco131 issued server command: /skin God
+[22:47:01] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:04] [Server thread/INFO]: Giaco131 issued server command: /skin GodShit
+[22:47:09] [Server thread/INFO]: Giaco131 issued server command: /skin FuckGod
+[22:47:12] [Server thread/INFO]: Giaco131 issued server command: /skin Fuck
+[22:47:18] [Server thread/INFO]: Giaco131 issued server command: /skin easy
+[22:47:19] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:21] [Server thread/INFO]: Giaco131 issued server command: /skin ez
+[22:47:22] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:25] [Server thread/INFO]: Giaco131 issued server command: /skin porco
+[22:47:25] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:29] [Server thread/INFO]: Giaco131 issued server command: /skin cane
+[22:47:29] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:32] [Server thread/INFO]: Giaco131 issued server command: /skin lama
+[22:47:33] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:37] [Server thread/INFO]: Giaco131 issued server command: /skin animale
+[22:47:37] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:40] [Server thread/INFO]: Giaco131 issued server command: /skin uomo
+[22:47:41] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:44] [Server thread/INFO]: Giaco131 issued server command: /skin donna
+[22:47:44] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:48] [Server thread/INFO]: Giaco131 issued server command: /skin bambino
+[22:47:48] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:47:57] [Server thread/INFO]: Giaco131 issued server command: /skin tuaSorella
+[22:48:03] [Server thread/INFO]: Giaco131 issued server command: /skin TuaMadre
+[22:48:04] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:06] [Server thread/INFO]: Giaco131 issued server command: /skin TuaMamma
+[22:48:07] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:16] [Server thread/INFO]: Giaco131 issued server command: /skin Troia
+[22:48:17] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:21] [Server thread/INFO]: Giaco131 issued server command: /skin Puttana
+[22:48:21] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:26] [Server thread/INFO]: Giaco131 issued server command: /skin SashaGrey
+[22:48:27] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:36] [Server thread/INFO]: Giaco131 issued server command: /skin Griefer
+[22:48:36] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:40] [Server thread/INFO]: Giaco131 issued server command: /skin Grieff
+[22:48:40] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:41] [Server thread/INFO]: Giaco131 issued server command: /skin Grief
+[22:48:42] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:44] [Server thread/INFO]: Giaco131 issued server command: /skin Grie
+[22:48:44] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:45] [Server thread/INFO]: Giaco131 issued server command: /skin Gri
+[22:48:46] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:48] [Server thread/INFO]: Giaco131 issued server command: /skin Gr
+[22:48:50] [Server thread/INFO]: Giaco131 issued server command: /skin G
+[22:48:50] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:48:53] [Server thread/INFO]: Giaco131 issued server command: /skin a
+[22:48:55] [Server thread/INFO]: Giaco131 issued server command: /skin b
+[22:48:57] [Server thread/INFO]: Giaco131 issued server command: /skin c
+[22:49:01] [Server thread/INFO]: Giaco131 issued server command: /skin ciao123
+[22:49:02] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:49:04] [Server thread/INFO]: Giaco131 issued server command: /skin ciao
+[22:49:04] [Server thread/WARN]: Giaco131 moved too quickly! 22.197073021068572,21.0,15.607550416491211 (22.197073021068572, 21.0, 15.607550416491211)
+[22:49:13] [Server thread/INFO]: Giaco131 issued server command: /skin CCraft
+[22:49:14] [Server thread/WARN]: Giaco131 moved too quickly! 29.757354426651695,20.0,20.79334183966389 (29.757354426651695, 20.0, 20.79334183966389)
+[22:49:22] [Server thread/INFO]: Giaco131 issued server command: /clearskin
+[22:49:22] [Server thread/WARN]: Giaco131 moved too quickly! 21.44566195476898,21.0,24.320294194086124 (21.44566195476898, 21.0, 24.320294194086124)
+[22:50:06] [Server thread/INFO]: Giaco131 issued server command: /skin waraccademy
+[22:50:10] [Server thread/INFO]: Giaco131 issued server command: /skin capretta
+[22:50:10] [Server thread/WARN]: Giaco131 moved too quickly! 57.23277302710997,20.0,-4.9466330680770305 (57.23277302710997, 20.0, 4.9466330680770305)
+[22:50:23] [Server thread/INFO]: Giaco131 issued server command: /skin stantftw
+[22:50:26] [Server thread/INFO]: Giaco131 issued server command: /skin stantwtf
+[22:50:29] [Server thread/INFO]: Giaco131 issued server command: /skin stantg
+[22:59:37] [Server thread/INFO]: Giaco131 issued server command: /ss
+[22:59:41] [Server thread/INFO]: Saving...
+[22:59:41] [Server thread/INFO]: Saved the world
+[22:59:41] [Server thread/INFO]: Stopping the server
+[22:59:41] [Server thread/INFO]: Stopping server
+[22:59:41] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[22:59:41] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[22:59:41] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[22:59:41] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[22:59:41] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[22:59:41] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[22:59:41] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[22:59:41] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[22:59:41] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[22:59:41] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[22:59:41] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[22:59:41] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[22:59:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[22:59:41] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[22:59:41] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[22:59:41] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[22:59:41] [Server thread/INFO]: Saving players
+[22:59:41] [Server thread/INFO]: Giaco131 lost connection: Server Stoppato!
+[22:59:41] [Server thread/INFO]: Giaco131 left the game.
+[22:59:41] [Server thread/INFO]: Saving worlds
+[22:59:41] [Server thread/INFO]: Saving chunks for level 'world'/Overworld

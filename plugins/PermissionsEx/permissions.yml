@@ -1,0 +1,54 @@
+groups:
+  utente:
+    options:
+      default: true
+      prefix: '&7[&9&lU&7]&f&o'
+    permissions:
+    - -bukkit.*
+    - -minecraft.*
+    - -worldedit.*
+    - -worldguard.*
+    - -multiverse.*
+    - -permissionsex.*
+    - PingPlayer.use
+    - skinsrestorer.playercmds
+    - essentials.sethome
+    - essentials.home
+    - essentials.delhome
+    - essentials.msg
+    - essentials.r
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.pvp
+    - essentials.warps.shop
+    - essentials.warps.enchant
+    - essentials.warps.fabbro
+    - essentials.warps.free
+    - essentials.warps.kit
+    - essentials.warps.deserto
+    - essentials.warps.war
+    - essentials.warps.fazioni
+    - essentials.kit
+    - essentials.kits.utente
+    - essentials.clearinventory
+    - automessage.receive.*
+  founder:
+    options:
+      default: false
+      prefix: '&7[&4&lF&7]&f'
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  1fe33bf0-3908-4150-bbfa-f0b1b2861a28:
+    group:
+    - utente
+    options:
+      name: Giaco131
+      last-login-time: '1476042409'
+      last-logout-time: '1476034137'

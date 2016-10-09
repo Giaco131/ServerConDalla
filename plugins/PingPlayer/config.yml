@@ -3,8 +3,8 @@ settings:
   updater: true
 messages:
   chatPrefix: "&6[&2PingPlayer&6]&2 "
-  yourPing: "Your ping is: &6%ping%&ams."
-  othersPing: "%player%'s ping is: &6%ping%&ams."
-  playerNotOnline: "&cPlayer %player% is not online."
-  onlyPlayerExecute: "&cOnly players can ping themselves!"
-  haveNoPermission: "&cYou don't have permission to use this command."
+  yourPing: "Il tuo ping e' pari a: &6%ping%&ams."
+  othersPing: "%player%'s pinga: &6%ping%&ams."
+  playerNotOnline: "&c%player% non e' online."
+  onlyPlayerExecute: "&cSolo i giocatori possono vedere il loro ping!"
+  haveNoPermission: "&cNon hai permessi."

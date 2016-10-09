@@ -33,4 +33,4 @@ worlds:
       yaw: 0.0
       world: world
     autoload: true
-    bedrespawn: true
+    bedrespawn: false
