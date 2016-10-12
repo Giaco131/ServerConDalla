@@ -1,0 +1,63 @@
+reload-complete: "\xa76[iDisguise] Reload complete."
+no-permission: "\xa7cYou are not allowed to do this."
+console-use-other-command: "\xa7cUse /odisguise from the server console."
+cannot-find-player: "\xa7cCannot find player %player%."
+wrong-usage-no-name: "\xa7cWrong usage: account name required"
+invalid-name: "\xa7cThe given account name is invalid."
+event-cancelled: "\xa7cAnother plugin prohibits you to do that."
+disguise-player-success-self: "\xa76You disguised as a %type% called %name%."
+disguise-player-success-other: "\xa76%player% disguised as a %type% called %name%."
+disguise-success-self: "\xa76You disguised as a %type%."
+disguise-success-other: "\xa76%player% disguised as a %type%."
+status-player-self: "\xa76You are disguised as a %type% called %name%."
+status-player-other: "\xa76%player% is disguised as a %type% called %name%."
+status-self: "\xa76You are disguised as a %type%."
+status-other: "\xa76%player% is disguised as a %type%."
+status-subtypes: "\xa77(%subtypes%)"
+status-not-disguised-self: "\xa76You are not disguised."
+status-not-disguised-other: "\xa76%player% is not disguised."
+outdated-server: "\xa7cYour Minecraft version does not support the given disguise\
+  \ type."
+restricted-world: "\xa7cYou are not allowed to use this plugin in this world."
+undisguise-console: "\xa7cYou are not a player so you cannot undisguise."
+undisguise-not-disguised-self: "\xa7cYou are not disguised."
+undisguise-not-disguised-other: "\xa7c%player% is not disguised."
+undisguise-success-self: "\xa76You undisguised."
+undisguise-success-other: "\xa76%player% undisguised."
+undisguise-success-all: "\xa76%share% out of %total% disguised players undisguised."
+undisguise-success-all-ignore: "\xa76Undisguised every disguised player ignoring other\
+  \ plugins."
+help-info: "\xa7a%name% %version% - Help"
+help-base: "\xa76\xa7o %command% \xa76- %description%"
+help-types: "\xa77Types: %types%"
+help-help: Shows this message
+help-player-self: Disguise yourself as a player
+help-player-other: Disguise a player as a player
+help-ghost-self: Disguise yourself as a ghost
+help-ghost-other: Disguise a player as a ghost
+help-random-self: Disguise yourself as a randomly chosen mob
+help-random-other: Disguise a player as a randomly chosen mob
+help-reload: Reload config and language file
+help-status-self: Shows your disguise status
+help-status-other: Shows a player's disguise status
+help-undisguise-self: Undisguise yourself
+help-undisguise-all: Undisguise everyone
+help-undisguise-other: Undisguise a player
+help-disguise-self: Disguise yourself as a mob with optional subtypes
+help-disguise-other: Disguise a player as a mob with optional subtypes
+help-subtype: Apply one (or multiple) subtypes
+undisguise-ghost-disabled: "\xa76You were undisguised because ghost disguises are\
+  \ disabled."
+undisguise-world-change: "\xa76You were undisguised because disguising is prohibited\
+  \ in this world."
+join-disguised: "\xa76You are still disguised. Use \xa7o/disguise status\xa7r\xa7\
+  6 to get more information."
+move-as-shulker: "\xa7cYou must not move while you are disguised as a shulker."
+update-available: "\xa76[iDisguise] An update is available: %version%"
+update-already-downloaded: "\xa76[iDisguise] Update already downloaded. (Restart server\
+  \ to apply update)"
+update-downloading: "\xa76[iDisguise] Downloading update..."
+update-download-succeeded: "\xa76[iDisguise] Download succeeded. (Restart server to\
+  \ apply update)"
+update-download-failed: "\xa7c[iDisguise] Download failed."
+update-option: "\xa76[iDisguise] You can enable automatic updates in the config file."

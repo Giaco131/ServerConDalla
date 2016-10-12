@@ -1,17 +1,17 @@
 lastAccountName: P_Kelsey
 timestamps:
-  login: 1476212839675
+  login: 1476280053561
   kits:
     utente: 1476108180315
-  logout: 1476212842537
+  logout: 1476283212356
 ipAddress: 25.65.83.202
 logoutlocation:
   world: world
-  x: -20.382876789610805
-  y: 45.0
-  z: 13.465449154496067
-  yaw: -87.29414
-  pitch: 5.1047273
+  x: -31.209090312779328
+  y: 61.5
+  z: 65.14417139220083
+  yaw: -41.45804
+  pitch: 15.039443
 lastlocation:
   world: world
   x: -20.382876789610805

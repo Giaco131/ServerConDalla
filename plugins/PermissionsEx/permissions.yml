@@ -73,14 +73,12 @@ groups:
       default: false
       prefix: '&7[&4&lF&7]&f'
     permissions:
-    - -modifyworld*
     - '*'
     - -bukkit.*
     - -minecraft.*
     - -worldguard.*
     - -multiverse.*
     - -permissionsex.*
-    - -modifyworld.*
     - automessage.receive.*
 schema-version: 1
 users:
@@ -89,8 +87,8 @@ users:
     - founder
     options:
       name: Giaco131
-      last-login-time: '1476219513'
-      last-logout-time: '1476219327'
+      last-login-time: '1476279178'
+      last-logout-time: '1476283212'
   2f9abf1c-b43a-4868-9066-ff33f9bedb17:
     group:
     - c

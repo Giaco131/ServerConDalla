@@ -1,974 +1,152 @@
-[22:58:22] [Server thread/INFO]: Starting minecraft server version 1.8
-[22:58:22] [Server thread/INFO]: Loading properties
-[22:58:22] [Server thread/INFO]: Default game type: SURVIVAL
-[22:58:22] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
-[22:58:22] [Server thread/INFO]: Debug logging is enabled
-[22:58:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:58:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:58:22] [Server thread/INFO]: Generating keypair
-[22:58:22] [Server thread/INFO]: Starting Minecraft server on 25.65.83.202:25565
-[22:58:23] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[22:58:24] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[22:58:24] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
-[22:58:24] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
-[22:58:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
-[22:58:24] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
-[22:58:24] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
-[22:58:24] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
-[22:58:24] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
-[22:58:24] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
-[22:58:24] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
-[22:58:24] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
-[22:58:24] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
-[22:58:24] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
-[22:58:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[22:58:24] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[22:58:24] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[22:58:24] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[22:58:24] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
-[22:58:24] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[22:58:25] [Server thread/INFO]: Preparing level "world"
-[22:58:25] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:58:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
-[22:58:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:58:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:58:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:58:25] [Server thread/INFO]: Max Entity Collisions: 8
-[22:58:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:58:25] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:58:25] [Server thread/INFO]: Clear tick list: false
-[22:58:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:58:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:58:25] [Server thread/INFO]: View Distance: 8
-[22:58:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:58:25] [Server thread/INFO]: Random Lighting Updates: false
-[22:58:25] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:58:25] [Server thread/INFO]: Anti X-Ray: true
-[22:58:25] [Server thread/INFO]: 	Engine Mode: 1
-[22:58:25] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:58:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:58:25] [Server thread/INFO]: Structure Info Saving: true
-[22:58:25] [Server thread/INFO]: Max TNT Explosions: 100
-[22:58:25] [Server thread/INFO]: Mob Spawn Range: 4
-[22:58:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:58:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:58:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:58:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:58:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:58:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:58:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:58:25] [Server thread/INFO]: Alternative Hopper Ticking: false
-[22:58:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:58:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:58:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:58:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:58:25] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1836310568572768058)
-[22:58:25] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[22:58:25] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[22:58:25] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[22:58:25] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[22:58:25] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[22:58:25] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
-[22:58:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
-[22:58:25] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
-[22:58:25] [Server thread/INFO]: [m
-[22:58:25] [Server thread/INFO]: [0;32;1m    +===============+[m
-[22:58:25] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
-[22:58:25] [Server thread/INFO]: [0;32;1m    +===============+[m
-[22:58:25] [Server thread/INFO]: [m
-[22:58:25] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
-[22:58:25] [Server thread/INFO]: [0;31;1m    A new version is available! Download it at:[m
-[22:58:25] [Server thread/INFO]: [0;33;1m    https://www.spigotmc.org/resources/skinsrestorer.2124/[m
-[22:58:25] [Server thread/INFO]: [m
-[22:58:25] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
-[22:58:26] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[22:58:26] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documents\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
-[22:58:26] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
-[22:58:26] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
-[22:58:26] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
-[22:58:26] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
-[22:58:26] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
-[22:58:26] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
-[22:58:26] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
-[22:58:26] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
-[22:58:26] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
-[22:58:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
-[22:58:26] [Thread-8/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
-[22:58:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[22:58:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[22:58:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[22:58:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[22:58:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[22:58:26] [Server thread/INFO]: [WorldGuard] Loading region data...
-[22:58:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
-[22:58:26] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
-[22:58:26] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
-[22:58:26] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
-[22:58:26] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
-[22:58:26] [Server thread/INFO]: Using locale it_IT
-[22:58:26] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
-[22:58:26] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
-[22:58:26] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
-[22:58:26] [Server thread/INFO]: Using locale it_IT
-[22:58:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
-[22:58:26] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
-[22:58:26] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
-[22:58:26] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
-[22:58:26] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
-[22:58:26] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
-[22:58:26] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
-[22:58:26] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
-[22:58:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:58:26] [Server thread/INFO]: Done (1,815s)! For help, type "help" or "?"
-[22:58:26] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
-[22:58:27] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
-[22:58:31] [Netty Server IO #1/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@63264d97 to net.minecraft.server.v1_8_R1.HandshakeListener@7a30345b
-[22:58:31] [Netty Server IO #1/DEBUG]: Enabled auto read
-[22:58:31] [Netty Server IO #1/DEBUG]: Enabled auto read
-[22:58:31] [Netty Server IO #1/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@63264d97 to net.minecraft.server.v1_8_R1.LoginListener@6f2c43a4
-[22:58:32] [User Authenticator #1/DEBUG]: Opening connection to https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=-34a2c35570110f7d9b68399568d3f635c4acaafd&username=Giaco131
-[22:58:32] [User Authenticator #1/DEBUG]: Reading data from https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=-34a2c35570110f7d9b68399568d3f635c4acaafd&username=Giaco131
-[22:58:33] [User Authenticator #1/DEBUG]: Successful read, server response was 200
-[22:58:33] [User Authenticator #1/DEBUG]: Response: {"id":"1fe33bf039084150bbfaf0b1b2861a28","name":"Giaco131","properties":[{"signature":"Qk+bcJxr3iITObP4sD+TUUxMzuwth47itCFLN9AOt2MG6bRuFwhr19oWNLqzv0/WXrc7k8gCsrI3aBQNaO6HYrE+CpRFx5wd6MfbbAUlR9To3qBIuNZSm7p6geYRoGYKk8R/8YMiGV8r+PT7GeiL5E36TLilQitfdxyAT7oryV2f50Xe47Tvk8ldl8eShvgbQg747J50r27EJXOudB91YVhdr0TEAalfxyoNe4nvX8s+udqd6Nm1uDHYoJe5DJpEMC0JsdTDQ+bMCWmGjPZOrz2T5+rUPSGjJx3Jcwq9h5gNGNw0ejThzGJBVWwdpm5Lz6K9UorwJwOGQ5H9fDUSyatQm606KchHlDSDbNrJ40Q6KKY1z5ivGUneYBIWOyV5TJvjXCkrkxHCit84/h3FccwzTZUu2EKzcu1gVmf2sQO4RhpPxzSvVfn7KnPOkpmVY+ipf9aTfOglRplmYm3MAVG1KSFTg1izr46r4Wrzl2XG/8wxl9jE3KbWGed9IBGiJbM+HhElzJDyjZu0d9FQHJhDZjYeOwLSRODeHA8SS3ABxsr9B9cM7PFGv6/Old4lkRd0XKXp7kIJnSTH4/8JjN6Ldrzu5a9/ClY1QhbHmHhPmYj9G3nK9Ix169Nf1RmQ6c4VWSRmL88KP4qGb4iJBZc2Ztb0VT4a4WvCknLL+IU=","name":"textures","value":"eyJ0aW1lc3RhbXAiOjE0NzYyMTk1MTUzNzcsInByb2ZpbGVJZCI6IjFmZTMzYmYwMzkwODQxNTBiYmZhZjBiMWIyODYxYTI4IiwicHJvZmlsZU5hbWUiOiJHaWFjbzEzMSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kODdjMjgzMmNkYzFhZmZmZTQ1M2ZhYjdmZjhiNzZiYzdiNTFkZTQ2OWIzMTMyNDFjMDdmODdjNmZmZGQ5NCJ9fX0="}]}
-[22:58:33] [User Authenticator #1/INFO]: UUID of player Giaco131 is 1fe33bf0-3908-4150-bbfa-f0b1b2861a28
-[22:58:33] [Server thread/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@63264d97 to net.minecraft.server.v1_8_R1.PlayerConnection@38247997
-[22:58:33] [Server thread/DEBUG]: Disabled auto read
-[22:58:33] [Netty Server IO #1/DEBUG]: Enabled auto read
-[22:58:33] [Server thread/INFO]: Giaco131[/25.65.83.202:60573] logged in with entity id 1 at ([world] -27.863168191138033, 63.12285743549092, 64.30000001192094)
-[22:58:33] [Server thread/INFO]: [0;37;22m[3m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22m[21mG[0;37;1m[21miaco[m [0;37;22m[3msi e' unito a noi![m
-[22:58:35] [Server thread/INFO]: Giaco131 issued server command: /op
-[22:58:43] [Server thread/INFO]: Giaco131 issued server command: /gmc
-[22:58:49] [Server thread/INFO]: Giaco131 issued server command: /gmc
-[22:58:51] [Netty Server IO #2/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@329d23a5 to net.minecraft.server.v1_8_R1.HandshakeListener@36a2a12e
-[22:58:51] [Netty Server IO #2/DEBUG]: Enabled auto read
-[22:58:51] [Netty Server IO #2/DEBUG]: Enabled auto read
-[22:58:51] [Netty Server IO #2/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@329d23a5 to net.minecraft.server.v1_8_R1.LoginListener@73a0299e
-[22:58:52] [User Authenticator #2/DEBUG]: Opening connection to https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=cd893e6d42ac61cf2b36b9588d02d2bd80e4a5&username=Dalla_98
-[22:58:52] [User Authenticator #2/DEBUG]: Reading data from https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=cd893e6d42ac61cf2b36b9588d02d2bd80e4a5&username=Dalla_98
-[22:58:52] [User Authenticator #2/DEBUG]: Successful read, server response was 200
-[22:58:52] [User Authenticator #2/DEBUG]: Response: {"id":"2f9abf1cb43a48689066ff33f9bedb17","name":"Dalla_98","properties":[{"signature":"yhcRiGhdYPDOFkKTpn+cqBIF4/IbFY4j7zTLACmI3l3WiCzkn3uPxMv78xQEMTUPJzwmFeKyMwXjNZEXXqpck+czwcZoWwwuxcyQ8y63CIVY2L/1y5UrzwRscdyf9LuXKGkq7+08005g7/b3nO+sFuX8c3ghBe0plLzR/EhAgssxft0suw1s4M84X9Q7cReTRAKUgLaFPmRZY2TxEoOokvafARqjGkX91Zo555MtzXGLOsl0BE2GQftslA9hqFUZnsY7uH5Eksq7E4UitP2q4EnTDuzkfOzTbrgIYU0CejIWPPjYeLWA7J39ydcnplO+aWjFVkwJ1HA6e+z1s0hISpuDF/7BOfc7fXMc6hVKW8ktlnZXUSh+10uLM2FJ6XVCi39hpFp7zet2A6zavExKe9DN1LiWFWrzcUEWlX44rKtf1pmpKXhE1to+7EhcQoFO45hq0j7PY+QCwHA1lwSvRkvmE6uMi6UgDE+oTsz9BqVdFTB7e/FkYvAn6i3aRF7XqlERiRrvPD+8PPrGvZLCBkskhlri0gAP9RPLzymspmU4s1AA7zP9Sh2qUasaRbuKpaX2XAPGybZ4giq1MHAGplBnWHjJ4JXQHjd5pW4c1TmBwjrp5KOSBqPY/gohg2s2CHxCdg9bMgh4zb4k+CLXocGd+4yLGa8EclE3VIPWP30=","name":"textures","value":"eyJ0aW1lc3RhbXAiOjE0NzYyMTk1MzQ2NjUsInByb2ZpbGVJZCI6IjJmOWFiZjFjYjQzYTQ4Njg5MDY2ZmYzM2Y5YmVkYjE3IiwicHJvZmlsZU5hbWUiOiJEYWxsYV85OCIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTg3YjlhMTg5MTZlZTBjMDgzOGI2ZTk4NmMxNjJiYWUyZDJiNTdjNzc1YzVkODk1NTBiMGExNDJjYWMifX19"}]}
-[22:58:52] [User Authenticator #2/INFO]: UUID of player Dalla_98 is 2f9abf1c-b43a-4868-9066-ff33f9bedb17
-[22:58:52] [Server thread/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@329d23a5 to net.minecraft.server.v1_8_R1.PlayerConnection@6375de
-[22:58:52] [Server thread/DEBUG]: Disabled auto read
-[22:58:52] [Server thread/DEBUG]: Disabled auto read
-[22:58:52] [Netty Server IO #2/DEBUG]: Enabled auto read
-[22:58:52] [Netty Server IO #2/DEBUG]: Enabled auto read
-[22:58:52] [Server thread/INFO]: Dalla_98[/25.71.232.124:51154] logged in with entity id 596 at ([world] -8.62918715736852, 60.49550335943257, 74.55359435704298)
-[22:58:52] [Server thread/INFO]: [0;37;22m[3m[0;37;22m[[0;33;22m[21mJ[0;37;22m][0;37;1mDalla_98[m [0;37;22m[3msi e' unito a noi![m
-[22:58:56] [Server thread/INFO]: Dalla_98 issued server command: /op
-[22:59:01] [Server thread/INFO]: Dalla_98 issued server command: /c
-[22:59:01] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[22:59:03] [Server thread/INFO]: [m[0;37;22m[[0;33;22m[21mJ[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m > [0;37;22m[3md[m
-[22:59:09] [Server thread/INFO]: [m[0;37;22m[[0;33;22m[21mJ[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m > [0;37;22m[3mfounder graccie[m
-[22:59:14] [Server thread/INFO]: Dalla_98 issued server command: /?
-[22:59:45] [Server thread/INFO]: [m[0;37;22m[[0;33;22m[21mJ[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m > [0;37;22m[3mgiaco il peggio hack[m
-[22:59:46] [Server thread/INFO]: [m[0;37;22m[[0;33;22m[21mJ[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m > [0;37;22m[3mgiaco il peggio hacker[m
-[23:00:05] [Server thread/INFO]: [m[0;37;22m[[0;33;22m[21mJ[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m > [0;37;22m[3mf[m
-[23:00:17] [Server thread/INFO]: Giaco131 issued server command: /pex user Dalla_98 group set founder
-[23:00:20] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m d[m
-[23:00:21] [Server thread/INFO]: Dalla_98 issued server command: /c
-[23:00:44] [Server thread/INFO]: Giaco131 issued server command: /pex
-[23:00:44] [Server thread/INFO]: Dalla_98 issued server command: /pex group
-[23:00:48] [Server thread/INFO]: Dalla_98 issued server command: /pex group c
-[23:00:51] [Server thread/INFO]: Dalla_98 issued server command: /pex group cpp
-[23:01:02] [Server thread/INFO]: Giaco131 issued server command: /pex user Dalla_98 group set c
-[23:01:04] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3md[m
-[23:01:07] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3md[m
-[23:01:07] [Server thread/INFO]: Giaco131 issued server command: /pex user Dalla_98 group set cpp
-[23:01:10] [Server thread/INFO]: [m[0;37;22m[[0;36;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;36;1m[3m > [0;37;22m[3md[m
-[23:01:12] [Server thread/INFO]: [m[0;37;22m[[0;36;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;36;1m[3m > [0;37;22m[3md[m
-[23:01:13] [Server thread/INFO]: [m[0;37;22m[[0;36;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;36;1m[3m > [0;37;22m[3md[m
-[23:01:14] [Server thread/INFO]: [m[0;37;22m[[0;36;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;36;1m[3m > [0;37;22m[3md[m
-[23:01:15] [Server thread/INFO]: [m[0;37;22m[[0;36;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;36;1m[3m > [0;37;22m[3md[m
-[23:01:16] [Server thread/INFO]: [m[0;37;22m[[0;36;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;36;1m[3m > [0;37;22m[3md[m
-[23:01:24] [Server thread/INFO]: Dalla_98 issued server command: /pex group cpp
-[23:01:24] [Server thread/WARN]: [PermissionsEx] User Dalla_98 tried to access chat command "pex group cpp", but doesn't have permission to do this.
-[23:01:29] [Server thread/INFO]: Dalla_98 issued server command: /pex group cpp
-[23:01:29] [Server thread/WARN]: [PermissionsEx] User Dalla_98 tried to access chat command "pex group cpp", but doesn't have permission to do this.
-[23:01:29] [Server thread/INFO]: Giaco131 issued server command: /pex user Dalla_98 group set founder
-[23:01:32] [Server thread/INFO]: Dalla_98 issued server command: /pex
-[23:01:35] [Server thread/INFO]: Dalla_98 issued server command: /pex
-[23:01:38] [Server thread/INFO]: Dalla_98 issued server command: /pex group cpp
-[23:01:47] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m utente[m
-[23:01:53] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m 1 kit[m
-[23:01:55] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m fly[m
-[23:02:10] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m -pex user Dalla_98 group add merda[m
-[23:02:23] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m mi aggiunge al gruppo merda oltre ad essere all foudner[m
-[23:02:32] [Server thread/INFO]: Dalla_98 issued server command: /broadcast
-[23:02:41] [Server thread/INFO]: Dalla_98 issued server command: /give Dalla_98 minecraft:command_block
-[23:02:46] [Server thread/INFO]: Dalla_98 issued server command: /op
-[23:03:02] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m oppami un attimo[m
-[23:03:38] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[23:03:38] [Server thread/INFO]: [0;37;1mPermissions reloaded[m
-[23:03:49] [Server thread/INFO]: Opped Dalla_98
-[23:03:55] [Server thread/INFO]: Could not de-op Giaco131
-[23:04:04] [Server thread/INFO]: [0;37;1mUser groups set![m
-[23:04:11] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mP[0;37;22m][0;37;1m[0;33;22m[21mG[0;37;1m[21miaco[m[0;37;22m[3m > bello sto server di merda[m
-[23:04:13] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mP[0;37;22m][0;37;1m[0;33;22m[21mG[0;37;1m[21miaco[m[0;37;22m[3m > lol[m
-[23:04:17] [Server thread/INFO]: CONSOLE issued server command: /nick Giaco131 off
-[23:04:17] [Server thread/INFO]: [0;33;22mNickname modificato.[m
-[23:04:21] [Server thread/INFO]: [m[0;37;22m[[0;34;1m[21mP[0;37;22m][0;37;1mGiaco131[m[0;37;22m[3m > lol[m
-[23:04:39] [Server thread/INFO]: [0;31;1mError in command syntax. Check command help.[m
-[23:04:41] [Server thread/INFO]: [0;37;1mUser "1fe33bf0-3908-4150-bbfa-f0b1b2861a28/Giaco131" added to group "c"![m
-[23:04:45] [Server thread/INFO]: Giaco131 issued server command: /kit
-[23:04:48] [Server thread/INFO]: [0;37;1mUser "1fe33bf0-3908-4150-bbfa-f0b1b2861a28/Giaco131" added to group "cpp"![m
-[23:04:51] [Server thread/INFO]: [m[0;37;22m[[0;36;1m[21mC[0;37;22m][0;37;1mGiaco131[m[0;36;1m[3m > [0;37;22m[3m.[m
-[23:04:53] [Server thread/INFO]: Giaco131 issued server command: /kit
-[23:04:57] [Server thread/INFO]: [0;37;1mUser "1fe33bf0-3908-4150-bbfa-f0b1b2861a28/Giaco131" added to group "java"![m
-[23:04:59] [Server thread/INFO]: [m[0;37;22m[[0;33;22m[21mJ[0;37;22m][0;37;1mGiaco131[m[0;33;22m[3m > [0;37;22m[3mdvbq uew[m
-[23:05:02] [Server thread/INFO]: [0;37;1mUser "1fe33bf0-3908-4150-bbfa-f0b1b2861a28/Giaco131" added to group "sql"![m
-[23:05:05] [Server thread/INFO]: [m[0;37;22m[[0;34;22m[21mS[0;37;22m][0;37;1mGiaco131[m[0;34;22m[3m > [0;37;22m[3mgbeoew[m
-[23:05:07] [Server thread/INFO]: Giaco131 issued server command: /heal
-[23:05:09] [Server thread/INFO]: Giaco131 issued server command: /fly
-[23:05:10] [Server thread/INFO]: Giaco131 issued server command: /fly
-[23:05:13] [Server thread/INFO]: Giaco131 issued server command: /fly
-[23:05:14] [Server thread/INFO]: Giaco131 issued server command: /fly
-[23:05:17] [Server thread/INFO]: Giaco131 issued server command: /fly
-[23:05:26] [Server thread/INFO]: Giaco131 issued server command: /nick &6G&fiaco
-[23:05:33] [Server thread/INFO]: Giaco131 issued server command: /nick &6G&l&fiaco
-[23:05:54] [Server thread/INFO]: Giaco131 issued server command: /c
-[23:05:54] [Server thread/INFO]: Giaco131 Accesso negato al comando.
-[23:05:56] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc ciao
-[23:06:08] [Server thread/INFO]: [0;37;1mUser groups set![m
-[23:06:14] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:14] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:15] [Server thread/INFO]: Giaco131 issued server command: /c
-[23:06:15] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:15] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:16] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:16] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:17] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:17] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:17] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:17] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:18] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:18] [Server thread/INFO]: Giaco131 issued server command: /fly
-[23:06:18] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:19] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:19] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:19] [Server thread/INFO]: CommandBlock at -49,60,52 issued server command: /bc hacked by DALLINO
-[23:06:27] [Server thread/INFO]: Giaco131 issued server command: /give Giaco131 137
-[23:06:44] [Server thread/INFO]: Giaco131 issued server command: /v
-[23:07:05] [Server thread/INFO]: Opped Giaco131
-[23:08:14] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:15] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:15] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:16] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:16] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:16] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:17] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:17] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:18] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:18] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:18] [Server thread/INFO]: Giaco131 issued server command: /v
-[23:08:18] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:19] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:19] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:20] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:20] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:20] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:21] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:24] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:24] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:24] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:24] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:25] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:25] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:26] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:26] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:26] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:27] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:27] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:28] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:28] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:28] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:29] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:29] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:30] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:33] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:33] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:33] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:33] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:34] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:34] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:34] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:35] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:35] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:36] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:36] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:37] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:37] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:38] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:39] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:40] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:50] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:52] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:53] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:55] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:57] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:58] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:59] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:08:59] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:09:00] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:09:01] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:09:02] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:09:03] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:09:03] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:09:04] [Server thread/INFO]: CommandBlock at -57,56,33 issued server command: /broadcast &4&lHACKED BY &f&lGiaco131
-[23:09:23] [Server thread/INFO]: Giaco131 issued server command: /v
-[23:09:55] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:09:55] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:09:56] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:09:57] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:00] [Server thread/INFO]: Giaco131 issued server command: /v
-[23:10:00] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:00] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:01] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:02] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:02] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:03] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:04] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:05] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:06] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:06] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:07] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:08] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:09] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:10] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:10] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:11] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:12] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:13] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:14] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:14] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:15] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:16] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:17] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:18] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:18] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:19] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:20] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:21] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:22] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:23] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:23] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:26] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:26] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:27] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:28] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:29] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:30] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:30] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m[3m >>[0;33;1m[3m[21m f[m
-[23:10:30] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:31] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:32] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:33] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:34] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:34] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:35] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:36] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:37] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:38] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:38] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:39] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m ma sono cazzi tua[m
-[23:10:39] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:40] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:41] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m ma sono cazzi tua[m
-[23:10:43] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:43] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:44] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:45] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:45] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m[3m >>[0;33;1m[3m[21m lag[m
-[23:10:45] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:46] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:47] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:48] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:49] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:49] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:52] [Server thread/INFO]: Giaco131 issued server command: /mem
-[23:10:52] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m[0;33;22m[3m >>[0;33;1m[3m[21m è' una merda sto server[m
-[23:10:52] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:52] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:53] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:54] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:55] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:56] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:56] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:57] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:58] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:10:59] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:00] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:00] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:01] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:02] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:03] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:04] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:04] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:05] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:06] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:11:06] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:07] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:08] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:08] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:09] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:10] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:11] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:12] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:12] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:13] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:14] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:15] [Server thread/INFO]: CommandBlock at -58,56,33 issued server command: /broadcast &4&lHacked by &f&lGiaco131 &6&lPassate dal mio canale non ancora aperto!!!
-[23:11:23] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:23] [Server thread/INFO]: Dalla_98 died
-[23:11:24] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:25] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:25] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:25] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:25] [Server thread/INFO]: Dalla_98 died
-[23:11:26] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:27] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:27] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:27] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:28] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:11:28] [Server thread/INFO]: Dalla_98 died
-[23:11:35] [Server thread/INFO]: Dalla_98 issued server command: /kill all
-[23:11:35] [Server thread/INFO]: Dalla_98 died
-[23:11:36] [Server thread/INFO]: Giaco131 issued server command: /give Giaco131 137
-[23:11:40] [Server thread/INFO]: Dalla_98 issued server command: /killall
-[23:11:47] [Server thread/INFO]: Dalla_98 issued server command: /killall mod
-[23:11:48] [Server thread/INFO]: Dalla_98 issued server command: /killall mob
-[23:11:49] [Server thread/INFO]: Dalla_98 issued server command: /killall mob
-[23:11:50] [Server thread/INFO]: Dalla_98 issued server command: /killall mob
-[23:11:51] [Server thread/INFO]: Dalla_98 issued server command: /killall mod
-[23:11:57] [Server thread/INFO]: Dalla_98 issued server command: /killall all
-[23:12:00] [Server thread/INFO]: Dalla_98 issued server command: /killall all
-[23:12:08] [Server thread/INFO]: Dalla_98 issued server command: /killall Giaco131
-[23:12:12] [Server thread/INFO]: Dalla_98 issued server command: /kill Giaco131
-[23:12:12] [Server thread/INFO]: Giaco131 died
-[23:12:14] [Server thread/INFO]: Dalla_98 issued server command: /kill Giaco131
-[23:12:14] [Server thread/INFO]: Dalla_98 issued server command: /kill Giaco131
-[23:12:32] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:32] [Server thread/INFO]: Dalla_98 died
-[23:12:33] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:33] [Server thread/INFO]: Dalla_98 died
-[23:12:35] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:37] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:37] [Server thread/INFO]: Dalla_98 died
-[23:12:38] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:38] [Server thread/INFO]: Dalla_98 died
-[23:12:40] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:41] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:41] [Server thread/INFO]: Dalla_98 died
-[23:12:42] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:43] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:43] [Server thread/INFO]: Dalla_98 died
-[23:12:44] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:45] [Server thread/INFO]: CommandBlock at -32,61,72 issued server command: /kill Dalla_98
-[23:12:56] [Server thread/INFO]: Giaco131 issued server command: /ban Dalla_98 non vale
-[23:13:03] [Server thread/INFO]: CONSOLE issued server command: /ban Dalla_98 non vale
-[23:13:03] [Server thread/INFO]: Dalla_98 lost connection: §4Esiliati:
-§rnon vale
-[23:13:03] [Server thread/INFO]: [F]Dalla_98 ci ha abbandonato.
-[23:13:03] [Server thread/INFO]: §6Giocatore§c Console §6esiliato§c Dalla_98 §6per §c§4Esiliati:
-§rnon vale§6.
-[23:13:15] [Netty Server IO #3/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@1ca1e858 to net.minecraft.server.v1_8_R1.HandshakeListener@189e7f14
-[23:13:15] [Netty Server IO #3/DEBUG]: Enabled auto read
-[23:13:15] [Netty Server IO #3/DEBUG]: Enabled auto read
-[23:13:15] [Netty Server IO #3/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@1ca1e858 to net.minecraft.server.v1_8_R1.LoginListener@5d9ce263
-[23:13:15] [User Authenticator #3/DEBUG]: Opening connection to https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=4cfd3a6935a2f40aa3bb2391926e90ae1179f6e5&username=Dalla_98
-[23:13:15] [User Authenticator #3/DEBUG]: Reading data from https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=4cfd3a6935a2f40aa3bb2391926e90ae1179f6e5&username=Dalla_98
-[23:13:16] [User Authenticator #3/DEBUG]: Successful read, server response was 200
-[23:13:16] [User Authenticator #3/DEBUG]: Response: {"id":"2f9abf1cb43a48689066ff33f9bedb17","name":"Dalla_98","properties":[{"signature":"FCc911vkNCeZhSup6ZWCCr5Bf2ny3u1qg3zlkGwjGR5tq9kKUMsx1IKKhVaDESJJYFltqmKUVINPtC1K3/SUjWwzZTYY4mMITQlGlewnzjCEPLfIhULBsAry67TprwtQOjeWZpXmNUe/urGLQMPqPMtYqkjS8JmUrCOq9isjkyqYg++5z5DXpEPOetwSZUl8oBhu+YtGBfECjrDbXTNkUEoL9O49D3MuAwpLvWQqjaTv25j5dPiFE9iR/t+wtz9rPDrqR5IFDtrPSsuZSkZrlZCxeAe4oD4hyIWhK+hdaFR9Nj5h1NY+gKUdX4jl2Mfmz5G8q7ESfN65dqnfHtgjk4e5XHSPypy0uGK0uGo0OGNwWXt/Sg3F8J1+FlOtFgP2tCOgHTelkWdSUNa26oQCUxETOTBVfsEaymD5rkllo/bXmveswMyr+Fvf2cJIf6TPYhOeT5N+VUa29LK+y1sD0WI5YvFKqL3AhhdZAHoGr1FROpJzFx7tnCL4v0k7rbMO/Zhy7Q5d8efTMKzyyk/Ev2Gvk9lAocOWpJiJPnKpsGYGE7FtH5KUTFRYfDf7/2UtWAae54aWuNWb5BObamVgdvS/AMDbP5k4dtUnhIPFQOPCGPZVlZSq7u1IBcePqHo8ACnmvrRkg11oC3fGT1HXE/aFJjPLB1pOT6zcOECH6IU=","name":"textures","value":"eyJ0aW1lc3RhbXAiOjE0NzYyMjAzOTg4NTcsInByb2ZpbGVJZCI6IjJmOWFiZjFjYjQzYTQ4Njg5MDY2ZmYzM2Y5YmVkYjE3IiwicHJvZmlsZU5hbWUiOiJEYWxsYV85OCIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTg3YjlhMTg5MTZlZTBjMDgzOGI2ZTk4NmMxNjJiYWUyZDJiNTdjNzc1YzVkODk1NTBiMGExNDJjYWMifX19"}]}
-[23:13:16] [User Authenticator #3/INFO]: UUID of player Dalla_98 is 2f9abf1c-b43a-4868-9066-ff33f9bedb17
-[23:13:16] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6ef90414[id=2f9abf1c-b43a-4868-9066-ff33f9bedb17,name=Dalla_98,properties={textures=[com.mojang.authlib.properties.Property@35028fd9]},legacy=false] (/25.71.232.124:51298): You are banned from this server!
-Reason: non vale
-[23:13:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@6ef90414[id=2f9abf1c-b43a-4868-9066-ff33f9bedb17,name=Dalla_98,properties={textures=[com.mojang.authlib.properties.Property@35028fd9]},legacy=false] (/25.71.232.124:51298) lost connection: You are banned from this server!
-Reason: non vale
-[23:13:17] [Netty Server IO #0/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@45afe603 to net.minecraft.server.v1_8_R1.HandshakeListener@1ba82280
-[23:13:17] [Netty Server IO #0/DEBUG]: Enabled auto read
-[23:13:17] [Netty Server IO #0/DEBUG]: Enabled auto read
-[23:13:23] [Netty Server IO #1/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@3df56d1f to net.minecraft.server.v1_8_R1.HandshakeListener@416672ae
-[23:13:23] [Netty Server IO #1/DEBUG]: Enabled auto read
-[23:13:23] [Netty Server IO #1/DEBUG]: Enabled auto read
-[23:13:23] [Netty Server IO #1/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@3df56d1f to net.minecraft.server.v1_8_R1.PacketStatusListener@4d4a54f1
-[23:13:27] [Netty Server IO #2/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@68dbe564 to net.minecraft.server.v1_8_R1.HandshakeListener@63744df3
-[23:13:27] [Netty Server IO #2/DEBUG]: Enabled auto read
-[23:13:27] [Netty Server IO #2/DEBUG]: Enabled auto read
-[23:13:27] [Netty Server IO #2/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@68dbe564 to net.minecraft.server.v1_8_R1.LoginListener@2e92f341
-[23:13:28] [User Authenticator #4/DEBUG]: Opening connection to https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=-c3862082a138a1a66328b0fa06471bca0db0ec7&username=Dalla_98
-[23:13:28] [User Authenticator #4/DEBUG]: Reading data from https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=-c3862082a138a1a66328b0fa06471bca0db0ec7&username=Dalla_98
-[23:13:28] [User Authenticator #4/DEBUG]: Successful read, server response was 200
-[23:13:28] [User Authenticator #4/DEBUG]: Response: {"id":"2f9abf1cb43a48689066ff33f9bedb17","name":"Dalla_98","properties":[{"signature":"QfbXJ7AU13OzHQ1EMpM+q1CFzPkfmZx814aFACdy0f5td9JjkJSrGwyJm9fIZJAOCyLNxstapQE7VQxj09MBSDRG6y+7epPIe1GNGf+DMAG7zJkw5o5bPUegBbojv5xKT4rdhxT+wRTsY/ZtUnLaJjRiYoXl/ATBZZvYVSKwgswTIuivc7JxAJ74FVoaLJXmrqxQ9hKh4uLPmvbQZOSyp33eUsJXVAjEf3LkSEcUkUu2+bwhe3BK2SohluWgu2f1L/b2QuVLfjEIY1kfEg2OztDh7OrxSsyy/+XSOy5teutnBhBT/pm+9YkvhD80XtMX4T2wHfxv7duh3/CAh1AXG06et/MzOeePkB+UQ/NFmJxbSNEYIL/Lm417UY2RSwbk9M0Sg9IVKb0vmglQLzr1RuDVkX4MBPV9xaeyaxIGIe+ELyTC8TP1tGM/hkAsKYhARH8e08EKAx9iJgnU1pPWJilFApqKgDTKB2ELGrj/09x8vkA5pb7IqGipJcn6tNX5w2ZkCUEK15XaAcevCI5ZJrWUUE39krWdO5De0Rfr6ouZOiDR2BKv7tguiVzgoAZldMVFI6Veeorpj3BmLPo9E8zZCBRwETFsmKshG6Qa9AvPtn0rYSWo8CZC3C2KHXlWxDhIncsh1515XmFNIqxyRIq3QQr0BHfS6kkJDjotI80=","name":"textures","value":"eyJ0aW1lc3RhbXAiOjE0NzYyMjA0MTEwNzUsInByb2ZpbGVJZCI6IjJmOWFiZjFjYjQzYTQ4Njg5MDY2ZmYzM2Y5YmVkYjE3IiwicHJvZmlsZU5hbWUiOiJEYWxsYV85OCIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTg3YjlhMTg5MTZlZTBjMDgzOGI2ZTk4NmMxNjJiYWUyZDJiNTdjNzc1YzVkODk1NTBiMGExNDJjYWMifX19"}]}
-[23:13:28] [User Authenticator #4/INFO]: UUID of player Dalla_98 is 2f9abf1c-b43a-4868-9066-ff33f9bedb17
-[23:13:29] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@66cba31f[id=2f9abf1c-b43a-4868-9066-ff33f9bedb17,name=Dalla_98,properties={textures=[com.mojang.authlib.properties.Property@7f1dfbab]},legacy=false] (/25.71.232.124:51305): You are banned from this server!
-Reason: non vale
-[23:13:29] [Server thread/INFO]: com.mojang.authlib.GameProfile@66cba31f[id=2f9abf1c-b43a-4868-9066-ff33f9bedb17,name=Dalla_98,properties={textures=[com.mojang.authlib.properties.Property@7f1dfbab]},legacy=false] (/25.71.232.124:51305) lost connection: You are banned from this server!
-Reason: non vale
-[23:13:31] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:32] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:32] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:32] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:33] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:33] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:34] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:34] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:34] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:35] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:37] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:37] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:37] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:37] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:38] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:38] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:39] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:39] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:39] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:40] [Server thread/INFO]: CONSOLE issued server command: /pardon Dalla_98
-[23:13:40] [Server thread/INFO]: §6Il giocatore§c Console §6può tornare in gioco§c Dalla_98.
-[23:13:40] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:40] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:41] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:41] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:41] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:42] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:42] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:43] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:46] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:46] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:46] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:46] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:46] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:47] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:47] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:48] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:48] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:48] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:49] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:49] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:50] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:50] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:51] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:51] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:54] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:54] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:55] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:56] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:56] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:57] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:58] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:59] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:13:59] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:00] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:03] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:03] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:04] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:05] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:06] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:07] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:07] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:08] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:09] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:12] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:12] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:13] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:13] [Netty Server IO #3/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@6c0bdc1f to net.minecraft.server.v1_8_R1.HandshakeListener@7066855
-[23:14:13] [Netty Server IO #3/DEBUG]: Enabled auto read
-[23:14:13] [Netty Server IO #3/DEBUG]: Enabled auto read
-[23:14:13] [Netty Server IO #3/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@6c0bdc1f to net.minecraft.server.v1_8_R1.PacketStatusListener@3db31d2c
-[23:14:14] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:15] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:15] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:16] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:17] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:18] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:18] [Netty Server IO #0/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@2171fd34 to net.minecraft.server.v1_8_R1.HandshakeListener@1b5488e7
-[23:14:18] [Netty Server IO #0/DEBUG]: Enabled auto read
-[23:14:18] [Netty Server IO #0/DEBUG]: Enabled auto read
-[23:14:18] [Netty Server IO #0/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@2171fd34 to net.minecraft.server.v1_8_R1.LoginListener@41b2152f
-[23:14:19] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:19] [User Authenticator #5/DEBUG]: Opening connection to https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=2c0ddd99c0e9f9ca55db62bd30ef42bb508787ba&username=Dalla_98
-[23:14:19] [User Authenticator #5/DEBUG]: Reading data from https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=2c0ddd99c0e9f9ca55db62bd30ef42bb508787ba&username=Dalla_98
-[23:14:19] [User Authenticator #5/DEBUG]: Successful read, server response was 200
-[23:14:19] [User Authenticator #5/DEBUG]: Response: {"id":"2f9abf1cb43a48689066ff33f9bedb17","name":"Dalla_98","properties":[{"signature":"b7o6NS4Wnm3mtQS0siORNI6M1f74i1UM7gRIcIqDYKLjzTcKobsZrlTWL9jVThH6zqg0TYSDJmQzC1te423Cwa3u5cCWslvqiLg2uouZojHwdWfyt085c0NyYqp4U1i/7kIuPWpmPdVEN75JHYqrCeXjGSlAQoYK4IYfLPn0Oo3Q3kjr/nj7ZamiagZ8I1pHOO6OPZ65wzVReTrVdZu6nKyvxU3klccgwVQHKPpgiQWyRlfZ+rbwydF5AAOLmyGw/F5lxcasqklO0OVEPiw+TE2fnypqTcGQZEJAZUOPO6ewpgsDc2Lsgfbi1Zg9gz8EpLNVPZHWkO2VHK4GmL1FxsrWJbeAyrT46VVWOo+DSNaXzGsH9NBK1TioRd/CG4bg5ZTTrkJ6jHauJrTNR/nu+dbpdg+q61KOmfCZGtgG+/ITVC0p7ROWD88YOvAHoA9QUdmh4EsiTuUjgQQK37w8IN+RBYL/SQ+VT/11a5DjQcDekMrjL0FxjcgbDpxhDgRbieHLvZsWiDKBYj+EmQ3t0hyyyozWm43FTAnV+ZQ34WbC9cp/UskATZcVsRszXxUpR1G7eC+dnNYtfRhDIsEp1yx7s9aF0sI9EJNfl+GTUZIOvE6qP7yqyNN3TvEV/YdZ03t/MW/sjP2NU5XQ2MCuMJ+fOyfz9FmUkKz+1Eq5hq4=","name":"textures","value":"eyJ0aW1lc3RhbXAiOjE0NzYyMjA0NjE2OTksInByb2ZpbGVJZCI6IjJmOWFiZjFjYjQzYTQ4Njg5MDY2ZmYzM2Y5YmVkYjE3IiwicHJvZmlsZU5hbWUiOiJEYWxsYV85OCIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTg3YjlhMTg5MTZlZTBjMDgzOGI2ZTk4NmMxNjJiYWUyZDJiNTdjNzc1YzVkODk1NTBiMGExNDJjYWMifX19"}]}
-[23:14:19] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:20] [User Authenticator #5/INFO]: UUID of player Dalla_98 is 2f9abf1c-b43a-4868-9066-ff33f9bedb17
-[23:14:20] [Server thread/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@2171fd34 to net.minecraft.server.v1_8_R1.PlayerConnection@6d003fc9
-[23:14:20] [Server thread/DEBUG]: Disabled auto read
-[23:14:20] [Server thread/DEBUG]: Disabled auto read
-[23:14:20] [Netty Server IO #0/DEBUG]: Enabled auto read
-[23:14:20] [Netty Server IO #0/DEBUG]: Enabled auto read
-[23:14:20] [Server thread/INFO]: Dalla_98[/25.71.232.124:51311] logged in with entity id 24255 at ([world] -32.20822253720787, 61.0, 72.80473706986938)
-[23:14:20] [Server thread/INFO]: [0;37;22m[3m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1mDalla_98[m [0;37;22m[3msi e' unito a noi![m
-[23:14:20] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:20] [Server thread/INFO]: Dalla_98 died
-[23:14:21] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:22] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:23] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:23] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:23] [Server thread/INFO]: Dalla_98 died
-[23:14:24] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:25] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:25] [Server thread/INFO]: Dalla_98 died
-[23:14:26] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:27] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:27] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:27] [Server thread/INFO]: Dalla_98 died
-[23:14:28] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:29] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:30] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:30] [Server thread/INFO]: Dalla_98 died
-[23:14:31] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:31] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:31] [Server thread/INFO]: Dalla_98 died
-[23:14:32] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:33] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:34] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:34] [Server thread/INFO]: Dalla_98 died
-[23:14:35] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:38] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:38] [Server thread/INFO]: Dalla_98 died
-[23:14:38] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:38] [Server thread/INFO]: Dalla_98 died
-[23:14:39] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:40] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:41] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:41] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:41] [Server thread/INFO]: Dalla_98 died
-[23:14:42] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:43] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:44] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:46] [Server thread/INFO]: Dalla_98 died
-[23:14:46] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:47] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:48] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:48] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:48] [Server thread/INFO]: Dalla_98 died
-[23:14:49] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:50] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:51] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:52] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:52] [Server thread/INFO]: Dalla_98 died
-[23:14:52] [Server thread/INFO]: Dalla_98 issued server command: /killall Giaco131
-[23:14:52] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:53] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:54] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:54] [Server thread/INFO]: Dalla_98 died
-[23:14:55] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:56] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:56] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:56] [Server thread/INFO]: Dalla_98 died
-[23:14:57] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:58] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:58] [Server thread/INFO]: Dalla_98 died
-[23:14:59] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:14:59] [Server thread/INFO]: Dalla_98 issued server command: /kill Giaco131
-[23:14:59] [Server thread/INFO]: Giaco131 died
-[23:15:00] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:00] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:01] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:04] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:04] [Server thread/INFO]: Dalla_98 died
-[23:15:04] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:05] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:06] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:07] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:07] [Server thread/INFO]: Dalla_98 died
-[23:15:07] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:08] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:09] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:09] [Server thread/INFO]: Dalla_98 died
-[23:15:10] [Server thread/INFO]: Dalla_98 issued server command: /kill Giaco131
-[23:15:12] [Server thread/INFO]: Giaco131 died
-[23:15:12] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:12] [Server thread/INFO]: Dalla_98 died
-[23:15:12] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:13] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:14] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:15] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:16] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:16] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:17] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:18] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:21] [Server thread/INFO]: Dalla_98 died
-[23:15:21] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:22] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:22] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:23] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:23] [Server thread/INFO]: Dalla_98 died
-[23:15:24] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:25] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:26] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:26] [Server thread/INFO]: Dalla_98 died
-[23:15:26] [Server thread/INFO]: [0;37;1mUser groups set![m
-[23:15:26] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:27] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:30] [Server thread/INFO]: Dalla_98 died
-[23:15:30] [Server thread/INFO]: Dalla_98 issued server command: /kill Giaco13
-[23:15:30] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:15:30] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:30] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:31] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:31] [Server thread/INFO]: Dalla_98 died
-[23:15:32] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:33] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:33] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:34] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:34] [Server thread/INFO]: Dalla_98 died
-[23:15:35] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:36] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:38] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:38] [Server thread/INFO]: Dalla_98 died
-[23:15:39] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:40] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:41] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:41] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:42] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:43] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:43] [Server thread/INFO]: Dalla_98 died
-[23:15:44] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:45] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:45] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:45] [Server thread/INFO]: Dalla_98 died
-[23:15:46] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:47] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:48] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:49] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:49] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:49] [Server thread/INFO]: Dalla_98 died
-[23:15:50] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:15:51] [Server thread/INFO]: CommandBlock at -32,61,74 issued server command: /kill Dalla_98
-[23:16:01] [Server thread/INFO]: Giaco131 issued server command: /v
-[23:16:03] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:16:06] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:16:16] [Server thread/INFO]: Giaco131 issued server command: /msg Dalla_98 ez
-[23:16:21] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:16:58] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:17:11] [Server thread/INFO]: Giaco131 issued server command: /tphere Dalla_98
-[23:17:14] [Server thread/INFO]: Dalla_98 issued server command: /v
-[23:17:14] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:17:16] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3md[m
-[23:17:19] [Server thread/INFO]: Dalla_98 issued server command: /pex
-[23:17:29] [Server thread/INFO]: Dalla_98 was slain by Giaco131
-[23:17:31] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m[3m >>[0;33;1m[3m[21m ez[m
-[23:17:40] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m[3m >>[0;33;1m[3m[21m ezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezezez[m
-[23:17:55] [Server thread/INFO]: Dalla_98 issued server command: /v
-[23:17:55] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:18:00] [Server thread/INFO]: CONSOLE issued server command: /v Giaco131
-[23:18:00] [Server thread/INFO]: [0;33;22mInvisibilita' giocatore [0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m: disabilitato[m
-[23:18:06] [Server thread/INFO]: Dalla_98 issued server command: /pex user Dalla_98 group add founder
-[23:18:06] [Server thread/WARN]: [PermissionsEx] User Dalla_98 tried to access chat command "pex user Dalla_98 group add founder", but doesn't have permission to do this.
-[23:18:09] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3m-/pex user Dalla_98 group add founder[m
-[23:18:18] [Server thread/INFO]: Giaco131 issued server command: /enchant sharpness 1000
-[23:18:18] [Server thread/INFO]: Dalla_98 issued server command: /kit
-[23:18:18] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:18:21] [Server thread/INFO]: Dalla_98 issued server command: /kits
-[23:18:21] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:18:22] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3md[m
-[23:18:26] [Server thread/INFO]: Dalla_98 issued server command: /kits
-[23:18:26] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:18:28] [Server thread/INFO]: Dalla_98 issued server command: /kit
-[23:18:28] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:18:43] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3md[m
-[23:18:56] [Server thread/INFO]: [0;37;1mUser groups set![m
-[23:19:01] [Server thread/INFO]: [0;37;1mUser "2f9abf1c-b43a-4868-9066-ff33f9bedb17/Dalla_98" added to group "c"![m
-[23:19:03] [Server thread/INFO]: Dalla_98 issued server command: /pex
-[23:19:05] [Server thread/INFO]: Dalla_98 issued server command: /kit
-[23:19:09] [Server thread/INFO]: Dalla_98 issued server command: /kit programmatore
-[23:19:15] [Server thread/INFO]: Dalla_98 was slain by Giaco131
-[23:19:43] [Server thread/INFO]: Giaco131 issued server command: /enchant 0 1000
-[23:19:45] [Server thread/INFO]: Giaco131 issued server command: /enchant 0 1000
-[23:19:46] [Server thread/INFO]: Giaco131 issued server command: /enchant 0 1000
-[23:19:48] [Server thread/INFO]: Giaco131 issued server command: /enchant 0 1000
-[23:19:52] [Server thread/INFO]: Giaco131 issued server command: /enchant 34 1000
-[23:19:54] [Server thread/INFO]: Giaco131 issued server command: /enchant 34 1000
-[23:19:55] [Server thread/INFO]: Giaco131 issued server command: /enchant 34 1000
-[23:19:56] [Server thread/INFO]: Giaco131 issued server command: /enchant 34 1000
-[23:19:57] [Server thread/INFO]: Dalla_98 lost connection: Disconnected
-[23:20:00] [Server thread/INFO]: [C]Dalla_98 ci ha abbandonato.
-[23:20:03] [Netty Server IO #1/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@f29ab4e to net.minecraft.server.v1_8_R1.HandshakeListener@639b57ff
-[23:20:03] [Netty Server IO #1/DEBUG]: Enabled auto read
-[23:20:03] [Netty Server IO #1/DEBUG]: Enabled auto read
-[23:20:03] [Netty Server IO #1/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@f29ab4e to net.minecraft.server.v1_8_R1.PacketStatusListener@338f3dc0
-[23:20:07] [Netty Server IO #2/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@52b086ec to net.minecraft.server.v1_8_R1.HandshakeListener@13ea529c
-[23:20:07] [Netty Server IO #2/DEBUG]: Enabled auto read
-[23:20:07] [Netty Server IO #2/DEBUG]: Enabled auto read
-[23:20:07] [Netty Server IO #2/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@52b086ec to net.minecraft.server.v1_8_R1.LoginListener@2a5bb35b
-[23:20:08] [User Authenticator #6/DEBUG]: Opening connection to https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=-7246a9e7ca9bf9a76d7bff321de27f82ad300d13&username=Dalla_98
-[23:20:08] [User Authenticator #6/DEBUG]: Reading data from https://sessionserver.mojang.com/session/minecraft/hasJoined?serverId=-7246a9e7ca9bf9a76d7bff321de27f82ad300d13&username=Dalla_98
-[23:20:09] [User Authenticator #6/DEBUG]: Successful read, server response was 200
-[23:20:09] [User Authenticator #6/DEBUG]: Response: {"id":"2f9abf1cb43a48689066ff33f9bedb17","name":"Dalla_98","properties":[{"signature":"k7b6tqgNGGCBJuXArY2GYgPKJ1ONGDib5mx66ByTWYfzISyxSmfCMEYHKUtoKJNlB46CyK8rjnTA4ajq5AzucJzegy/gOpivl9L9xy4Lq22eUelR/Lj1bo0tB2AXkj83Gj98wcnPzT80c86VEK3GgoShr6PXPNV0/vqG/PfLM1ahMs5vKU+GLuIT8jzb6Ggt7dkiIosTlJ6U1QWsBxh+9d9MfXaRJD4+jrTCHebcAFyJzbqZF+4y3b7euzCcKRpa4vBMHjYqZHXrw0F9MoBvmYy0E7vS8LJONhJbqfof2xMc1TwfZxmGsvgn+4McT5+wlNvPFJsXwoByaTVog6dv+4sjJy8RUhAfzH7hSNGAdARb0kw/Bo7JLnBy8OD8haGG0lidgNLkIuOhQkQ/rxBAEu8/4HSq+XYcdMZdHICcHfYuumVpvhLvYzezZMS5ludrTRYeSVrK4/43vfFiu3NqNZDGpnIAuWcp/EYCh+mtwXMVCcE++JKZGp+kP1Gj5DZBu1NyNO0P17iVMWklD8N1olGdFLP5n60G+9BbsrJUEnI0OS/ly9I8B9WFxqXfxHzNrrHoOyNhmbBskIfGJMya8kMfanVSknIFe5IaqvUoyx9pn+pab8/FU5iTfxlBzAJhOnvFpbpxZ7pPpqPSySqTTPREpMHNRbSyedH8VR4ckIE=","name":"textures","value":"eyJ0aW1lc3RhbXAiOjE0NzYyMjA4MTEyNTcsInByb2ZpbGVJZCI6IjJmOWFiZjFjYjQzYTQ4Njg5MDY2ZmYzM2Y5YmVkYjE3IiwicHJvZmlsZU5hbWUiOiJEYWxsYV85OCIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTg3YjlhMTg5MTZlZTBjMDgzOGI2ZTk4NmMxNjJiYWUyZDJiNTdjNzc1YzVkODk1NTBiMGExNDJjYWMifX19"}]}
-[23:20:09] [User Authenticator #6/INFO]: UUID of player Dalla_98 is 2f9abf1c-b43a-4868-9066-ff33f9bedb17
-[23:20:09] [Server thread/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@52b086ec to net.minecraft.server.v1_8_R1.PlayerConnection@6734fc50
-[23:20:09] [Server thread/DEBUG]: Disabled auto read
-[23:20:09] [Server thread/DEBUG]: Disabled auto read
-[23:20:09] [Netty Server IO #2/DEBUG]: Enabled auto read
-[23:20:09] [Netty Server IO #2/DEBUG]: Enabled auto read
-[23:20:09] [Server thread/INFO]: Dalla_98[/25.71.232.124:51371] logged in with entity id 35452 at ([world] -73.90561618274575, 61.0, 55.92951700780857)
-[23:20:09] [Server thread/INFO]: [0;37;22m[3m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m [0;37;22m[3msi e' unito a noi![m
-[23:20:32] [Server thread/INFO]: Dalla_98 issued server command: /enchat
-[23:21:07] [Server thread/INFO]: Giaco131 issued server command: /effect Giaco131 10 100000 255
-[23:21:07] [Server thread/INFO]: [Giaco131: Given Regeneration (ID 10) * 255 to Giaco131 for 100000 seconds]
-[23:21:11] [Server thread/INFO]: Giaco131 issued server command: /effect Giaco131 11 100000 255
-[23:21:11] [Server thread/INFO]: [Giaco131: Given Resistance (ID 11) * 255 to Giaco131 for 100000 seconds]
-[23:21:16] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3messentials build?[m
-[23:21:18] [Server thread/INFO]: Giaco131 issued server command: /effect Giaco131 21 100000 255
-[23:21:18] [Server thread/INFO]: [Giaco131: Given Health Boost (ID 21) * 255 to Giaco131 for 100000 seconds]
-[23:21:19] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3mesiste?[m
-[23:21:25] [Server thread/INFO]: Giaco131 issued server command: /effect Giaco131 22 100000 255
-[23:21:25] [Server thread/INFO]: [Giaco131: Given Absorption (ID 22) * 255 to Giaco131 for 100000 seconds]
-[23:21:27] [Server thread/INFO]: Giaco131 issued server command: /gms
-[23:21:39] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3mheal[m
-[23:21:50] [Server thread/INFO]: Dalla_98 was slain by Giaco131
-[23:22:30] [Server thread/INFO]: Dalla_98 was slain by Giaco131
-[23:22:58] [Server thread/INFO]: Dalla_98 was slain by Giaco131
-[23:24:04] [Server thread/INFO]: Dalla_98 issued server command: /op
-[23:24:05] [Server thread/INFO]: Dalla_98 issued server command: /x
-[23:24:07] [Server thread/INFO]: Dalla_98 issued server command: /c
-[23:24:07] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:24:13] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:24:29] [Server thread/INFO]: Opped Dalla_98
-[23:24:34] [Server thread/INFO]: Dalla_98 issued server command: /c
-[23:25:21] [Server thread/INFO]: Dalla_98 issued server command: /heal Giaco131
-[23:25:35] [Server thread/INFO]: Giaco131 issued server command: /effect Giaco131 22 100000 255
-[23:25:35] [Server thread/INFO]: [Giaco131: Given Absorption (ID 22) * 255 to Giaco131 for 100000 seconds]
-[23:25:35] [Server thread/INFO]: Dalla_98 issued server command: /heal Giaco131
-[23:25:42] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:42] [Server thread/INFO]: Dalla_98 died
-[23:25:43] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:43] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:44] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:44] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:44] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:45] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:45] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:46] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:46] [Server thread/INFO]: Dalla_98 died
-[23:25:46] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:46] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:47] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:47] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:47] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:48] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:48] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:49] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:49] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:49] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:50] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:50] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:50] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:51] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:51] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:51] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:52] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:52] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:52] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:53] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:56] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:56] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:56] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:56] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:58] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:25:59] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:26:15] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:26:15] [Server thread/INFO]: Dalla_98 died
-[23:26:24] [Server thread/INFO]: Giaco131 issued server command: /gms Dalla_98
-[23:26:38] [Server thread/INFO]: Dalla_98 was slain by Giaco131
-[23:26:44] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m[3m >>[0;33;1m[3m[21m :c[m
-[23:26:44] [Server thread/INFO]: Dalla_98 issued server command: /heal g
-[23:26:48] [Server thread/INFO]: Dalla_98 issued server command: /heal Giaco131
-[23:26:49] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3m:c[m
-[23:27:12] [Server thread/INFO]: [m[0;37;22m[[0;31;22m[21mF[0;37;22m][0;37;1m[0;33;22mG[0;37;1miaco[m[0;33;22m[3m >>[0;33;1m[3m[21m :c[m
-[23:27:14] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:27:14] [Server thread/INFO]: Dalla_98 died
-[23:27:18] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:27:18] [Server thread/INFO]: Dalla_98 died
-[23:27:25] [Server thread/WARN]: Giaco131 moved wrongly!
-[23:27:37] [Server thread/INFO]: Giaco131 was slain by Dalla_98
-[23:27:41] [Server thread/INFO]: Dalla_98 issued server command: /heal
-[23:27:44] [Server thread/INFO]: Dalla_98 issued server command: /heal
-[23:27:50] [Server thread/INFO]: Dalla_98 issued server command: /heal
-[23:28:02] [Server thread/INFO]: Dalla_98 issued server command: /heal
-[23:28:04] [Server thread/INFO]: Giaco131 issued server command: /v
-[23:28:12] [Server thread/INFO]: Dalla_98 issued server command: /v
-[23:28:18] [Server thread/INFO]: Giaco131 issued server command: /c
-[23:28:20] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:28:27] [Server thread/INFO]: Giaco131 issued server command: /deop Dalla_98
-[23:28:27] [Server thread/INFO]: [Giaco131: De-opped Dalla_98]
-[23:28:30] [Server thread/INFO]: Giaco131 issued server command: /v Dalla_98
-[23:28:36] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:28:41] [Server thread/INFO]: Dalla_98 issued server command: /v
-[23:28:41] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:28:42] [Server thread/INFO]: Giaco131 issued server command: /v Dalla_98
-[23:28:43] [Server thread/INFO]: Dalla_98 issued server command: /v
-[23:28:43] [Server thread/INFO]: Dalla_98 Accesso negato al comando.
-[23:28:43] [Server thread/INFO]: Giaco131 issued server command: /v Dalla_98
-[23:28:46] [Server thread/INFO]: Giaco131 issued server command: /gms Dalla_98
-[23:28:47] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3mpezzo di merda[m
-[23:28:51] [Server thread/INFO]: Giaco131 issued server command: /heal Da
-[23:29:30] [Server thread/INFO]: Giaco131 issued server command: /enchant sharpness -10000
-[23:29:41] [Server thread/INFO]: Dalla_98 fell out of the world
-[23:29:44] [Server thread/INFO]: Giaco131 issued server command: /tphere Dalla_98
-[23:29:46] [Server thread/INFO]: Giaco131 issued server command: /tphere Dalla_98
-[23:30:41] [Server thread/INFO]: Giaco131 issued server command: /tphere Dalla_98
-[23:31:03] [Server thread/INFO]: Giaco131 issued server command: /effect Dalla_98 22 100000 255
-[23:31:03] [Server thread/INFO]: [Giaco131: Given Absorption (ID 22) * 255 to Dalla_98 for 100000 seconds]
-[23:31:06] [Server thread/INFO]: Giaco131 issued server command: /effect Dalla_98 21 100000 255
-[23:31:06] [Server thread/INFO]: [Giaco131: Given Health Boost (ID 21) * 255 to Dalla_98 for 100000 seconds]
-[23:31:18] [Server thread/INFO]: Giaco131 issued server command: /enchant sharpness 100000
-[23:31:21] [Server thread/INFO]: Giaco131 issued server command: /enchant sharpness 10000
-[23:31:23] [Server thread/INFO]: Dalla_98 was slain by Giaco131
-[23:31:29] [Server thread/INFO]: Giaco131 issued server command: /enchant sharpness 10000
-[23:31:31] [Server thread/INFO]: Giaco131 issued server command: /effect Dalla_98 21 100000 255
-[23:31:31] [Server thread/INFO]: [Giaco131: Given Health Boost (ID 21) * 255 to Dalla_98 for 100000 seconds]
-[23:31:33] [Server thread/INFO]: Giaco131 issued server command: /effect Dalla_98 22 100000 255
-[23:31:33] [Server thread/INFO]: [Giaco131: Given Absorption (ID 22) * 255 to Dalla_98 for 100000 seconds]
-[23:31:48] [Server thread/INFO]: Giaco131 issued server command: /effect Dalla_98 10 100000 255
-[23:31:48] [Server thread/INFO]: [Giaco131: Given Regeneration (ID 10) * 255 to Dalla_98 for 100000 seconds]
-[23:31:50] [Server thread/INFO]: Giaco131 issued server command: /effect Dalla_98 11 100000 255
-[23:31:52] [Server thread/INFO]: [Giaco131: Given Resistance (ID 11) * 255 to Dalla_98 for 100000 seconds]
-[23:32:37] [Server thread/INFO]: Giaco131 issued server command: /invsee Dalla_98
-[23:32:48] [Server thread/INFO]: Giaco131 issued server command: /invsee Dalla_98
-[23:32:54] [Server thread/INFO]: Giaco131 issued server command: /invsee Dalla_98
-[23:34:09] [Server thread/INFO]: Giaco131 issued server command: /invsee Dalla_98
-[23:34:30] [Server thread/INFO]: Giaco131 issued server command: /v
-[23:34:33] [Server thread/INFO]: Giaco131 issued server command: /heal Dalla_98
-[23:34:35] [Server thread/INFO]: Dalla_98 fell out of the world
-[23:35:27] [Server thread/INFO]: Comando sconosciuto[m
-[23:35:28] [Server thread/INFO]: Plugins (12): [0;32;1mPermissionsEx[0;37;1m, [0;32;1mAutoMessage[0;37;1m, [0;32;1mSkinsRestorer[0;37;1m, [0;32;1mWorldEdit[0;37;1m, [0;32;1mPingPlayer[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mMultiverse-Core[0;37;1m, [0;32;1mWorldGuard[0;37;1m, [0;32;1mEssentials[0;37;1m, [0;32;1mEssentialsSpawn[0;37;1m, [0;32;1mEssentialsChat[0;37;1m, [0;32;1mEssentialsProtect[m
-[23:36:11] [Server thread/INFO]: Giaco131 issued server command: /tp Dalla_98
-[23:36:12] [Server thread/INFO]: Giaco131 fell out of the world
-[23:36:16] [Server thread/INFO]: Giaco131 issued server command: /c
-[23:36:20] [Server thread/INFO]: Giaco131 issued server command: /kill Dalla_98
-[23:36:42] [Server thread/INFO]: Dalla_98 was shot by Giaco131
-[23:39:03] [Server thread/INFO]: [m[0;37;22m[[0;31;1m[21mC[0;37;22m][0;37;1mDalla_98[m[0;31;1m[3m > [0;37;22m[3md[m
-[23:39:06] [Server thread/INFO]: Dalla_98 lost connection: Disconnected
-[23:39:07] [Server thread/INFO]: [C]Dalla_98 ci ha abbandonato.
-[23:39:14] [Netty Server IO #3/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@2872e17c to net.minecraft.server.v1_8_R1.HandshakeListener@1c0260e7
-[23:39:14] [Netty Server IO #3/DEBUG]: Enabled auto read
-[23:39:14] [Netty Server IO #3/DEBUG]: Enabled auto read
-[23:39:14] [Netty Server IO #3/DEBUG]: Set listener of net.minecraft.server.v1_8_R1.NetworkManager@2872e17c to net.minecraft.server.v1_8_R1.PacketStatusListener@39fd4436
-[23:41:07] [Server thread/INFO]: Saving...
-[23:41:09] [Server thread/INFO]: Saved the world
-[23:41:10] [Server thread/INFO]: Stopping the server
-[23:41:10] [Server thread/INFO]: Stopping server
-[23:41:10] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
-[23:41:10] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
-[23:41:10] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
-[23:41:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
-[23:41:10] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
-[23:41:10] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
-[23:41:10] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[23:41:10] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
-[23:41:10] [Server thread/INFO]: [Multiverse-Core] - Disabled
-[23:41:10] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
-[23:41:10] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
-[23:41:10] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
-[23:41:10] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
-[23:41:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
-[23:41:10] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
-[23:41:10] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
-[23:41:10] [Server thread/INFO]: Saving players
-[23:41:10] [Server thread/INFO]: Giaco131 lost connection: Server Stoppato!
-[23:41:10] [Server thread/INFO]: Giaco131 left the game.
-[23:41:10] [Server thread/INFO]: Saving worlds
-[23:41:10] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[16:40:15] [Server thread/INFO]: Starting minecraft server version 1.8
+[16:40:15] [Server thread/INFO]: Loading properties
+[16:40:15] [Server thread/INFO]: Default game type: SURVIVAL
+[16:40:15] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3c767f-33d5de3 (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[16:40:15] [Server thread/INFO]: Debug logging is enabled
+[16:40:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:40:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:40:15] [Server thread/INFO]: Generating keypair
+[16:40:15] [Server thread/INFO]: Starting Minecraft server on 25.65.83.202:25565
+[16:40:16] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:40:19] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v12.8
+[16:40:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[16:40:19] [Server thread/INFO]: [iDisguise] Loading iDisguise v5.3.6
+[16:40:19] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[16:40:19] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.5.5
+[16:40:19] [Server thread/INFO]: [PingPlayer] Loading PingPlayer v1.3.1
+[16:40:19] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[16:40:19] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[16:40:19] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.2;e38d98d
+[16:40:19] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b370
+[16:40:19] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[16:40:19] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[16:40:19] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[16:40:19] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[16:40:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:40:19] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[16:40:19] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:40:19] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[16:40:19] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[16:40:19] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:40:19] [Server thread/INFO]: Preparing level "world"
+[16:40:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:40:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[16:40:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:40:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:40:19] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:40:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:40:19] [Server thread/INFO]: View Distance: 8
+[16:40:19] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:40:19] [Server thread/INFO]: Clear tick list: false
+[16:40:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:40:19] [Server thread/INFO]: Max Entity Collisions: 8
+[16:40:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:40:19] [Server thread/INFO]: Mob Spawn Range: 4
+[16:40:19] [Server thread/INFO]: Anti X-Ray: true
+[16:40:19] [Server thread/INFO]: 	Engine Mode: 1
+[16:40:19] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:40:19] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:40:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:40:19] [Server thread/INFO]: Max TNT Explosions: 100
+[16:40:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:40:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:40:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:40:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:40:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:40:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:40:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:40:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:40:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:40:19] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:40:19] [Server thread/INFO]: Random Lighting Updates: false
+[16:40:19] [Server thread/INFO]: Alternative Hopper Ticking: false
+[16:40:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:40:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:40:19] [Server thread/INFO]: Structure Info Saving: true
+[16:40:19] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1836310568572768058)
+[16:40:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v12.8
+[16:40:19] [Server thread/INFO]: [0;32;1mDetected Minecraft [0;33;1mv1_8_R1[0;32;1m, using [0;33;1mSkinFactory_v1_8_R1[m
+[16:40:20] [Server thread/INFO]: [m
+[16:40:20] [Server thread/INFO]: [0;32;1m    +===============+[m
+[16:40:20] [Server thread/INFO]: [0;32;1m    | SkinsRestorer |[m
+[16:40:20] [Server thread/INFO]: [0;32;1m    +===============+[m
+[16:40:20] [Server thread/INFO]: [m
+[16:40:20] [Server thread/INFO]: [0;36;1m    Current version: [0;31;1m12.8[m
+[16:40:20] [Server thread/INFO]: [0;31;1m    A new version is available! Download it at:[m
+[16:40:20] [Server thread/INFO]: [0;33;1m    https://www.spigotmc.org/resources/skinsrestorer.2124/[m
+[16:40:20] [Server thread/INFO]: [m
+[16:40:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[16:40:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:40:20] [Server thread/INFO]: [WorldEdit] Logging WorldEdit commands to C:\Users\Giaco\Documenti\GitHub\ServerConDalla\plugins\WorldEdit\worldedit.log
+[16:40:20] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R1 as the Bukkit adapter
+[16:40:20] [Server thread/INFO]: [iDisguise] Enabling iDisguise v5.3.6
+[16:40:20] [Server thread/INFO]: [iDisguise] iDisguise 5.3.6 enabled!
+[16:40:20] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[16:40:20] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[16:40:20] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:40:20] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[16:40:20] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[16:40:20] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[16:40:20] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.5.5
+[16:40:20] [Server thread/INFO]: [PingPlayer] Enabling PingPlayer v1.3.1
+[16:40:20] [Server thread/INFO]: [PingPlayer] Thank you for enabling Metrics!
+[16:40:20] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 enabled.
+[16:40:20] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[16:40:20] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[16:40:20] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[16:40:20] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: 1836310568572768058
+[16:40:20] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[16:40:20] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.2;e38d98d
+[16:40:20] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:40:20] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:40:20] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[16:40:20] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:40:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:40:20] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:40:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b370
+[16:40:20] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[16:40:20] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[16:40:20] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[16:40:20] [Server thread/TRACE]: Aborting ItemSpawnBL read, itemDB not yet loaded.
+[16:40:20] [Server thread/INFO]: Using locale it_IT
+[16:40:21] [Server thread/INFO]: [Essentials] Using CraftBukkit 1.8 NMS-based provider as mob spawner provider.
+[16:40:21] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[16:40:21] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[16:40:21] [Server thread/INFO]: Using locale it_IT
+[16:40:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[16:40:21] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[16:40:21] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[16:40:21] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[16:40:21] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[16:40:21] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[16:40:21] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[16:40:21] [Server thread/WARN]: §4Versione incorretta! Aggiornare tutti i jar Essentials alla stessa versione.
+[16:40:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:40:21] [Server thread/INFO]: Done (1,753s)! For help, type "help" or "?"
+[16:40:21] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[16:40:21] [Thread-9/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[16:40:21] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
+[16:40:24] [Server thread/INFO]: Stopping the server
+[16:40:24] [Server thread/INFO]: Stopping server
+[16:40:24] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[16:40:24] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[16:40:24] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[16:40:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b370
+[16:40:24] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[16:40:24] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.2;e38d98d
+[16:40:24] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[16:40:24] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+[16:40:24] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[16:40:24] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[16:40:24] [Server thread/INFO]: [PingPlayer] Disabling PingPlayer v1.3.1
+[16:40:24] [Server thread/INFO]: [PingPlayer] PingPlayer v1.3.1 disabled.
+[16:40:24] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v2.5.5
+[16:40:24] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[16:40:24] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[16:40:24] [Server thread/INFO]: [iDisguise] Disabling iDisguise v5.3.6
+[16:40:24] [Server thread/INFO]: [iDisguise] iDisguise 5.3.6 disabled!
+[16:40:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[16:40:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v12.8
+[16:40:24] [Server thread/INFO]: Saving players
+[16:40:24] [Server thread/INFO]: Saving worlds
+[16:40:24] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
