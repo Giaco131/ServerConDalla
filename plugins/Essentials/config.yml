@@ -109,7 +109,7 @@ disabled-commands:
   - op
   - deop
   - plugin
-  - ?
+  - /?
   - help
   - pex
   - eco
@@ -128,85 +128,6 @@ socialspy-commands:
 # Whitelist the commands and permissions you wish to give players by default (everything else is op only).
 # These are the permissions without the "essentials." part.
 player-commands:
-  - afk
-  - afk.auto
-  - back
-  - back.ondeath
-  - balance
-  - balance.others
-  - balancetop
-  - build
-  - chat.color
-  - chat.format
-  - chat.shout
-  - chat.question
-  - clearinventory
-  - compass
-  - depth
-  - delhome
-  - getpos
-  - geoip.show
-  - help
-  - helpop
-  - home
-  - home.others
-  - ignore
-  - info
-  - itemdb
-  - kit
-  - kits.tools
-  - list
-  - mail
-  - mail.send
-  - me
-  - motd
-  - msg
-  - msg.color
-  - nick
-  - near
-  - pay
-  - ping
-  - protect
-  - r
-  - rules
-  - realname
-  - seen
-  - sell
-  - sethome
-  - setxmpp
-  - signs.create.protection
-  - signs.create.trade
-  - signs.break.protection
-  - signs.break.trade
-  - signs.use.balance
-  - signs.use.buy
-  - signs.use.disposal
-  - signs.use.enchant
-  - signs.use.free
-  - signs.use.gamemode
-  - signs.use.heal
-  - signs.use.info
-  - signs.use.kit
-  - signs.use.mail
-  - signs.use.protection
-  - signs.use.repair
-  - signs.use.sell
-  - signs.use.time
-  - signs.use.trade
-  - signs.use.warp
-  - signs.use.weather
-  - spawn
-  - suicide
-  - time
-  - tpa
-  - tpaccept
-  - tpahere
-  - tpdeny
-  - warp
-  - warp.list
-  - world
-  - worth
-  - xmpp
 
 # Note: All items MUST be followed by a quantity!
 # All kit names should be lower case, and will be treated as lower in permissions/costs.
@@ -216,29 +137,84 @@ player-commands:
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-  utente:
-    delay: 300
+  programmatore:
+    delay: 225
     items:
-      - 276 1 sharpness:3 fireaspect:1
-      - 322:1 8
+      - 276 1 sharpness:3 fireaspect:1 name:&9&lS&fpada lore:&4&oProgrammatore
+      - 322:1 8 knockback:1 name:&4&lM&fela lore:&9&oProgrammatore
       - 373:8226 1
       - 373:8233 1
       - 373:8226 1
       - 373:8233 1
-      - 310 1 durability:1 protection:3
-      - 311 1 durability:1 protection:3
-      - 312 1 durability:1 protection:3
-      - 313 1 durability:1 protection:3
-  notch:
-    delay: 6000
+      - 310 1 durability:1 protection:3 name:&9&lC&fuffia lore:&4&oProgrammatore
+      - 311 1 durability:1 protection:3 name:&9&lC&forpetto lore:&4&oProgrammatore
+      - 312 1 durability:1 protection:3 name:&9&lP&fantaloni lore:&4&oProgrammatore
+      - 313 1 durability:1 protection:3 name:&9&lC&fiabatte lore:&4&oProgrammatore
+  C:
+    delay: 450
     items:
-      - 397:3 1 player:Notch
+      - 276 1 sharpness:4 fireaspect:1 name:&c&lS&fpada lore:&c&oC
+      - 322:1 8 knockback:1 name:&c&lM&fela lore:&c&oC
+      - 373:8226 1
+      - 373:8233 1
+      - 373:8226 1
+      - 373:8233 1
+      - 310 1 durability:2 protection:3 name:&c&lC&fuffia lore:&c&oC
+      - 311 1 durability:2 protection:3 name:&c&lC&forpetto lore:&c&oC
+      - 312 1 durability:2 protection:3 name:&c&lP&fantaloni lore:&c&oC
+      - 313 1 durability:2 protection:3 name:&c&lC&fiabatte lore:&c&oC
+  Cpp:
+    delay: 900
+    items:
+      - 276 1 sharpness:5 fireaspect:1 name:&b&lS&fpada lore:&b&oCpp
+      - 322:1 8 knockback:1 name:&b&lM&fela lore:&b&oCpp
+      - 373:8226 1
+      - 373:8233 1
+      - 373:8226 1
+      - 373:8233 1
+      - 310 1 durability:3 protection:3 name:&b&lC&fuffia lore:&b&oCpp
+      - 311 1 durability:3 protection:3 name:&b&lC&forpetto lore:&b&oCpp
+      - 312 1 durability:3 protection:3 name:&b&lP&fantaloni lore:&b&oCpp
+      - 313 1 durability:3 protection:3 name:&b&lC&fiabatte lore:&b&oCpp
+  Java:
+    delay: 1800
+    items:
+      - 276 1 sharpness:5 fireaspect:2 name:&6&lS&fpada lore:&6&oJava
+      - 322:1 8 knockback:1 name:&6&lM&fela lore:&6&oJava
+      - 373:8226 1
+      - 373:8233 1
+      - 373:8226 1
+      - 373:8233 1
+      - 310 1 durability:3 protection:4 name:&6&lC&fuffia lore:&6&oJava
+      - 311 1 durability:3 protection:4 name:&6&lC&forpetto lore:&6&oJava
+      - 312 1 durability:3 protection:4 name:&6&lP&fantaloni lore:&6&oJava
+      - 313 1 durability:3 protection:4 name:&6&lC&fiabatte lore:&6&oJava
+  Sql:
+    delay: 3600
+    items:
+      - 276 1 sharpness:6 fireaspect:3 knockback:-1 name:&1&lS&fpada lore:&1&oSql
+      - 322:1 8 knockback:1 name:&1&lM&fela lore:&1&oSql
+      - 373:8226 1
+      - 373:8233 1
+      - 373:8226 1
+      - 373:8233 1
+      - 310 1 durability:4 protection:5 name:&1&lC&fuffia lore:&1&oSql
+      - 311 1 durability:4 protection:5 name:&1&lC&forpetto lore:&1&oSql
+      - 312 1 durability:4 protection:5 name:&1&lP&fantaloni lore:&1&oSql
+      - 313 1 durability:4 protection:5 name:&1&lC&fiabatte lore:&1&oSql
+  testeStaffer:
+    delay: 0
+    items:
+      - 397:3 1 player:Giaco131
+      - 397:3 1 player:P_Kelsey
+      - 397:3 1 player:Dalla_98
+      - 397:3 1 player:TheMasterKev
   color:
-    delay: 6000
+    delay: 0
     items:
       - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
   firework:
-    delay: 6000
+    delay: 0
     items:
       - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
       - 401 1 name:StarryNight color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
@@ -354,11 +330,11 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "&7&o{PLAYER} si e' unito a noi!"
+custom-join-message: "&7&o{PLAYER} &7&osi e' unito a noi!"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-quit-message: "&c&o{PLAYER} ci ha abbandonato."
+custom-quit-message: "&c&o{PLAYER} &c&oci ha abbandonato."
 
 # Add worlds to this list, if you want to automatically disable god mode there.
 no-god-in-worlds:
@@ -520,8 +496,12 @@ chat:
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
 
   group-formats:
-    utente: '{DISPLAYNAME}&7&o > {MESSAGE}'
-    founder: '{DISPLAYNAME}&6&o >>&e&o&l&n {MESSAGE}'
+    programmatore: '{DISPLAYNAME}&7&o > {MESSAGE}'
+    c: '{DISPLAYNAME}&c&o > &7&o{MESSAGE}'
+    cpp: '{DISPLAYNAME}&b&o > &7&o{MESSAGE}'
+    java: '{DISPLAYNAME}&6&o > &7&o{MESSAGE}'
+    sql: '{DISPLAYNAME}&1&o > &7&o{MESSAGE}'
+    founder: '{DISPLAYNAME}&6&o >>&e&o&l {MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
 

@@ -49,13 +49,13 @@ use-player-move-event: true
 use-player-teleports: true
 security:
     deop-everyone-on-join: true
-    block-in-game-op-command: false
+    block-in-game-op-command: true
 host-keys: {}
 summary-on-start: true
 op-permissions: true
 build-permission-nodes:
     enable: false
-    deny-message: '&eSorry, but you are not permitted to do that here.'
+    deny-message: '&eNon hai i permessi...'
 event-handling:
     block-entity-spawns-with-untraceable-cause: false
     interaction-whitelist: []

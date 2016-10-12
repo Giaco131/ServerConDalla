@@ -74,3 +74,69 @@
 [INFO] WorldEdit: Giaco131 (in "world"): version
 [INFO] WorldEdit: Giaco131 (in "world"): cui
 [INFO] WorldEdit: Giaco131 (in "world"): /wand
+[INFO] WorldEdit: Giaco131 (in "world"): /wand
+[INFO] WorldEdit: Giaco131 (in "world"): /undo
+[INFO] WorldEdit: Giaco131 (in "world"): /wand
+[INFO] WorldEdit: Giaco131 (in "world"): /wand
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-4.256442137370518, 42.43169148052907, 35.5740830359144)
+[INFO] WorldEdit: Giaco131 (in "world"): /wand
+[INFO] WorldEdit: Giaco131 (in "world"): /replace air 173 - Region: (1.0, 43.0, 34.0) - (1.0, 43.0, 36.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace air 174 - Region: (1.0, 43.0, 34.0) - (1.0, 43.0, 36.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 173 174 - Region: (1.0, 43.0, 34.0) - (1.0, 43.0, 36.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace air glass - Region: (0.0, 43.0, 35.0) - (1.0, 43.0, 36.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace air glass - Region: (-7.0, 43.0, 35.0) - (-6.0, 43.0, 36.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-46.69999998807907, 43.315507953925234, -14.473378605473215)
+[INFO] WorldEdit: Giaco131 (in "world"): /undo
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-50.69999998807907, 42.56550792412467, -10.699999988079087)
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-53.69999998807908, 42.94971185521127, -6.699999988079089)
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-56.68804112386716, 42.937942653749715, 0.3000000119209113)
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-38.69999998807908, 43.52643590657646, -20.637914835045216)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace stone 90%159:4,5%174,3%95:1,2%95:4 - Region: (-60.0, 43.0, -26.0) - (-21.0, 43.0, 15.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 159:4 90%159:4,5%174,3%95:1,2%95:4 - Region: (-60.0, 43.0, -26.0) - (-21.0, 43.0, 15.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /wand
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-48.69999998807907, 43.12264748440018, 39.69999998807906)
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-52.64533016469795, 43.48646279311586, 34.69999998807907)
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-41.69999998807907, 43.488035783000186, 45.62066395912552)
+[INFO] WorldEdit: Giaco131 (in "world"): /pos2 - Position: (-38.69999998807907, 43.102870043064584, 47.69999998807908)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 1 90%159:5,2%95:5,3%95:13,5%174 - Region: (-61.0, 43.0, 12.0) - (-21.0, 43.0, 52.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 1 90%159:5,2%95:5,3%95:13,5%174 - Region: (-61.0, 43.0, 12.0) - (-21.0, 43.0, 52.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 159:5 90%159:5,2%95:5,3%95:13,5%174 - Region: (-61.0, 43.0, 12.0) - (-21.0, 43.0, 52.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 95:1 70%95:1,30%95:3 - Region: (-22.0, 43.0, 13.0) - (18.0, 43.0, 53.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 95:11 70%95:11,30%95:3 - Region: (-22.0, 43.0, 13.0) - (18.0, 43.0, 53.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 95:14 1 - Region: (-24.0, 43.0, -26.0) - (19.0, 43.0, 13.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /undo
+[INFO] WorldEdit: Giaco131 (in "world"): /replace 95:14 70%95:14,30%95:7 - Region: (-24.0, 43.0, -26.0) - (19.0, 43.0, 13.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /wand
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 5 - Region: (4.0, 43.0, 29.0) - (7.0, 43.0, 37.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /copy
+[INFO] WorldEdit: Dalla_98 (in "world"): /paste - Position: (13.0, 65.0, 38.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /undo
+[INFO] WorldEdit: Giaco131 (in "world"): /pos1 - Position: (-83.25110281623412, -54.8672823094238, 126.05311411158668)
+[INFO] WorldEdit: Dalla_98 (in "world"): /undo
+[INFO] WorldEdit: Dalla_98 (in "world"): /wand
+[INFO] WorldEdit: Dalla_98 (in "world"): /pos1 - Position: (17.497293400247585, 59.27001415619817, -25.677940973639785)
+[INFO] WorldEdit: Dalla_98 (in "world"): /pos2 - Position: (-54.38695498302496, 54.02945438423621, 50.13613419719128)
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 20 up - Region: (-55.0, 54.0, -26.0) - (17.0, 59.0, 50.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 20 down - Region: (-55.0, 54.0, -26.0) - (17.0, 79.0, 50.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /copy
+[INFO] WorldEdit: Dalla_98 (in "world"): /paste - Position: (-84.0, 54.0, 78.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /undo
+[INFO] WorldEdit: Dalla_98 (in "world"): /paste - Position: (-98.0, 60.0, 91.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /undo
+[INFO] WorldEdit: Dalla_98 (in "world"): /wand
+[INFO] WorldEdit: Dalla_98 (in "world"): /undo
+[INFO] WorldEdit: Dalla_98 (in "world"): /pos1 - Position: (22.715957259309853, 44.72761725017836, -30.793143960992765)
+[INFO] WorldEdit: Dalla_98 (in "world"): /pos2 - Position: (-66.99688646027269, 42.86312050793065, 57.42007543314344)
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 20 up - Region: (-67.0, 42.0, -31.0) - (22.0, 44.0, 57.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 20 down - Region: (-67.0, 42.0, -31.0) - (22.0, 64.0, 57.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 5 down - Region: (-67.0, 22.0, -31.0) - (22.0, 64.0, 57.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /copy
+[INFO] WorldEdit: Dalla_98 (in "world"): /paste - Position: (-79.0, 58.0, 103.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /undo
+[INFO] WorldEdit: Dalla_98 (in "world"): /wand
+[INFO] WorldEdit: Dalla_98 (in "world"): /pos1 - Position: (22.170709417959714, 46.879194113734314, 47.78948317332323)
+[INFO] WorldEdit: Dalla_98 (in "world"): /pos2 - Position: (-59.13663006877747, 47.02047658298791, -33.89961213160113)
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 2 up - Region: (-60.0, 46.0, -34.0) - (22.0, 47.0, 47.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 2 2 down - Region: (-60.0, 46.0, -34.0) - (22.0, 49.0, 47.0)
+[INFO] WorldEdit: Dalla_98 (in "world"): /expand 2 2 down - Region: (-60.0, 44.0, -34.0) - (22.0, 51.0, 47.0)
+[INFO] WorldEdit: Giaco131 (in "world"): /wand

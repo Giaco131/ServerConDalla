@@ -1,25 +1,34 @@
 lastAccountName: Giaco131
 timestamps:
-  login: 1476042409966
-  logout: 1476043898052
+  login: 1476219513414
+  logout: 1476221282585
   kits:
-    utente: 1476044318373
-  lastteleport: 1476045606215
+    utente: 1476108036366
+    programmatore: 1476193566125
+    cpp: 1476190531443
+    c: 1476218404599
+    java: 1476190523640
+    sql: 1476217572590
+    testestaffer: 1476217798646
+  lastteleport: 1476221771497
+  lastheal: 1476219907249
+  mute: 0
 ipAddress: 25.65.83.202
 afk: false
 godmode: false
 logoutlocation:
   world: world
-  x: 16.216498242860336
-  y: 49.89139292531774
-  z: 56.70024901237182
-  yaw: -261.49124
-  pitch: 17.130266
+  x: -27.863168191138033
+  y: 63.12285743549092
+  z: 64.30000001192094
+  yaw: -308.91528
+  pitch: 17.94878
 lastlocation:
   world: world
-  x: -43.704135147597704
-  y: 45.0
-  z: 14.498362544114071
-  yaw: -269.7318
-  pitch: 19.562372
+  x: -13.5
+  y: -1562.9840555652372
+  z: 76.5
+  yaw: -60.531982
+  pitch: 90.0
+muted: false
 nickname: "\xa76G\xa7fiaco"

@@ -16,6 +16,6 @@ aliases:
   - version $1-
   ss:
   - save-all
-  - stop
+  - restart
   c: gamemode c
   s: gamemode s

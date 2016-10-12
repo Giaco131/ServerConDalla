@@ -2,9 +2,9 @@ settings:
   metrics: true
   updater: true
 messages:
-  chatPrefix: "&6[&2PingPlayer&6]&2 "
-  yourPing: "Il tuo ping e' pari a: &6%ping%&ams."
-  othersPing: "%player%'s pinga: &6%ping%&ams."
+  chatPrefix: "&7[&4&lC&e&lPing&7]&f "
+  yourPing: "Il tuo ping e' pari a: &6&l%ping%ms."
+  othersPing: "%player%'s pinga: &6&l%ping%&ams."
   playerNotOnline: "&c%player% non e' online."
   onlyPlayerExecute: "&cSolo i giocatori possono vedere il loro ping!"
   haveNoPermission: "&cNon hai permessi."
